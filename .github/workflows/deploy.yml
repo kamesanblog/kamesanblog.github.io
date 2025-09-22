@@ -4,18 +4,25 @@ on:
   push:
     branches:
     - main
+  workflow_dispatch:
+
+    # 將 GITHUB_TOKEN 的權限設定為 write
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 允許一個並發部署
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
+    runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -27,13 +34,16 @@ jobs:
       uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: 'latest'
+        extended: true
 
     - name: Build
       run: hugo --minify
 
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-        publish_branch: gh-pages
+        path: ./public
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
