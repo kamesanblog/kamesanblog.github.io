@@ -1,3 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://kamesanblog.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = '卡美的家'
+theme = 'PaperMod'
