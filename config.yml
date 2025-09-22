@@ -1,0 +1,66 @@
+baseURL: 'https://kamesanblog.github.io/'
+languageCode: 'zh-tw'
+title: '我的個人網站'
+theme: 'PaperMod'
+
+params:
+  # 網站首頁的資訊
+  homeInfoParams:
+    Title: '哈囉，我是 [您的名字]'
+    Content: >
+      這裡放您的個人簡介、座右銘或其他想在首頁顯示的文字。 可以支援 Markdown 格式，例如 **粗體** 或 *斜體*。
+
+  # 網站導覽列的標誌與名稱
+  assets:
+    disableFingerprinting: true # 建議在本地開發時啟用，可避免快取問題
+
+  # 網站外觀設定
+  defaultTheme: 'auto' # 'dark', 'light' 或 'auto'
+  disableThemeToggle: false # 是否隱藏明暗模式切換按鈕
+
+  # 文章相關設定
+  ShowReadingTime: true # 顯示文章閱讀時間
+  ShowShareButtons: true # 顯示文章分享按鈕
+  ShowPostNavLinks: true # 顯示文章前後導覽連結
+  ShowBreadCrumbs: true # 顯示麵包屑導覽
+  ShowCodeCopyButtons: true # 顯示程式碼區塊的複製按鈕
+
+  # 首頁文章列表設定
+  cover:
+    hidden: true # 隱藏文章封面
+
+  # 搜尋功能
+  fuseOpts:
+    is  CaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 100
+    threshold: 0.4
+    minMatchCharLength: 2
+    keys: [ "title", "permalink", "summary" ]
+
+  # 文章歸檔設定 (例如文章列表頁)
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  # 主要導覽選單
+menu:
+  main:
+  - identifier: posts
+    name: 文章
+    url: /posts/
+    weight: 10
+  - identifier: about
+    name: 關於我
+    url: /about/
+    weight: 20
+  - identifier: archives
+    name: 歸檔
+    url: /archives/
+    weight: 30
+
+# 網站搜尋功能，需要額外設定才能啟用
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
