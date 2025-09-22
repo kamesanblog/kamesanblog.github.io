@@ -1,17 +1,15 @@
 ---
-title: ""
-date: 
-# weight: 1
-# aliases: ["/first"]
+title: "921的日記"
+date: 2020-09-15T11:30:03+00:00
 tags: ["healthy"]
 author: "卡美桑"
-
+categories: "生活"
 showToc: true
 TocOpen: true
 draft: false
 hidemeta: false
-comments: true
-description: "Desc Text."
+comments: false
+description: "生活的一些日常紀錄."
 canonicalURL: "https://canonical.url/to/page"
 
 disableHLJS: true # to disable highlightjs
@@ -34,5 +32,4 @@ cover:
     hidden: true # only hide on current single page
 
 ---
-
 
