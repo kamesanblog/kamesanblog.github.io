@@ -29,7 +29,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -90,6 +90,7 @@ markup:
   highlight:
     noClasses: false
 
+#強制圖片來自下面的資料夾
 module:
   mounts:
   - source: 'assets'

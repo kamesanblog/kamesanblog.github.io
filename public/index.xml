@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>卡美桑的家</title>
-    <link>https://kamesanblog.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 卡美桑的家</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>zh-tw</language>
     <lastBuildDate>Tue, 23 Sep 2025 10:30:00 +0800</lastBuildDate>
-    <atom:link href="https://kamesanblog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>關於卡美桑</title>
-      <link>https://kamesanblog.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 23 Sep 2025 10:30:00 +0800</pubDate>
-      <guid>https://kamesanblog.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;卡美桑的家在這裡唷&lt;/p&gt;</description>
     </item>
     <item>
       <title>21世紀的21堂課</title>
-      <link>https://kamesanblog.github.io/posts/21%E4%B8%96%E7%B4%80%E7%9A%8421%E5%A0%82%E8%AA%B2/</link>
+      <link>http://localhost:1313/posts/21%E4%B8%96%E7%B4%80%E7%9A%8421%E5%A0%82%E8%AA%B2/</link>
       <pubDate>Tue, 26 Aug 2025 18:58:00 +0800</pubDate>
-      <guid>https://kamesanblog.github.io/posts/21%E4%B8%96%E7%B4%80%E7%9A%8421%E5%A0%82%E8%AA%B2/</guid>
+      <guid>http://localhost:1313/posts/21%E4%B8%96%E7%B4%80%E7%9A%8421%E5%A0%82%E8%AA%B2/</guid>
       <description>這篇文章是閱讀《21世紀的21堂課》的心得筆記，內容探討了科技、政治、宗教、社會等在21世紀面臨的挑戰與省思。</description>
     </item>
     <item>
       <title>921的日記</title>
-      <link>https://kamesanblog.github.io/posts/thr/</link>
+      <link>http://localhost:1313/posts/thr/</link>
       <pubDate>Thu, 29 Sep 2022 14:08:56 +0800</pubDate>
-      <guid>https://kamesanblog.github.io/posts/thr/</guid>
+      <guid>http://localhost:1313/posts/thr/</guid>
       <description>生活的一些日常紀錄.</description>
     </item>
     <item>
       <title>My 2nd post</title>
-      <link>https://kamesanblog.github.io/posts/sec/</link>
+      <link>http://localhost:1313/posts/sec/</link>
       <pubDate>Thu, 29 Sep 2022 14:08:56 +0800</pubDate>
-      <guid>https://kamesanblog.github.io/posts/sec/</guid>
+      <guid>http://localhost:1313/posts/sec/</guid>
       <description>Desc Text.</description>
     </item>
     <item>
       <title>My 1nd post</title>
-      <link>https://kamesanblog.github.io/posts/first/</link>
+      <link>http://localhost:1313/posts/first/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://kamesanblog.github.io/posts/first/</guid>
+      <guid>http://localhost:1313/posts/first/</guid>
       <description>Desc Text.</description>
     </item>
   </channel>
