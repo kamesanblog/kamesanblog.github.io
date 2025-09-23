@@ -16,7 +16,7 @@ minify:
 
 params:
   env: production
-  title:
+
   description: "分享生活上的一些體驗"
   keywords: [ Blog, Portfolio, PaperMod, 卡美桑 ]
   author: 卡美桑
