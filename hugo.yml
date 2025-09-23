@@ -1,6 +1,8 @@
 baseURL: 'https://kamesanblog.github.io/'
 languageCode: 'zh-tw'
 title: '卡美桑的家'
+languageName: "繁體中文"
+pagination.pagerSize: 5
 theme: 'PaperMod'
 
 enableRobotsTXT: true
@@ -14,13 +16,14 @@ minify:
 
 params:
   env: production
-  title: 卡美桑的家在這裡唷
+  title:
   description: "分享生活上的一些體驗"
-  keywords: [ Blog, Portfolio, PaperMod ]
+  keywords: [ Blog, Portfolio, PaperMod, 卡美桑 ]
   author: 卡美桑
-  DateFormat: "January 2, 2006"
+  DateFormat: "2006年1月2日"
   defaultTheme: auto
   disableThemeToggle: false
+
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -37,6 +40,18 @@ params:
   showtoc: false
   tocopen: false
 
+  label:
+    text: "卡美桑的家"
+    iconHeight: 35
+
+  homeInfoParams:
+    Title: "今天存在了嗎？"
+    Content: 歡迎來到卡美桑的家，這裡分享生活上的點點滴滴。
+
+  socialIcons:
+  - name: email
+    url: "mailto:taitungchishang@gmail.com"
+
 outputs:
   home:
   - HTML
@@ -45,19 +60,32 @@ outputs:
 
 menu:
   main:
+  - identifier: archives
+    name: 歸檔
+    url: /archives/
+    weight: 10
   - identifier: categories
-    name: Categories
+    name: 分類
     url: /categories/
     weight: 20
   - identifier: tags
-    name: Tags
+    name: 標籤
     url: /tags/
     weight: 30
-  - identifier: archives
-    name: Archives
-    url: /archives/
-    weight: 10
-  - identifier: search
-    name: Search
-    url: /search/
+  - identifier: about
+    name: 關於我
+    url: /about/
     weight: 40
+  - identifier: rss
+    name: RSS
+    url: /index.xml
+    weight: 50
+  - identifier: search
+    name: 搜尋
+    url: /search/
+    weight: 60
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
