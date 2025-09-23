@@ -20,7 +20,7 @@ params:
   description: "分享生活上的一些體驗"
   keywords: [ Blog, Portfolio, PaperMod, 卡美桑 ]
   author: 卡美桑
-  DateFormat: "2006年1月2日"
+  DateFormat: "2025年9月23日"
   defaultTheme: auto
   disableThemeToggle: false
 
@@ -89,3 +89,10 @@ pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
+
+module:
+  mounts:
+  - source: 'assets'
+    target: 'assets'
+  - source: 'static'
+    target: 'assets'
