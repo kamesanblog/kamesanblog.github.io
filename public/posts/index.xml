@@ -16,6 +16,13 @@
       <description>這篇文章是閱讀《21世紀的21堂課》的心得筆記，內容探討了科技、政治、宗教、社會等在21世紀面臨的挑戰與省思。</description>
     </item>
     <item>
+      <title>Blog-default</title>
+      <link>http://localhost:1313/posts/tets/</link>
+      <pubDate>Tue, 26 Aug 2025 18:58:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/tets/</guid>
+      <description>Desc Text.</description>
+    </item>
+    <item>
       <title>921的日記</title>
       <link>http://localhost:1313/posts/thr/</link>
       <pubDate>Thu, 29 Sep 2022 14:08:56 +0800</pubDate>
@@ -23,11 +30,18 @@
       <description>生活的一些日常紀錄.</description>
     </item>
     <item>
-      <title>My 2nd post</title>
+      <title>921的日記</title>
       <link>http://localhost:1313/posts/sec/</link>
-      <pubDate>Thu, 29 Sep 2022 14:08:56 +0800</pubDate>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>http://localhost:1313/posts/sec/</guid>
-      <description>Desc Text.</description>
+      <description>生活的一些日常紀錄.</description>
+    </item>
+    <item>
+      <title>921的日記</title>
+      <link>http://localhost:1313/posts/%E4%BD%A0%E7%9A%84%E6%96%87%E7%AB%A0%E6%A8%99%E9%A1%8C/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E4%BD%A0%E7%9A%84%E6%96%87%E7%AB%A0%E6%A8%99%E9%A1%8C/</guid>
+      <description>生活的一些日常紀錄.</description>
     </item>
     <item>
       <title>My 1nd post</title>

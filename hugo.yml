@@ -1,5 +1,7 @@
 baseURL: 'https://kamesanblog.github.io/'
 languageCode: 'zh-tw'
+defaultContentLanguage: "zh-tw"
+timeZone: "Asia/Taipei"
 title: '卡美桑的家'
 languageName: "繁體中文"
 pagination.pagerSize: 5
@@ -20,10 +22,10 @@ params:
   description: "分享生活上的一些體驗"
   keywords: [ Blog, Portfolio, PaperMod, 卡美桑 ]
   author: 卡美桑
-  DateFormat: "2025年9月23日"
+
   defaultTheme: auto
   disableThemeToggle: false
-
+  dataFormat: "2025-9-23"
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
