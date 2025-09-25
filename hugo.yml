@@ -91,11 +91,3 @@ pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-
-#強制圖片來自下面的資料夾
-module:
-  mounts:
-  - source: 'assets'
-    target: 'assets'
-  - source: 'static'
-    target: 'assets'

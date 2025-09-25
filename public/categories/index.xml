@@ -6,8 +6,22 @@
     <description>Recent content in Categories on 卡美桑的家</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 26 Aug 2025 18:58:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Sep 2025 18:26:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>五發</title>
+      <link>http://localhost:1313/categories/%E4%BA%94%E7%99%BC/</link>
+      <pubDate>Thu, 25 Sep 2025 18:26:00 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E4%BA%94%E7%99%BC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>工具</title>
+      <link>http://localhost:1313/categories/%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Wed, 24 Sep 2025 10:58:00 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
     <item>
       <title>模板</title>
       <link>http://localhost:1313/categories/%E6%A8%A1%E6%9D%BF/</link>
