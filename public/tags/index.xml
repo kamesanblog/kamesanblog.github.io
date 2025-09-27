@@ -6,90 +6,13 @@
     <description>Recent content in Tags on 卡美桑的家</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 25 Sep 2025 18:26:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 Sep 2025 10:58:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>5fire</title>
-      <link>http://localhost:1313/tags/5fire/</link>
-      <pubDate>Thu, 25 Sep 2025 18:26:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/5fire/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blog</title>
-      <link>http://localhost:1313/tags/blog/</link>
-      <pubDate>Thu, 25 Sep 2025 18:26:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/blog/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Obsidian</title>
       <link>http://localhost:1313/tags/obsidian/</link>
-      <pubDate>Wed, 24 Sep 2025 10:58:00 +0800</pubDate>
+      <pubDate>Sat, 27 Sep 2025 10:58:00 +0800</pubDate>
       <guid>http://localhost:1313/tags/obsidian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Todo</title>
-      <link>http://localhost:1313/tags/todo/</link>
-      <pubDate>Wed, 24 Sep 2025 10:58:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/todo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Tue, 26 Aug 2025 18:58:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Book</title>
-      <link>http://localhost:1313/tags/book/</link>
-      <pubDate>Tue, 26 Aug 2025 18:58:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/book/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>內觀</title>
-      <link>http://localhost:1313/tags/%E5%85%A7%E8%A7%80/</link>
-      <pubDate>Tue, 26 Aug 2025 18:58:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E5%85%A7%E8%A7%80/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>哈拉瑞</title>
-      <link>http://localhost:1313/tags/%E5%93%88%E6%8B%89%E7%91%9E/</link>
-      <pubDate>Tue, 26 Aug 2025 18:58:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E5%93%88%E6%8B%89%E7%91%9E/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>故事</title>
-      <link>http://localhost:1313/tags/%E6%95%85%E4%BA%8B/</link>
-      <pubDate>Tue, 26 Aug 2025 18:58:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E6%95%85%E4%BA%8B/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>歷史</title>
-      <link>http://localhost:1313/tags/%E6%AD%B7%E5%8F%B2/</link>
-      <pubDate>Tue, 26 Aug 2025 18:58:00 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E6%AD%B7%E5%8F%B2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Healthy</title>
-      <link>http://localhost:1313/tags/healthy/</link>
-      <pubDate>Thu, 29 Sep 2022 14:08:56 +0800</pubDate>
-      <guid>http://localhost:1313/tags/healthy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>First</title>
-      <link>http://localhost:1313/tags/first/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/tags/first/</guid>
       <description></description>
     </item>
   </channel>
