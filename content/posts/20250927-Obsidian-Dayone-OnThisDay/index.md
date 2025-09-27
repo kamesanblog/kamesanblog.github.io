@@ -6,7 +6,7 @@ categories:
   - 工具
 tags:
   - Obsidian
-  - Gemini
+  - AI
 keywords:
   - Dayone
   - OnThisDay
