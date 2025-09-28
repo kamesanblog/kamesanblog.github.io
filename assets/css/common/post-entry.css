@@ -43,12 +43,21 @@
     border: 1px solid var(--border);
 }
 
+.post-entry img{
+    transition: all 0.3s ease-out;
+    transform:scale(1,1);
+}
+.post-entry:hover img{
+    transition: all 0.3s ease-out;
+    transform:scale(1.02,1.02);
+}
+
 .post-entry:active {
     transform: scale(0.96);
 }
 
 .tag-entry .entry-cover {
-    display: none;
+    display: flex;
 }
 
 .entry-header h2 {

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Obsidian on 卡美桑的家</title>
-    <link>https://kamesanblog.github.io/tags/obsidian/</link>
+    <link>http://localhost:1313/tags/obsidian/</link>
     <description>Recent content in Obsidian on 卡美桑的家</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sat, 27 Sep 2025 10:58:00 +0800</lastBuildDate>
-    <atom:link href="https://kamesanblog.github.io/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在Obsidian實現Dayone的OnThisDay功能</title>
-      <link>https://kamesanblog.github.io/posts/20250927-obsidian-dayone-onthisday/</link>
+      <link>http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/</link>
       <pubDate>Sat, 27 Sep 2025 10:58:00 +0800</pubDate>
-      <guid>https://kamesanblog.github.io/posts/20250927-obsidian-dayone-onthisday/</guid>
+      <guid>http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/</guid>
       <description>透過AI的手把手教學，讓一個程式小白也可以瞭解程式的好處，並實際運用在生活上。</description>
     </item>
   </channel>

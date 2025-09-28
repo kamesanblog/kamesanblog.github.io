@@ -1,0 +1,14 @@
+/* 嘗試方案 A: 提高選擇器的優先級 */
+body .content a {
+    color: #4CAF50 !important; /* 強制覆蓋預設顏色 */
+    text-decoration: none !important;
+}
+
+body .content a:hover {
+    color: #FFC107 !important; /* 強制覆蓋懸停顏色 */
+    text-decoration: underline !important;
+}
+
+body .content a:visited {
+    color: #9C27B0 !important;
+}
