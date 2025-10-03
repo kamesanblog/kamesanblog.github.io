@@ -47,8 +47,8 @@ params:
     iconHeight: 35
 
   homeInfoParams:
-    Title: "今天存在了嗎？"
-    Content: 歡迎來到卡美桑的家，這裡分享生活上的點點滴滴。
+    Title: "閱讀 繪畫 生活"
+    Content: 卡美桑的部落格，分享生活上的一些點點滴滴。
 
   socialIcons:
   - name: email
