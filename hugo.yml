@@ -41,6 +41,10 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  externalLinksIcon: true
+  externalLinksNewTab: true
+  external: true
+
 
   label:
     text: "卡美桑的家"

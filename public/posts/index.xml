@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on 卡美桑的家</title>
-    <link>https://kamesanblog.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on 卡美桑的家</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>zh-tw</language>
     <lastBuildDate>Fri, 03 Oct 2025 20:43:00 +0800</lastBuildDate>
-    <atom:link href="https://kamesanblog.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>為什麼是部落格？</title>
-      <link>https://kamesanblog.github.io/posts/20250927-whyblog/</link>
+      <link>http://localhost:1313/posts/20250927-whyblog/</link>
       <pubDate>Fri, 03 Oct 2025 00:00:00 +0800</pubDate>
-      <guid>https://kamesanblog.github.io/posts/20250927-whyblog/</guid>
+      <guid>http://localhost:1313/posts/20250927-whyblog/</guid>
       <description>想架設部落格的一些想法</description>
     </item>
     <item>
       <title>在Obsidian實現Dayone的OnThisDay功能</title>
-      <link>https://kamesanblog.github.io/posts/20250927-obsidian-dayone-onthisday/</link>
+      <link>http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/</link>
       <pubDate>Sat, 27 Sep 2025 10:58:00 +0800</pubDate>
-      <guid>https://kamesanblog.github.io/posts/20250927-obsidian-dayone-onthisday/</guid>
+      <guid>http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/</guid>
       <description>透過AI的手把手教學，讓一個程式小白也可以瞭解程式的好處，並實際運用在生活上。</description>
     </item>
   </channel>
