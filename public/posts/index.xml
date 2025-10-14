@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/</guid>
       <description>透過AI的手把手教學，讓一個程式小白也可以瞭解程式的好處，並實際運用在生活上。</description>
     </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/20251014-obsidian-30days-review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/20251014-obsidian-30days-review/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
