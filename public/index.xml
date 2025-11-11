@@ -2,45 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>卡美桑的家</title>
-    <link>http://localhost:1313/</link>
+    <link>https://kamesanblog.github.io/</link>
     <description>Recent content on 卡美桑的家</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0800</lastBuildDate>
+    <atom:link href="https://kamesanblog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>巨人的筆記閱讀心得</title>
+      <link>https://kamesanblog.github.io/posts/20251111-gaint-note/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>https://kamesanblog.github.io/posts/20251111-gaint-note/</guid>
+      <description>讓自己的筆記可以更系統化</description>
+    </item>
     <item>
       <title>好久沒動畫筆了</title>
-      <link>http://localhost:1313/posts/20251028-watercolor-japan/</link>
+      <link>https://kamesanblog.github.io/posts/20251028-watercolor-japan/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251028-watercolor-japan/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251028-watercolor-japan/</guid>
       <description>看屁日本分享照片</description>
     </item>
     <item>
       <title>複習石沈大海的筆記</title>
-      <link>http://localhost:1313/posts/20251014-obsidian-30days-review/</link>
+      <link>https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251014-obsidian-30days-review/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/</guid>
       <description>自動顯示obsidian內一個月沒編輯的筆記</description>
     </item>
     <item>
       <title>為什麼是部落格？</title>
-      <link>http://localhost:1313/posts/20250927-whyblog/</link>
+      <link>https://kamesanblog.github.io/posts/20250927-whyblog/</link>
       <pubDate>Fri, 03 Oct 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20250927-whyblog/</guid>
+      <guid>https://kamesanblog.github.io/posts/20250927-whyblog/</guid>
       <description>想架設部落格的一些想法</description>
     </item>
     <item>
       <title>在Obsidian實現Dayone的OnThisDay功能</title>
-      <link>http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/</link>
+      <link>https://kamesanblog.github.io/posts/20250927-obsidian-dayone-onthisday/</link>
       <pubDate>Sat, 27 Sep 2025 10:58:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/</guid>
+      <guid>https://kamesanblog.github.io/posts/20250927-obsidian-dayone-onthisday/</guid>
       <description>透過AI的手把手教學，讓一個程式小白也可以瞭解程式的好處，並實際運用在生活上。</description>
     </item>
     <item>
       <title>關於卡美桑</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://kamesanblog.github.io/about/</link>
       <pubDate>Tue, 23 Sep 2025 10:30:00 +0800</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://kamesanblog.github.io/about/</guid>
       <description>&lt;p&gt;卡美桑的家在這裡唷&lt;/p&gt;</description>
     </item>
   </channel>
