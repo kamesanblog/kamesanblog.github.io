@@ -1,0 +1,59 @@
+---
+title: 墾丁畫聚
+description: 最近對於繪畫的一些心理轉變...
+time: 2026-01-31T18:01:00
+created: 2026-01-31
+published: 2026-01-31
+categories:
+  - painting
+tags:
+  - watercolor
+  - Taiwan
+aliases:
+  - watercolor
+showToc: true
+TocOpen: true
+draft: false
+hidemeta: false
+comments: false
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true
+disableShare: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: false
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: ""
+    alt: ""
+    caption: ""
+    relative: true
+    hidden: false
+editPost:
+    URL: ""
+    Text: ""
+    appendFilePath: false
+---
+
+
+
+重新學習水彩多年後我慢慢感覺到我好像正在離開水彩了，不知道怎麼回事，就是漸漸的提不起勁動筆...上個月去墾丁跟畫友們畫聚，跟著一群興趣志同道合的朋友寫生真的感覺很棒...但是我隱約感覺到我好像沒有特別想畫畫了？  
+
+
+幾年前都會想說到任何地方去一定要隨身帶著寫生工具，一定要把眼前的景色給畫下來，那就是一種體驗當下的做法，但這幾年生活中增加了許多閱讀時間。那種要抓住現場當下創作的慾望不知道怎的竟然慢慢地消退了....取而代之的想法：反而想用身體與心觀察當下的環境而不是一直在構思怎樣才能讓作品畫面更好看或是有更棒的構圖。
+
+**我好像不喜歡創作了**...
+
+到目前為止我無法了解為什麼我的心裡會有這樣的變化，曾經很篤定水彩會陪我一輩子但是現在我卻不太確定了...當然如果有想法也是會想紀錄與創作，只是覺得這樣的時刻似乎變少了。
+
+這次去墾丁也是畫了幾張作品，我最喜歡的這一張是畫友們在下午的冬陽下聊天畫畫。
+心裡一直想捕捉那個氛圍，一個帶有逆光的景色，逆光景大概是一種糖衣毒藥，畢竟是澳洲畫派[約瑟夫](https://www.josephzbukvic.com/)的拿手絕活，喜歡水彩的同好真的都會爭相臨摹......幾年前也曾經臨摹大師那樣的手法到最後卻生厭...但是現下偶爾回味，卻有一種溫馨感。
+
+![](/20260131001.jpg)
+
+畢竟這就是一個人的經驗歷程，回憶那個當時為逆光而瘋狂的自己，現在也覺得真有趣。
+
