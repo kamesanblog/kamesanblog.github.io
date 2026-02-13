@@ -45,6 +45,15 @@ params:
   externalLinksNewTab: true
   external: true
 
+  fuseOpts:
+  isCaseSensitive: false
+  shouldSort: true
+  location: 0
+  distance: 100
+  threshold: 0.4
+  minMatchCharLength: 0
+  keys: ["title", "permalink", "summary", "content"] # 搜尋包含的範圍
+
   label:
     text: "卡美桑的家"
     iconHeight: 35
@@ -90,7 +99,15 @@ menu:
     url: /tags/
     weight: 60
 
+
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
+    markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+ 
