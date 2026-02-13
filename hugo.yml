@@ -45,7 +45,6 @@ params:
   externalLinksNewTab: true
   external: true
 
-
   label:
     text: "卡美桑的家"
     iconHeight: 35
@@ -74,9 +73,9 @@ menu:
     name: 分類
     url: /categories/
     weight: 20
-  - identifier: tags
-    name: 標籤
-    url: /tags/
+  - identifier: random
+    name: 隨機
+    url: /random/
     weight: 30
   - identifier: about
     name: 關於我
@@ -86,9 +85,9 @@ menu:
     name: RSS
     url: /index.xml
     weight: 50
-  - identifier: search
-    name: 搜尋
-    url: /search/
+  - identifier: tags
+    name: 標籤
+    url: /tags/
     weight: 60
 
 pygmentsUseClasses: true

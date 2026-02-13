@@ -1,0 +1,66 @@
+
+{{ define "main" }}
+
+            {{ .Content }}
+
+  <div class="container">
+    <p class="message">正在跳轉到隨機文章......</p>
+    <div class="countdown" id="countdown">3</div>
+    <button class="cancel-btn" id="cancelBtn">取消跳轉</button>
+  </div>
+
+  <script>
+    (function() {
+      const posts = [
+        {{ range .Site.RegularPages }}
+          "{{ .Permalink }}",
+        {{ end }}
+      ];
+
+      if (posts.length === 0) {
+        document.querySelector('.message').textContent = '沒有找到文章';
+        document.getElementById('countdown').style.display = 'none';
+        document.getElementById('cancelBtn').style.display = 'none';
+        return;
+      }
+
+      const randomIndex = Math.floor(Math.random() * posts.length);
+      const randomPost = posts[randomIndex];
+
+      let secondsLeft = 3;
+      const countdownElement = document.getElementById('countdown');
+      const cancelBtn = document.getElementById('cancelBtn');
+      let cancelled = false;
+
+      countdownElement.textContent = secondsLeft;
+
+      const countdownInterval = setInterval(function() {
+        secondsLeft--;
+
+        if (secondsLeft > 0) {
+          countdownElement.textContent = secondsLeft;
+        } else {
+          clearInterval(countdownInterval);
+          if (!cancelled) {
+            window.location.replace(randomPost);
+          }
+        }
+      }, 1000);
+
+      cancelBtn.addEventListener('click', function() {
+        cancelled = true;
+        clearInterval(countdownInterval);
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        /*
+        document.querySelector('.message').textContent = '已取消跳轉';
+        countdownElement.style.display = 'none';
+        cancelBtn.textContent = '返回上一頁';
+        cancelBtn.onclick = function() {
+          window.history.back();
+        };
+        */
+      });
+    })();
+  </script>
+
+{{ end }}
