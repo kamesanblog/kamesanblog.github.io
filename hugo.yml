@@ -81,6 +81,11 @@ outputs:
   - RSS
   - JSON
 
+services:
+  rss:
+    limit: -1       
+    fullContent: true
+
 menu:
   main:
   - identifier: archives
