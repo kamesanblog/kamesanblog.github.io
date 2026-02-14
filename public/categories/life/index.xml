@@ -1,34 +1,206 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Life on 卡美桑的家</title>
+    <title>卡美桑的家</title>
     <link>https://kamesanblog.github.io/categories/life/</link>
     <description>Recent content in Life on 卡美桑的家</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0800</lastBuildDate>
-    <atom:link href="https://kamesanblog.github.io/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://kamesanblog.github.io/categories/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>戒除社群媒體</title>
       <link>https://kamesanblog.github.io/posts/20260213-quit-fb/</link>
       <pubDate>Fri, 13 Feb 2026 00:00:00 +0800</pubDate>
+      
       <guid>https://kamesanblog.github.io/posts/20260213-quit-fb/</guid>
-      <description>幾週前開始了一個新習慣</description>
+      <description>&lt;p&gt;幾週前開始，我決定培養一個新的習慣(目前有 Anki學習，家人互動，Talkme口語練習，筆記復盤)：戒除使用17年了的Facebook。
+如果是一年前的我，我會覺得我自己瘋了！怎麼可以遠離我的朋友、興趣、生活與親人還有我的社交圈！！大腦必定也會吶喊著：他們是如此的重要，沒有了這些你的人生還剩下什麼！?&lt;/p&gt;
+&lt;p&gt;幸好因為看見&lt;a href=&#34;https://wiwi.blog/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;WiWi&lt;/a&gt;
+ 的部落格，讓我受到鼓舞。
+因此開始構思如何戒除的方式。&lt;/p&gt;
+&lt;p&gt;目前我的方式就是用新的興趣與習慣來填補沒事就想點開軟體的癮。
+我相信這需要花時間去累積與培養。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;刪除：我的第一步就是刪除app跟瀏覽器上的快捷，讓自己難以接觸或是搜索時感覺麻煩。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;閱讀：打開電子書馬上閱讀或是做&lt;a href=&#34;https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;筆記復盤&lt;/a&gt;
+ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;逛部落格：我從WiWi分享的&lt;a href=&#34;https://wiwi.blog/blogroll&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;部落卷&lt;/a&gt;
+ 找到很多很棒格友，所以我會打開Feedly，設定從最舊的資料開始看&amp;hellip;這樣我就會有
+&lt;ruby&gt;
+看不完的資訊分享。&lt;rt&gt;另類成癮？&lt;/rt&gt;
+&lt;/ruby&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anki：如果有非常短暫的時間，我會點開Anki開始複習背單字。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;這樣做後發現自己專注在新興趣與習慣的時間似乎有時會讓我忘卻需要有社群媒體的存在！目前持續中！
+對了～那如果有一些之前在臉書追蹤的資訊呢？我的做法是把社群媒體關注的人、事、物一一尋找他們的部落格或網站並以訂閱的方式取而代之。
+我想訓練我的大腦，讓它知道沒有了社群媒體，我還是可以擁有所有生活上有興趣的人事物連結，網路如此之大怎麼可能光用社群媒體就能以偏概全？&lt;/p&gt;
+&lt;p&gt;就像一位格友只贏的文章：&lt;a href=&#34;https://onlywin.substack.com/p/3b0&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;我不想知道我不想知道的事&lt;/a&gt;
+ &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;該知道的事，無論如何都會來到你的周遭，你不知道的事，其實也真的不用知道。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;感謝所有的巨人：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://alexhsu.com/delete-facebook&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;在 Meta 工作過後，我刪除了社群媒體&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://alexhsu.com/full-screen&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;遊戲心法：只用全屏模式玩遊戲&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://onlywin.substack.com/p/3b0&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;我不想知道我不想知道的事&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ivonblog.com/posts/2025122401/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt; 被演算法控制的大腦，退出不了的社群媒體&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiwi.blog/blog/why-i-dont-use-social-media/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;為什麼我不用社群媒體了？&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiwi.blog/blog/five-more-reasons&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;又五個離開社群媒體的理由&lt;/a&gt;
+ &lt;/p&gt;
+</description>
     </item>
+    
     <item>
       <title>請開始紀錄吧</title>
       <link>https://kamesanblog.github.io/posts/20260117-please-take-notes/</link>
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0800</pubDate>
+      
       <guid>https://kamesanblog.github.io/posts/20260117-please-take-notes/</guid>
-      <description>痛。使人成長。</description>
+      <description>&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;這是我的「&lt;a href=&#34;https://blogblog.club/party/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;BlogBlog 同樂會 - 2026年1月&lt;/a&gt;
+ 」的投稿文章之一，本月的主題是「推坑」。歡迎一起來參加！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;請開始紀錄吧。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果沒有經歷失去的痛苦，真的很難去珍惜看似平凡的日常。&lt;/p&gt;
+&lt;p&gt;說來可笑、到了孔子說的知天命年紀，才理解到我習以為常的日子漸漸的離我而去。&lt;br&gt;
+從前漫無目的過日子的我總是天真認為有些人、有些事會永遠陪在我身邊、然而當他們突然的離開後才驚覺一切都無法再回到從前。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;無常、是我這幾年最深刻的體會。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;這一年多來，越來越努力紀錄當下所經歷的人，事，物。&lt;br&gt;
+哪怕是一張照片、一個聲音檔或是一則閱讀筆記。&lt;br&gt;
+希望為生活留下一些蛛絲馬跡，不要讓時間就這樣溜走。既使知道這一切都是無明&amp;hellip;&lt;/p&gt;
+&lt;p&gt;說這些、對正在閱讀的您來說或許不重要、畢竟我們就是出生來體驗人生的。&lt;br&gt;
+沒有親身體驗過的事、對我們來說都只是腦中只是一片浮雲。&lt;br&gt;
+但，&lt;strong&gt;請開始紀錄吧&lt;/strong&gt;。不管使用什麼媒材與&lt;a href=&#34;https://kamesanblog.github.io/posts/20251212-whyobsidian/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;工具&lt;/a&gt;
+ 。&lt;br&gt;
+未來的你一定會感謝現在的自己。&lt;/p&gt;
+</description>
     </item>
+    
     <item>
       <title>為什麼是部落格？</title>
       <link>https://kamesanblog.github.io/posts/20250927-whyblog/</link>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 03 Oct 2025 20:43:00 +0800</pubDate>
+      
       <guid>https://kamesanblog.github.io/posts/20250927-whyblog/</guid>
-      <description>想架設部落格的一些想法</description>
+      <description>&lt;p&gt;為什麼會開始部落格？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;wiwi&#34;&gt;WiWi&lt;/h3&gt;
+&lt;p&gt;WiWi 是一個音樂知識型網紅，也不知道到怎麼會注意到他的資訊&amp;hellip;或許是在搜索&lt;a href=&#34;https://obsidian.md/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;Obsidian&lt;/a&gt;
+  軟體相關資訊時遇到&amp;hellip;他的分享讓我受益匪淺
+舉凡趣聞 生活雜記 還有數位綁架&amp;hellip;.對！就是被&lt;a href=&#34;https://wiwi.blog/blog/jump-out-of-the-box&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;軟體生態綁架&lt;/a&gt;
+ 還有&lt;a href=&#34;https://wiwi.blog/blog/instagram-trap&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;社群媒體綁架&lt;/a&gt;
+ 這些事讓我驚覺!所以也就開始醞釀自己&lt;a href=&#34;https://wiwi.blog/blog/internet-peasant&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;架站&lt;/a&gt;
+ 的工程&amp;hellip;WiWi的部落格十分實用，強烈推薦去逛逛..還有他的&lt;a href=&#34;https://wiwi.blog/use&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;現在用什麼&lt;/a&gt;
+  所推薦開源軟體都很值得參考，Wiwi也建議使用Linux 系統&amp;hellip;可惜我還沒有那種勇氣&amp;hellip;畢竟目前還是深陷綁架泥沼&amp;hellip;但已經努力想脫離中.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;瓦基&#34;&gt;瓦基&lt;/h3&gt;
+&lt;p&gt;近來接觸了很多的閱讀社群，可能也是被演算法推薦而看到瓦基，一個未來前途無量的台積電工程師卻轉而成為一位說書人？瓦基出版的&lt;a href=&#34;https://www.books.com.tw/products/0010942462&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;只工作不上班的自主人生&lt;/a&gt;
+ 作品..書中分享年輕人的人生目標與論點非常值得一讀&amp;hellip;但其中我喜歡瓦基書中分享給一個概念&amp;hellip;人生可以有一個&amp;quot;Big picture&amp;quot;,並想像未來你離開時，認識你的人們是怎樣形容你&amp;hellip;.雖然這樣的感覺已經又掉入一種欲求說，但我覺得有一個Big picture 是我喜歡的概念。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;社群媒體&#34;&gt;社群媒體&lt;/h3&gt;
+&lt;p&gt;越來越討厭社群媒體的廣告與演算法方式，讓人一直處在資訊同溫層，雖然討厭但還是會滑一下，畢竟很多朋友都在上面，但是努力減少使用中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;閱讀&#34;&gt;閱讀&lt;/h3&gt;
+&lt;p&gt;後悔沒有多讀書&amp;hellip;..好吧～！事實就是如此，所以我要努力多多閱讀～～&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
+    
   </channel>
 </rss>
-<description></description>

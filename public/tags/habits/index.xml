@@ -1,20 +1,111 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Habits on 卡美桑的家</title>
+    <title>卡美桑的家</title>
     <link>https://kamesanblog.github.io/tags/habits/</link>
     <description>Recent content in Habits on 卡美桑的家</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0800</lastBuildDate>
-    <atom:link href="https://kamesanblog.github.io/tags/habits/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://kamesanblog.github.io/tags/habits/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>戒除社群媒體</title>
       <link>https://kamesanblog.github.io/posts/20260213-quit-fb/</link>
       <pubDate>Fri, 13 Feb 2026 00:00:00 +0800</pubDate>
+      
       <guid>https://kamesanblog.github.io/posts/20260213-quit-fb/</guid>
-      <description>幾週前開始了一個新習慣</description>
+      <description>&lt;p&gt;幾週前開始，我決定培養一個新的習慣(目前有 Anki學習，家人互動，Talkme口語練習，筆記復盤)：戒除使用17年了的Facebook。
+如果是一年前的我，我會覺得我自己瘋了！怎麼可以遠離我的朋友、興趣、生活與親人還有我的社交圈！！大腦必定也會吶喊著：他們是如此的重要，沒有了這些你的人生還剩下什麼！?&lt;/p&gt;
+&lt;p&gt;幸好因為看見&lt;a href=&#34;https://wiwi.blog/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;WiWi&lt;/a&gt;
+ 的部落格，讓我受到鼓舞。
+因此開始構思如何戒除的方式。&lt;/p&gt;
+&lt;p&gt;目前我的方式就是用新的興趣與習慣來填補沒事就想點開軟體的癮。
+我相信這需要花時間去累積與培養。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;刪除：我的第一步就是刪除app跟瀏覽器上的快捷，讓自己難以接觸或是搜索時感覺麻煩。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;閱讀：打開電子書馬上閱讀或是做&lt;a href=&#34;https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;筆記復盤&lt;/a&gt;
+ 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;逛部落格：我從WiWi分享的&lt;a href=&#34;https://wiwi.blog/blogroll&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;部落卷&lt;/a&gt;
+ 找到很多很棒格友，所以我會打開Feedly，設定從最舊的資料開始看&amp;hellip;這樣我就會有
+&lt;ruby&gt;
+看不完的資訊分享。&lt;rt&gt;另類成癮？&lt;/rt&gt;
+&lt;/ruby&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anki：如果有非常短暫的時間，我會點開Anki開始複習背單字。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;這樣做後發現自己專注在新興趣與習慣的時間似乎有時會讓我忘卻需要有社群媒體的存在！目前持續中！
+對了～那如果有一些之前在臉書追蹤的資訊呢？我的做法是把社群媒體關注的人、事、物一一尋找他們的部落格或網站並以訂閱的方式取而代之。
+我想訓練我的大腦，讓它知道沒有了社群媒體，我還是可以擁有所有生活上有興趣的人事物連結，網路如此之大怎麼可能光用社群媒體就能以偏概全？&lt;/p&gt;
+&lt;p&gt;就像一位格友只贏的文章：&lt;a href=&#34;https://onlywin.substack.com/p/3b0&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;我不想知道我不想知道的事&lt;/a&gt;
+ &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;該知道的事，無論如何都會來到你的周遭，你不知道的事，其實也真的不用知道。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;感謝所有的巨人：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://alexhsu.com/delete-facebook&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;在 Meta 工作過後，我刪除了社群媒體&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://alexhsu.com/full-screen&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;遊戲心法：只用全屏模式玩遊戲&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://onlywin.substack.com/p/3b0&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;我不想知道我不想知道的事&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ivonblog.com/posts/2025122401/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt; 被演算法控制的大腦，退出不了的社群媒體&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiwi.blog/blog/why-i-dont-use-social-media/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;為什麼我不用社群媒體了？&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiwi.blog/blog/five-more-reasons&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;又五個離開社群媒體的理由&lt;/a&gt;
+ &lt;/p&gt;
+</description>
     </item>
+    
   </channel>
 </rss>
-<description></description>

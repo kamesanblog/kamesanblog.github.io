@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Japan on 卡美桑的家</title>
+    <title>卡美桑的家</title>
     <link>https://kamesanblog.github.io/tags/japan/</link>
     <description>Recent content in Japan on 卡美桑的家</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="https://kamesanblog.github.io/tags/japan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://kamesanblog.github.io/tags/japan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>好久沒動畫筆了</title>
       <link>https://kamesanblog.github.io/posts/20251028-watercolor-japan/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0800</pubDate>
+      
       <guid>https://kamesanblog.github.io/posts/20251028-watercolor-japan/</guid>
-      <description>看屁日本分享照片</description>
+      <description>&lt;p&gt;這幾天好友在日本旅繪，從秋田分享了影片跟照片給我&amp;hellip;我也喜歡旅遊寫生，但是最近生活上有了一些變化，自己也在重新調整生活的模式，減少了作畫的時間&amp;hellip;
+但畫友們也不離不棄，常常與我分享他們去畫畫的美景，或者視訊一起畫畫，這樣其實就很開心幸福了。&lt;/p&gt;
+&lt;p&gt;畫面朋友說很可愛，我覺得大概是從以前就是喜歡畫畫插圖的個性&amp;hellip;所以到後來即使轉換成傳統媒材，自己對於風景還是有那種想要把它表現的甜一點的想法～&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://kamesanblog.github.io/posts/20251028-watercolor-japan/20251027001.jpg&#34;&gt;&lt;/p&gt;
+</description>
     </item>
+    
   </channel>
 </rss>
-<description></description>
