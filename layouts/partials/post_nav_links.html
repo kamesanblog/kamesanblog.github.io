@@ -1,19 +1,37 @@
-{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- if and (gt (len $pages) 1) (in $pages . ) }}
-<nav class="paginav">
-  {{- with $pages.Next . }}
-  <a class="prev" href="{{ .Permalink }}">
-    <span class="title">« {{ i18n "prev_page" }}</span>
-    <br>
-    <span>{{- .Name -}}</span>
-  </a>
-  {{- end }}
-  {{- with $pages.Prev . }}
-  <a class="next" href="{{ .Permalink }}">
-    <span class="title">{{ i18n "next_page" }} »</span>
-    <br>
-    <span>{{- .Name -}}</span>
-  </a>
-  {{- end }}
+{{- if (not (eq .Params.hidePostNavLinks true)) }}
+{{- $pages := (where site.RegularPages "Section" "posts") }}
+{{- $prev := $pages.Next . }}
+{{- $next := $pages.Prev . }}
+{{- if or $prev $next }}
+<nav class="paginav" style="display: flex; justify-content: space-between; align-items: center;">
+  
+  <div style="flex: 1; text-align: left;">
+    {{- if $prev }}
+    <a class="prev" href="{{ $prev.Permalink }}">
+      <span class="title">« {{ i18n "prev_page" | default "上一頁" }}</span>
+      <br>
+      <span>{{ $prev.Name }}</span>
+    </a>
+    {{- end }}
+  </div>
+
+  <div style="flex: 1; text-align: center;">
+    <a href="/random/">
+      <br>
+      <span style="font-weight: normal;">隨機文章</span>
+    </a>
+  </div>
+
+  <div style="flex: 1; text-align: right;">
+    {{- if $next }}
+    <a class="next" href="{{ $next.Permalink }}">
+      <span class="title">{{ i18n "next_page" | default "下一頁" }} »</span>
+      <br>
+      <span>{{ $next.Name }}</span>
+    </a>
+    {{- end }}
+  </div>
+
 </nav>
+{{- end }}
 {{- end }}
