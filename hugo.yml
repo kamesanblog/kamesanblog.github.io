@@ -126,6 +126,9 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  services:
+  rss:
+    limit: -1
 
 
  
