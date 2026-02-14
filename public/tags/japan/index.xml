@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Japan on 卡美桑的家</title>
-    <link>http://localhost:1313/tags/japan/</link>
+    <link>https://kamesanblog.github.io/tags/japan/</link>
     <description>Recent content in Japan on 卡美桑的家</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-tw</language>
     <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/japan/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kamesanblog.github.io/tags/japan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>好久沒動畫筆了</title>
-      <link>http://localhost:1313/posts/20251028-watercolor-japan/</link>
+      <link>https://kamesanblog.github.io/posts/20251028-watercolor-japan/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251028-watercolor-japan/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251028-watercolor-japan/</guid>
       <description>看屁日本分享照片</description>
     </item>
   </channel>

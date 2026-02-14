@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Habits on 卡美桑的家</title>
-    <link>http://localhost:1313/tags/habits/</link>
+    <link>https://kamesanblog.github.io/tags/habits/</link>
     <description>Recent content in Habits on 卡美桑的家</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-tw</language>
     <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/habits/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kamesanblog.github.io/tags/habits/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>戒除社群媒體</title>
-      <link>http://localhost:1313/posts/20260213-quit-fb/</link>
+      <link>https://kamesanblog.github.io/posts/20260213-quit-fb/</link>
       <pubDate>Fri, 13 Feb 2026 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20260213-quit-fb/</guid>
+      <guid>https://kamesanblog.github.io/posts/20260213-quit-fb/</guid>
       <description>幾週前開始了一個新習慣</description>
     </item>
   </channel>

@@ -11,32 +11,7 @@ tags:
   - japan
 keywords:
   - watercolor
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-comments: false
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true
-disableShare: false
-hideSummary: false
-searchHidden: true
-ShowReadingTime: false
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: false
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-cover:
-    image: ""
-    alt: ""
-    caption: ""
-    relative: true
-    hidden: false
-editPost:
-    URL: ""
-    Text: ""
-    appendFilePath: false
+draft: false 
 ---
 
 

@@ -9,32 +9,7 @@ tags:
   - life
 keywords:
   - blog
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-comments: false
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true
-disableShare: false
-hideSummary: false
-searchHidden: true
-ShowReadingTime: false
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: false
-ShowRssButtonInSectionTermList: true
-UseHugoToc: false
-cover:
-    image: ""
-    alt: ""
-    caption: ""
-    relative: true
-    hidden: false
-editPost:
-    URL: ""
-    Text: "Suggest Changes"
-    appendFilePath: false
+draft: false 
 ---
 
 為什麼會開始部落格？

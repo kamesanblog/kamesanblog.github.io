@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Book on 卡美桑的家</title>
-    <link>http://localhost:1313/categories/book/</link>
+    <link>https://kamesanblog.github.io/categories/book/</link>
     <description>Recent content in Book on 卡美桑的家</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sun, 30 Nov 2025 16:58:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/book/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kamesanblog.github.io/categories/book/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>維梅爾的帽子閱後心得</title>
-      <link>http://localhost:1313/posts/20251130-hats/</link>
+      <link>https://kamesanblog.github.io/posts/20251130-hats/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251130-hats/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251130-hats/</guid>
       <description>十七世紀驚人的航海貿易史</description>
     </item>
     <item>
       <title>巨人的筆記閱讀心得</title>
-      <link>http://localhost:1313/posts/20251111-gaint-note/</link>
+      <link>https://kamesanblog.github.io/posts/20251111-gaint-note/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251111-gaint-note/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251111-gaint-note/</guid>
       <description>讓自己的筆記可以更系統化</description>
     </item>
   </channel>

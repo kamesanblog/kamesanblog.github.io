@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on 卡美桑的家</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://kamesanblog.github.io/posts/</link>
     <description>Recent content in Posts on 卡美桑的家</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-tw</language>
     <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kamesanblog.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>戒除社群媒體</title>
-      <link>http://localhost:1313/posts/20260213-quit-fb/</link>
+      <link>https://kamesanblog.github.io/posts/20260213-quit-fb/</link>
       <pubDate>Fri, 13 Feb 2026 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20260213-quit-fb/</guid>
+      <guid>https://kamesanblog.github.io/posts/20260213-quit-fb/</guid>
       <description>幾週前開始了一個新習慣</description>
     </item>
     <item>
       <title>墾丁畫聚</title>
-      <link>http://localhost:1313/posts/20260131-painting-mood/</link>
+      <link>https://kamesanblog.github.io/posts/20260131-painting-mood/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20260131-painting-mood/</guid>
+      <guid>https://kamesanblog.github.io/posts/20260131-painting-mood/</guid>
       <description>最近對於繪畫的一些心理轉變...</description>
     </item>
     <item>
       <title>請開始紀錄吧</title>
-      <link>http://localhost:1313/posts/20260117-please-take-notes/</link>
+      <link>https://kamesanblog.github.io/posts/20260117-please-take-notes/</link>
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20260117-please-take-notes/</guid>
+      <guid>https://kamesanblog.github.io/posts/20260117-please-take-notes/</guid>
       <description>痛。使人成長。</description>
     </item>
     <item>
       <title>我的筆記軟體Obsidian</title>
-      <link>http://localhost:1313/posts/20251212-whyobsidian/</link>
+      <link>https://kamesanblog.github.io/posts/20251212-whyobsidian/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251212-whyobsidian/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251212-whyobsidian/</guid>
       <description>是什麼原因讓我開始使用Obsidian</description>
     </item>
     <item>
       <title>維梅爾的帽子閱後心得</title>
-      <link>http://localhost:1313/posts/20251130-hats/</link>
+      <link>https://kamesanblog.github.io/posts/20251130-hats/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251130-hats/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251130-hats/</guid>
       <description>十七世紀驚人的航海貿易史</description>
     </item>
     <item>
       <title>巨人的筆記閱讀心得</title>
-      <link>http://localhost:1313/posts/20251111-gaint-note/</link>
+      <link>https://kamesanblog.github.io/posts/20251111-gaint-note/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251111-gaint-note/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251111-gaint-note/</guid>
       <description>讓自己的筆記可以更系統化</description>
     </item>
     <item>
       <title>好久沒動畫筆了</title>
-      <link>http://localhost:1313/posts/20251028-watercolor-japan/</link>
+      <link>https://kamesanblog.github.io/posts/20251028-watercolor-japan/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251028-watercolor-japan/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251028-watercolor-japan/</guid>
       <description>看屁日本分享照片</description>
     </item>
     <item>
       <title>複習石沈大海的筆記</title>
-      <link>http://localhost:1313/posts/20251014-obsidian-30days-review/</link>
+      <link>https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251014-obsidian-30days-review/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/</guid>
       <description>自動顯示obsidian內一個月沒編輯的筆記</description>
     </item>
     <item>
       <title>為什麼是部落格？</title>
-      <link>http://localhost:1313/posts/20250927-whyblog/</link>
+      <link>https://kamesanblog.github.io/posts/20250927-whyblog/</link>
       <pubDate>Fri, 03 Oct 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20250927-whyblog/</guid>
+      <guid>https://kamesanblog.github.io/posts/20250927-whyblog/</guid>
       <description>想架設部落格的一些想法</description>
     </item>
     <item>
       <title>在Obsidian實現Dayone的OnThisDay功能</title>
-      <link>http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/</link>
+      <link>https://kamesanblog.github.io/posts/20250927-obsidian-dayone-onthisday/</link>
       <pubDate>Sat, 27 Sep 2025 10:58:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/</guid>
+      <guid>https://kamesanblog.github.io/posts/20250927-obsidian-dayone-onthisday/</guid>
       <description>透過AI的手把手教學，讓一個程式小白也可以瞭解程式的好處，並實際運用在生活上。</description>
     </item>
   </channel>

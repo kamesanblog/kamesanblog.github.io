@@ -12,22 +12,7 @@ keywords:
   - 復盤
   - 筆記
   - 複習
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-comments: false
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true
-disableShare: false
-hideSummary: false
-searchHidden: true
-ShowReadingTime: false
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: false
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
+draft: false 
 cover:
     image: "20251014001.jpg"
     alt: ""
