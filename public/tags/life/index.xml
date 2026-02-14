@@ -1,109 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>卡美桑的家</title>
+    <title>Life on 卡美桑的家</title>
     <link>https://kamesanblog.github.io/tags/life/</link>
     <description>Recent content in Life on 卡美桑的家</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>zh-tw</language>
-    
-    
-    
-    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://kamesanblog.github.io/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0800</lastBuildDate>
+    <atom:link href="https://kamesanblog.github.io/tags/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>請開始紀錄吧</title>
       <link>https://kamesanblog.github.io/posts/20260117-please-take-notes/</link>
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0800</pubDate>
-      
       <guid>https://kamesanblog.github.io/posts/20260117-please-take-notes/</guid>
-      <description>&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;這是我的「&lt;a href=&#34;https://blogblog.club/party/&#34;
-     rel=&#34;noopener&#34;
-     class=&#34;external-link&#34;
-     target=&#34;_blank&#34;
- &gt;BlogBlog 同樂會 - 2026年1月&lt;/a&gt;
- 」的投稿文章之一，本月的主題是「推坑」。歡迎一起來參加！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;請開始紀錄吧。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;如果沒有經歷失去的痛苦，真的很難去珍惜看似平凡的日常。&lt;/p&gt;
-&lt;p&gt;說來可笑、到了孔子說的知天命年紀，才理解到我習以為常的日子漸漸的離我而去。&lt;br&gt;
-從前漫無目的過日子的我總是天真認為有些人、有些事會永遠陪在我身邊、然而當他們突然的離開後才驚覺一切都無法再回到從前。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;無常、是我這幾年最深刻的體會。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;這一年多來，越來越努力紀錄當下所經歷的人，事，物。&lt;br&gt;
-哪怕是一張照片、一個聲音檔或是一則閱讀筆記。&lt;br&gt;
-希望為生活留下一些蛛絲馬跡，不要讓時間就這樣溜走。既使知道這一切都是無明&amp;hellip;&lt;/p&gt;
-&lt;p&gt;說這些、對正在閱讀的您來說或許不重要、畢竟我們就是出生來體驗人生的。&lt;br&gt;
-沒有親身體驗過的事、對我們來說都只是腦中只是一片浮雲。&lt;br&gt;
-但，&lt;strong&gt;請開始紀錄吧&lt;/strong&gt;。不管使用什麼媒材與&lt;a href=&#34;https://kamesanblog.github.io/posts/20251212-whyobsidian/&#34;
-     rel=&#34;noopener&#34;
-     class=&#34;external-link&#34;
-     target=&#34;_blank&#34;
- &gt;工具&lt;/a&gt;
- 。&lt;br&gt;
-未來的你一定會感謝現在的自己。&lt;/p&gt;
-</description>
+      <description>痛。使人成長。</description>
     </item>
-    
     <item>
       <title>為什麼是部落格？</title>
       <link>https://kamesanblog.github.io/posts/20250927-whyblog/</link>
-      <pubDate>Fri, 03 Oct 2025 20:43:00 +0800</pubDate>
-      
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0800</pubDate>
       <guid>https://kamesanblog.github.io/posts/20250927-whyblog/</guid>
-      <description>&lt;p&gt;為什麼會開始部落格？&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;wiwi&#34;&gt;WiWi&lt;/h3&gt;
-&lt;p&gt;WiWi 是一個音樂知識型網紅，也不知道到怎麼會注意到他的資訊&amp;hellip;或許是在搜索&lt;a href=&#34;https://obsidian.md/&#34;
-     rel=&#34;noopener&#34;
-     class=&#34;external-link&#34;
-     target=&#34;_blank&#34;
- &gt;Obsidian&lt;/a&gt;
-  軟體相關資訊時遇到&amp;hellip;他的分享讓我受益匪淺
-舉凡趣聞 生活雜記 還有數位綁架&amp;hellip;.對！就是被&lt;a href=&#34;https://wiwi.blog/blog/jump-out-of-the-box&#34;
-     rel=&#34;noopener&#34;
-     class=&#34;external-link&#34;
-     target=&#34;_blank&#34;
- &gt;軟體生態綁架&lt;/a&gt;
- 還有&lt;a href=&#34;https://wiwi.blog/blog/instagram-trap&#34;
-     rel=&#34;noopener&#34;
-     class=&#34;external-link&#34;
-     target=&#34;_blank&#34;
- &gt;社群媒體綁架&lt;/a&gt;
- 這些事讓我驚覺!所以也就開始醞釀自己&lt;a href=&#34;https://wiwi.blog/blog/internet-peasant&#34;
-     rel=&#34;noopener&#34;
-     class=&#34;external-link&#34;
-     target=&#34;_blank&#34;
- &gt;架站&lt;/a&gt;
- 的工程&amp;hellip;WiWi的部落格十分實用，強烈推薦去逛逛..還有他的&lt;a href=&#34;https://wiwi.blog/use&#34;
-     rel=&#34;noopener&#34;
-     class=&#34;external-link&#34;
-     target=&#34;_blank&#34;
- &gt;現在用什麼&lt;/a&gt;
-  所推薦開源軟體都很值得參考，Wiwi也建議使用Linux 系統&amp;hellip;可惜我還沒有那種勇氣&amp;hellip;畢竟目前還是深陷綁架泥沼&amp;hellip;但已經努力想脫離中.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;瓦基&#34;&gt;瓦基&lt;/h3&gt;
-&lt;p&gt;近來接觸了很多的閱讀社群，可能也是被演算法推薦而看到瓦基，一個未來前途無量的台積電工程師卻轉而成為一位說書人？瓦基出版的&lt;a href=&#34;https://www.books.com.tw/products/0010942462&#34;
-     rel=&#34;noopener&#34;
-     class=&#34;external-link&#34;
-     target=&#34;_blank&#34;
- &gt;只工作不上班的自主人生&lt;/a&gt;
- 作品..書中分享年輕人的人生目標與論點非常值得一讀&amp;hellip;但其中我喜歡瓦基書中分享給一個概念&amp;hellip;人生可以有一個&amp;quot;Big picture&amp;quot;,並想像未來你離開時，認識你的人們是怎樣形容你&amp;hellip;.雖然這樣的感覺已經又掉入一種欲求說，但我覺得有一個Big picture 是我喜歡的概念。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;社群媒體&#34;&gt;社群媒體&lt;/h3&gt;
-&lt;p&gt;越來越討厭社群媒體的廣告與演算法方式，讓人一直處在資訊同溫層，雖然討厭但還是會滑一下，畢竟很多朋友都在上面，但是努力減少使用中。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;閱讀&#34;&gt;閱讀&lt;/h3&gt;
-&lt;p&gt;後悔沒有多讀書&amp;hellip;..好吧～！事實就是如此，所以我要努力多多閱讀～～&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>想架設部落格的一些想法</description>
     </item>
-    
   </channel>
 </rss>
+<description></description>
