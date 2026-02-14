@@ -73,7 +73,7 @@ fuseOpts:
     distance: 100
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    keys: ["title", "permalink", "summary", "content", "keywords"]
 
 outputs:
   home:
