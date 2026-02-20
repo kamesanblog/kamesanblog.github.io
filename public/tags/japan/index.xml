@@ -2,14 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>卡美桑的家</title>
-    <link>http://localhost:1313/tags/japan/</link>
+    <link>https://kamesanblog.github.io/tags/japan/</link>
     <description>Recent content on 卡美桑的家</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language><atom:link href="http://localhost:1313/tags/japan/index.xml" rel="self" type="application/rss+xml" /><item>
+    <language>zh-tw</language><atom:link href="https://kamesanblog.github.io/tags/japan/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>春節水彩</title>
+      <link>https://kamesanblog.github.io/posts/20260220-lunar-year-painting/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0800</pubDate>
+      <guid>https://kamesanblog.github.io/posts/20260220-lunar-year-painting/</guid>
+      <description>&lt;br&gt;
+&lt;div class=&#34;marquee-container&#34;&gt;
+    &lt;div class=&#34;marquee-text&#34;&gt;
+        🌟🌟祝福各位朋友新的一年身體健康 事事順心 財源廣進！🌟🌟
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: transparent; /* 可自訂背景色 */
+    padding: 10px 0;
+}
+
+.marquee-text {
+    display: inline-block;
+    font-size: 1.25rem; /* 對應 h3 的大小 */
+    font-weight: bold;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+&lt;/style&gt;
+&lt;br&gt;
+&lt;p&gt;9天春節連假一眨眼又接近尾聲了～期間吃吃喝喝跟親戚朋友拜年走春&amp;hellip;..又超過一個月沒有練習水彩！惰性真是個可怕的東西，幸好趁著朋友熱情的畫聚邀約，完成了兩幅練習。
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;這一張想玩灰色調，朋友在台南拍到的傍晚景色剛好很適合。&lt;br&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://kamesanblog.github.io/posts/20260220-lunar-year-painting/20260220001.jpg&#34;&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;另外這張是年節期間跟朋友也玩一點應景的暖色調。
+&lt;img loading=&#34;lazy&#34; src=&#34;https://kamesanblog.github.io/posts/20260220-lunar-year-painting/20260220002.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;為了繼續&lt;a href=&#34;https://kamesanblog.github.io/posts/20260213-quit-fb/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;戒除社群媒體&lt;/a&gt;
+ ，未來可能練習作品都放在自己的部落格也當作是一種紀錄。&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;祝福各位朋友新的一年身體健康-事事順心-財源廣進&#34;&gt;&lt;strong&gt;🌟祝福各位朋友新的一年身體健康 事事順心 財源廣進！🌟&lt;/strong&gt;&lt;/h3&gt;
+</description>
+    </item><item>
       <title>戒除社群媒體</title>
-      <link>http://localhost:1313/posts/20260213-quit-fb/</link>
+      <link>https://kamesanblog.github.io/posts/20260213-quit-fb/</link>
       <pubDate>Fri, 13 Feb 2026 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20260213-quit-fb/</guid>
+      <guid>https://kamesanblog.github.io/posts/20260213-quit-fb/</guid>
       <description>&lt;p&gt;幾週前開始，我決定培養一個新的習慣(目前有 Anki學習，家人互動，Talkme口語練習，筆記復盤)：戒除使用17年了的Facebook。
 如果是一年前的我，我會覺得我自己瘋了！怎麼可以遠離我的朋友、興趣、生活與親人還有我的社交圈！！大腦必定也會吶喊著：他們是如此的重要，沒有了這些你的人生還剩下什麼！?&lt;/p&gt;
 &lt;p&gt;幸好因為看見&lt;a href=&#34;https://wiwi.blog/&#34;
@@ -101,9 +153,9 @@
 </description>
     </item><item>
       <title>墾丁畫聚</title>
-      <link>http://localhost:1313/posts/20260131-painting-mood/</link>
+      <link>https://kamesanblog.github.io/posts/20260131-painting-mood/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20260131-painting-mood/</guid>
+      <guid>https://kamesanblog.github.io/posts/20260131-painting-mood/</guid>
       <description>&lt;p&gt;重新學習水彩多年後我慢慢感覺到我好像正在離開水彩了，不知道怎麼回事，就是漸漸的提不起勁動筆&amp;hellip;上個月去墾丁跟畫友們畫聚，跟著一群興趣志同道合的朋友寫生真的感覺很棒&amp;hellip;但是我隱約感覺到我好像沒有特別想畫畫了？&lt;/p&gt;
 &lt;p&gt;幾年前都會想說到任何地方去一定要隨身帶著寫生工具，一定要把眼前的景色給畫下來，那就是一種體驗當下的做法，但這幾年生活中增加了許多閱讀時間。那種要抓住現場當下創作的慾望不知道怎的竟然慢慢地消退了&amp;hellip;.取而代之的想法：反而想用身體與心觀察當下的環境而不是一直在構思怎樣才能讓作品畫面更好看或是有更棒的構圖。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;我好像不喜歡創作了&lt;/strong&gt;&amp;hellip;&lt;/p&gt;
@@ -115,14 +167,14 @@
      target=&#34;_blank&#34;
  &gt;約瑟夫&lt;/a&gt;
  的拿手絕活，喜歡水彩的同好真的都會爭相臨摹&amp;hellip;&amp;hellip;幾年前也曾經臨摹大師那樣的手法到最後卻生厭&amp;hellip;但是現下偶爾回味，卻有一種溫馨感。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20260131-painting-mood/20260131001.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://kamesanblog.github.io/posts/20260131-painting-mood/20260131001.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;畢竟這就是一個人的經驗歷程，回憶那個當時為逆光而瘋狂的自己，現在也覺得真有趣。&lt;/p&gt;
 </description>
     </item><item>
       <title>請開始紀錄吧</title>
-      <link>http://localhost:1313/posts/20260117-please-take-notes/</link>
+      <link>https://kamesanblog.github.io/posts/20260117-please-take-notes/</link>
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20260117-please-take-notes/</guid>
+      <guid>https://kamesanblog.github.io/posts/20260117-please-take-notes/</guid>
       <description>&lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;這是我的「&lt;a href=&#34;https://blogblog.club/party/&#34;
@@ -153,10 +205,10 @@
 </description>
     </item><item>
       <title>我的筆記軟體Obsidian</title>
-      <link>http://localhost:1313/posts/20251212-whyobsidian/</link>
+      <link>https://kamesanblog.github.io/posts/20251212-whyobsidian/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251212-whyobsidian/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20251212-whyobsidian/20251212001.jpg&#34;&gt;&lt;/p&gt;
+      <guid>https://kamesanblog.github.io/posts/20251212-whyobsidian/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://kamesanblog.github.io/posts/20251212-whyobsidian/20251212001.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;知道Obsidian 之前，想到要寫日誌就會想到Dayone，想到寫個筆記就會打開手機內的特定軟體比如Evernote或是iPhone內的Notes。&lt;/p&gt;
 &lt;p&gt;直到有一天我發現Dayone出了Dayone2！接著宣布Dayone不在更新..我之前一次買斷的Dayone升級成Dayone2&amp;hellip;變成了訂閱制&amp;hellip;. 而Evernote更絕～本來就需要訂閱，但後來取消訂閱之後你的筆記就被降級功能還要重新訂閱才能打開&amp;hellip;.&lt;/p&gt;
 &lt;p&gt;那我想到如果使用免費的網路社群平台做日誌或筆記呢？&lt;br&gt;
@@ -193,9 +245,9 @@ Obsidian的存在只是幫我們管理與連結筆記跟筆記之間的關係。
 </description>
     </item><item>
       <title>維梅爾的帽子閱後心得</title>
-      <link>http://localhost:1313/posts/20251130-hats/</link>
+      <link>https://kamesanblog.github.io/posts/20251130-hats/</link>
       <pubDate>Sun, 30 Nov 2025 16:58:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251130-hats/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251130-hats/</guid>
       <description>&lt;p&gt;一個畫家，如果他知道他的作品能在未來透過歷史學者的分析而得那麼多當時代世界全球貿易縮影，是否也會驚訝連連？
 透過&lt;a href=&#34;https://youtu.be/i9f01-xLc7M&#34;
      rel=&#34;noopener&#34;
@@ -220,9 +272,9 @@ Obsidian的存在只是幫我們管理與連結筆記跟筆記之間的關係。
 </description>
     </item><item>
       <title>巨人的筆記閱讀心得</title>
-      <link>http://localhost:1313/posts/20251111-gaint-note/</link>
+      <link>https://kamesanblog.github.io/posts/20251111-gaint-note/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251111-gaint-note/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251111-gaint-note/</guid>
       <description>&lt;p&gt;看完最近瓦基推薦的&lt;a href=&#34;https://readingoutpost.com/note-taking-books/&#34;
      rel=&#34;noopener&#34;
      class=&#34;external-link&#34;
@@ -251,19 +303,19 @@ Obsidian的存在只是幫我們管理與連結筆記跟筆記之間的關係。
 </description>
     </item><item>
       <title>好久沒動畫筆了</title>
-      <link>http://localhost:1313/posts/20251028-watercolor-japan/</link>
+      <link>https://kamesanblog.github.io/posts/20251028-watercolor-japan/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251028-watercolor-japan/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251028-watercolor-japan/</guid>
       <description>&lt;p&gt;這幾天好友在日本旅繪，從秋田分享了影片跟照片給我&amp;hellip;我也喜歡旅遊寫生，但是最近生活上有了一些變化，自己也在重新調整生活的模式，減少了作畫的時間&amp;hellip;
 但畫友們也不離不棄，常常與我分享他們去畫畫的美景，或者視訊一起畫畫，這樣其實就很開心幸福了。&lt;/p&gt;
 &lt;p&gt;畫面朋友說很可愛，我覺得大概是從以前就是喜歡畫畫插圖的個性&amp;hellip;所以到後來即使轉換成傳統媒材，自己對於風景還是有那種想要把它表現的甜一點的想法～&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20251028-watercolor-japan/20251027001.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://kamesanblog.github.io/posts/20251028-watercolor-japan/20251027001.jpg&#34;&gt;&lt;/p&gt;
 </description>
     </item><item>
       <title>複習石沈大海的筆記</title>
-      <link>http://localhost:1313/posts/20251014-obsidian-30days-review/</link>
+      <link>https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/</link>
       <pubDate>Tue, 14 Oct 2025 18:53:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20251014-obsidian-30days-review/</guid>
+      <guid>https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/</guid>
       <description>&lt;h3 id=&#34;困擾&#34;&gt;困擾&lt;/h3&gt;
 &lt;p&gt;Obsidian使用了半年多之後，發現我好像有很多筆記被遺忘在我的資料庫大海內&amp;hellip;而且我算滿懶惰的，不喜歡去大海撈針&amp;hellip;就算我真的想到有某則筆記，還是需使用查詢功能，其實是很方便沒錯，但我希望資料庫自己提醒我就好，因此又請AI 幫忙了，這個方式對於會寫code的朋友一定會覺得：這樣的基礎，你應該會知道吧？..很可惜我真的不知道&amp;hellip;.
 所以我請AI協助我寫出：顯示我的資料庫內超過30天沒動過的筆記，&lt;/p&gt;
@@ -391,13 +443,13 @@ sort file.mday asc
 &lt;p&gt;&lt;code&gt;recheck:{{date}} {{time}} &lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;複習範例如圖，如果期間又有新想法也可以加上心得。
 或是您也有在複習筆記的好想法，非常歡迎跟我分享，感謝。
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20251014-obsidian-30days-review/20251014002.jpg&#34;&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/20251014002.jpg&#34;&gt;&lt;/p&gt;
 </description>
     </item><item>
       <title>為什麼是部落格？</title>
-      <link>http://localhost:1313/posts/20250927-whyblog/</link>
+      <link>https://kamesanblog.github.io/posts/20250927-whyblog/</link>
       <pubDate>Fri, 03 Oct 2025 20:43:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20250927-whyblog/</guid>
+      <guid>https://kamesanblog.github.io/posts/20250927-whyblog/</guid>
       <description>&lt;p&gt;為什麼會開始部落格？&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -451,9 +503,9 @@ sort file.mday asc
 </description>
     </item><item>
       <title>在Obsidian實現Dayone的OnThisDay功能</title>
-      <link>http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/</link>
+      <link>https://kamesanblog.github.io/posts/20250927-obsidian-dayone-onthisday/</link>
       <pubDate>Sat, 27 Sep 2025 10:58:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/</guid>
+      <guid>https://kamesanblog.github.io/posts/20250927-obsidian-dayone-onthisday/</guid>
       <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
 &lt;p&gt;卡美桑個性其實蠻念舊的&amp;hellip;所以有了智慧型手機後就有記錄一些日常的活動，當時購買了Dayone app以爲可以用到天荒地老&amp;hellip;&amp;hellip;但好景不常後來Dayone遇到&lt;a href=&#34;https://wiwi.blog/blog/notebooklm-enshittification&#34;
      rel=&#34;noopener&#34;
@@ -567,28 +619,28 @@ dv.table([&amp;#34;檔案&amp;#34;, &amp;#34;日期&amp;#34;],
 </description>
     </item><item>
       <title>關於卡美桑</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://kamesanblog.github.io/about/</link>
       <pubDate>Tue, 23 Sep 2025 10:30:00 +0800</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://kamesanblog.github.io/about/</guid>
       <description>&lt;p&gt;卡美桑的家在這裡唷&lt;/p&gt;
 </description>
     </item><item>
       <title>Archives</title>
-      <link>http://localhost:1313/archives/</link>
+      <link>https://kamesanblog.github.io/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/archives/</guid>
+      <guid>https://kamesanblog.github.io/archives/</guid>
       <description></description>
     </item><item>
       <title>搜尋</title>
-      <link>http://localhost:1313/search/</link>
+      <link>https://kamesanblog.github.io/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/</guid>
+      <guid>https://kamesanblog.github.io/search/</guid>
       <description></description>
     </item><item>
       <title>隨機文章</title>
-      <link>http://localhost:1313/random/</link>
+      <link>https://kamesanblog.github.io/random/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/random/</guid>
+      <guid>https://kamesanblog.github.io/random/</guid>
       <description>&lt;p&gt;這裡是隨機跳轉頁面，請稍候&amp;hellip;&lt;/p&gt;
 </description>
     </item></channel>
