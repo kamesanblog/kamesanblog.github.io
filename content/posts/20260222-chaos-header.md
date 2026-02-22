@@ -15,10 +15,9 @@ keywords:
 ---
 
 
-{{< callout type="" title="" >}}
-這是我在「[BlogBlog 同樂會 - 2026 年 2 月](https://blogblog.club/party)」的投稿文章。本月主題是「[只有我這樣嗎？](https://wiwi.blog/blog/blogblog-party-feb-2026)」，由 [Wiwi](https://wiwi.blog/) 主持。如果你有自己的部落
+>這是我在「[BlogBlog 同樂會 - 2026 年 2 月](https://blogblog.club/party)」的投稿文章。本月主題是「[只有我這樣嗎？](https://wiwi.blog/blog/blogblog-party-feb-2026)」，由 [Wiwi](https://wiwi.blog/) 主持。如果你有自己的部落
 格，歡迎一起來參加！
-{{< /callout >}}
+
 
 <br>
 
@@ -45,11 +44,11 @@ keywords:
 當我在舉棋不定時，結果剛好看到Steph Ango的文章：[How I use Obsidian](https://stephango.com/vault#theme-and-related-tools) ，文章中有提到一個點打中了我。
 
 
-{{< callout type="" title="" >}}
-It embraces chaos and laziness to create emergent structure.
-<br>
-擁抱混亂和懶惰，從而創造出湧現式結構。
-{{< /callout >}}
+>
+>It embraces chaos and laziness to create emergent structure.
+><br>
+>擁抱混亂和懶惰，從而創造出湧現式結構。
+>
 
 <br>
 
