@@ -10,8 +10,13 @@
       <link>https://kamesanblog.github.io/posts/20260222-chaos-header/</link>
       <pubDate>Sun, 22 Feb 2026 00:00:00 +0800</pubDate>
       <guid>https://kamesanblog.github.io/posts/20260222-chaos-header/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;這是我在「&lt;a href=&#34;https://blogblog.club/party&#34;
+      <description>
+&lt;div class=&#34;callout note&#34;&gt;
+    &lt;div class=&#34;callout-title&#34;&gt;
+        
+    &lt;/div&gt;
+    &lt;div class=&#34;callout-content&#34;&gt;
+        這是我在「&lt;a href=&#34;https://blogblog.club/party&#34;
      rel=&#34;noopener&#34;
      class=&#34;external-link&#34;
      target=&#34;_blank&#34;
@@ -27,8 +32,9 @@
      target=&#34;_blank&#34;
  &gt;Wiwi&lt;/a&gt;
   主持。如果你有自己的部落
-格，歡迎一起來參加！&lt;/p&gt;
-&lt;/blockquote&gt;
+格，歡迎一起來參加！
+    &lt;/div&gt;
+&lt;/div&gt;
 &lt;br&gt;
 &lt;p&gt;想了快一個月想不出有什麼只有我會這樣的事情，直到這幾天勉強擠出一點東西&amp;hellip;這應該是一種數位筆記的習慣，&amp;hellip;.就&amp;hellip;.應該只有我會這樣..就是&amp;hellip;.. &lt;strong&gt;Markdown 標題Heading 的使用方式&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;使用heading&#34;&gt;使用Heading&lt;/h3&gt;
@@ -52,11 +58,17 @@
      target=&#34;_blank&#34;
  &gt;How I use Obsidian&lt;/a&gt;
   ，文章中有提到一個點打中了我。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;It embraces chaos and laziness to create emergent structure.
+
+&lt;div class=&#34;callout note&#34;&gt;
+    &lt;div class=&#34;callout-title&#34;&gt;
+        
+    &lt;/div&gt;
+    &lt;div class=&#34;callout-content&#34;&gt;
+        It embraces chaos and laziness to create emergent structure.
 &lt;br&gt;
-擁抱混亂和懶惰，從而創造出湧現式結構。&lt;/p&gt;
-&lt;/blockquote&gt;
+擁抱混亂和懶惰，從而創造出湧現式結構。
+    &lt;/div&gt;
+&lt;/div&gt;
 &lt;br&gt;
 &lt;h3 id=&#34;決定放手嘗試&#34;&gt;決定放手嘗試&lt;/h3&gt;
 &lt;p&gt;我覺得要把資料庫整理的井然有序而產生一種蠻僵化的詭異感倒不如真的混亂一下看看。&lt;/p&gt;
