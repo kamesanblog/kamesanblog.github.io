@@ -27,13 +27,13 @@ draft: false
 
 什麼時候開始，在自己手機使用這麼簡單的功能都要每月訂閱或連上網路使用社群霉體？常常想著...或許這是手機及軟體公司聯合替我製造了一個虛擬的農場，而我們是農場裡面的幫他們生產雞蛋賺錢的母雞吧？？
 
----
 
->**哲學家康德說：世界，是被我所認識的世界。**
->**"The world as it appears to us is the world as it is structured by our minds."**
->或許同理：**知識，是我所知道的知識。**
+{{< callout >}}
+**哲學家康德說：世界，是被我所認識的世界。**
+**"The world as it appears to us is the world as it is structured by our minds."**
+或許同理：**知識，是我所知道的知識。**
+{{< /callout >}}
 
----
 
 直到接觸Obsidian後才瞭解，Obsidian的創辦人Steph Ango應該就是對於上述這樣的困擾而創建出Obsidian。
 

@@ -16,11 +16,11 @@ draft: false
 ---
 
 
----
 
->這是我的「[BlogBlog 同樂會 - 2026年1月](https://blogblog.club/party/)」的投稿文章之一，本月的主題是「推坑」。歡迎一起來參加！
+{{< callout >}}
+這是我的「[BlogBlog 同樂會 - 2026年1月](https://blogblog.club/party/)」的投稿文章之一，本月的主題是「推坑」。歡迎一起來參加！
+{{< /callout >}}
 
----
 
 
 **請開始紀錄吧。**
