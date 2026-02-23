@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kamesanblog.github.io/</loc>
+    <lastmod>2026-02-23T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesanblog.github.io/gallery/</loc>
+    <lastmod>2026-02-23T00:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://kamesanblog.github.io/categories/</loc>
     <lastmod>2026-02-22T00:00:00+08:00</lastmod>
   </url><url>
@@ -15,9 +21,6 @@
     <lastmod>2026-02-22T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kamesanblog.github.io/categories/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2026-02-22T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://kamesanblog.github.io/</loc>
     <lastmod>2026-02-22T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kamesanblog.github.io/posts/20260222-chaos-header/</loc>

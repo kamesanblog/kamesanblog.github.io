@@ -1,0 +1,142 @@
+{{ define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+  
+  <div class="post-content">
+    <div class="masonry-gallery" id="gallery">
+      {{ range .Site.RegularPages }}
+        {{ $currentPage := . }}
+        {{ range .Resources.ByType "image" }}
+          {{ $thumb := .Resize "800x" }}
+          {{/* 加入 data-src 供 Lightbox 使用原圖 */}}
+          <div class="masonry-item">
+            <a href="{{ .RelPermalink }}" class="lightbox-trigger" data-caption="{{ $currentPage.Title }}">
+              <img src="{{ $thumb.RelPermalink }}" alt="{{ .Name }}" loading="lazy">
+              <div class="gallery-meta">
+                <span>{{ $currentPage.Title }}</span>
+              </div>
+            </a>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</article>
+
+<div id="lightbox-modal" class="lightbox">
+  <span class="close-btn">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+  <div id="lightbox-caption"></div>
+</div>
+
+<style>
+  /* 1. 佈局核心 */
+  .masonry-gallery {
+    column-count: 3;
+    column-gap: 4px;    /* 左右間距 */
+    padding: 10px 0;
+    line-height: 0;    /* 關鍵：消除基線產生的額外垂直間距 */
+  }
+
+  .masonry-item {
+    display: block;    /* 改為 block 確保 margin-bottom 準確執行 */
+    width: 100%;
+    margin-bottom: 4px; /* 上下間距，與左右一致會最整齊 */
+    position: relative;
+    border-radius: 2px; /* 較小的圓角更接近 Minimal 風格 */
+    overflow: hidden;
+    break-inside: avoid; /* 防止圖片跨欄斷裂 */
+  }
+
+  /* 針對 Paper Mode 內容區域的強制覆蓋，防止主題添加額外 margin */
+  .post-content .masonry-gallery a {
+    box-shadow: none !important; /* 移除主題連結預設底線/陰影 */
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block;
+  }
+
+  /* 響應式欄位 */
+  @media (max-width: 900px) { .masonry-gallery { column-count: 2; } }
+  @media (max-width: 600px) { .masonry-gallery { column-count: 1; } }
+
+  .masonry-item img {
+    width: 100%;
+    height: auto;
+    display: block;      /* 消除圖片下方微小的空白 */
+    margin: 0 !important;
+    padding: 0 !important;
+    cursor: zoom-in;
+    transition: filter 0.3s ease;
+  }
+
+  .masonry-item:hover img {
+    filter: brightness(0.8);
+  }
+
+  .gallery-meta {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 8px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.6));
+    color: white;
+    font-size: 0.65rem;
+    line-height: 1.2;    /* 恢復文字行高 */
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+  }
+
+  .masonry-item:hover .gallery-meta { opacity: 1; }
+
+  /* 2. Lightbox 樣式 (維持不變) */
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .lightbox-content {
+    max-width: 95%;
+    max-height: 85%;
+    object-fit: contain;
+  }
+  /* ...其餘 Lightbox 樣式維持原樣... */
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.getElementById('lightbox-modal');
+    const modalImg = document.getElementById('lightbox-img');
+    const captionText = document.getElementById('lightbox-caption');
+    const closeBtn = document.querySelector('.close-btn');
+
+    // 點擊圖片打開 Lightbox
+    document.querySelectorAll('.lightbox-trigger').forEach(trigger => {
+      trigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        modal.style.display = "flex";
+        modalImg.src = this.getAttribute('href');
+        captionText.innerHTML = this.getAttribute('data-caption');
+      });
+    });
+
+    // 關閉 Lightbox
+    closeBtn.onclick = () => { modal.style.display = "none"; };
+    modal.onclick = (e) => { if(e.target === modal) modal.style.display = "none"; };
+    
+    // 按下 ESC 鍵關閉
+    document.addEventListener('keydown', (e) => {
+      if (e.key === "Escape") modal.style.display = "none";
+    });
+  });
+</script>
+{{ end }}
