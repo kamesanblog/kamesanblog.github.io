@@ -61,7 +61,7 @@ blockquote {
 /* 3. 調整 Header (標題) 字體大小 */
 /* 文章頁面的大標題 (H1) */
 .post-title {
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 700;
 }
 
@@ -69,9 +69,54 @@ blockquote {
 .post-content h1 { font-size: 32px; }
 .post-content h2 { font-size: 28px; }
 .post-content h3 { font-size: 24px; }
-
+.post-content h4 { font-size: 20px; }
+.post-content h5 { font-size: 18px; }
+.post-content h6 { font-size: 18px; }
 /* 4. 調整首頁名稱 (Site Title) */
 .logo a {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
+}
+
+
+
+
+/* 設定 Header 浮動固定在頂部 */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100; /* 確保選單在所有內容之上 */
+    background: var(--theme); /* 跟隨主題背景色（深淺色模式自動切換） */
+    border-bottom: 1px solid var(--border); /* 可選：增加底部邊框增加辨識度 */
+}
+
+/* 修正：避免內容被浮動後的 Header 遮擋 (視需求調整) */
+:root {
+    scroll-padding-top: 70px; /* 讓點擊錨點連結時，標題不會被 Header 蓋住 */
+}
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(var(--theme), 0.8); /* 需注意 PaperMod 變數格式，通常需手動指定顏色 */
+    backdrop-filter: blur(10px); /* 毛玻璃效果 */
+    -webkit-backdrop-filter: blur(10px);
+}
+
+
+
+/* 滾動的時候可以把工具列隱藏 */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--theme);
+    /* 核心：增加平滑動畫 */
+    transition: transform 0.3s ease-in-out; 
+    will-change: transform;
+}
+
+/* 建立一個控制隱藏的 Class (由 JS 切換) */
+.header-hidden {
+    transform: translateY(-100%);
 }
