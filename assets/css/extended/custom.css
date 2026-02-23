@@ -1,3 +1,13 @@
+
+
+.header {
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+    background: var(--theme);
+    /* 這裡不要寫 transform，交給 JS 處理 */
+}
+
 blockquote {
   border-left: 5px solid #e2e2e0;
   background: #e2e2e0;
@@ -76,13 +86,4 @@ blockquote {
 .logo a {
     font-size: 30px;
     font-weight: bold;
-}
-
-
-.header {
-    position: sticky !important;
-    top: 0;
-    z-index: 1000;
-    background: var(--theme);
-    /* 這裡不要寫 transform，交給 JS 處理 */
 }
