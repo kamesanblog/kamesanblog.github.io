@@ -11,7 +11,7 @@ layout: "about"
 
 [文章](https://kamesanblog.github.io/posts/20260222-chaos-header/)
 
-{{< callout type="note" >}}
+{{< callout type="" >}}
 It embraces chaos and laziness to create emergent structure.
 <br>
 擁抱混亂和懶惰，從而創造出湧現式結構。

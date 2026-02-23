@@ -78,7 +78,7 @@
 &lt;br&gt;
 &lt;p&gt;為什麼這樣使用？概念想法是來自於
 &lt;ruby&gt;
-&lt;strong&gt;隨機復盤&lt;/strong&gt; &lt;rt&gt;混成一團&lt;/rt&gt;
+&lt;strong&gt;隨機復盤&lt;/strong&gt; &lt;rt&gt;亂成一團&lt;/rt&gt;
 &lt;/ruby&gt;&lt;/p&gt;
 &lt;p&gt;因為想製造某種程度上的混亂&amp;hellip;讓所有的資料庫大部分都只有 H2 H3 H4 的標題，接下來我使用 Vibe Coding 的方式協助我去做隨機顯示 與 複習&amp;hellip;&amp;hellip;，以下列出我的用法：&lt;/p&gt;
 &lt;ul&gt;
@@ -744,7 +744,7 @@ dv.table([&amp;#34;檔案&amp;#34;, &amp;#34;日期&amp;#34;],
 
 &lt;div class=&#34;callout note&#34;&gt;
     &lt;div class=&#34;callout-title&#34;&gt;
-        Note
+        
     &lt;/div&gt;
     &lt;div class=&#34;callout-content&#34;&gt;
         It embraces chaos and laziness to create emergent structure.
@@ -753,7 +753,7 @@ dv.table([&amp;#34;檔案&amp;#34;, &amp;#34;日期&amp;#34;],
     &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;callout note&#34;&gt;
+&lt;div class=&#34;callout &#34;&gt;
   It embraces chaos and laziness to create emergent structure.
 &lt;br&gt;
 擁抱混亂和懶惰，從而創造出湧現式結構。
