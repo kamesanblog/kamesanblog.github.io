@@ -1,6 +1,27 @@
-{{- /* Footer custom content area start */ -}}
-{{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
-{{- /* Footer custom content area end */ -}}
+<script>
+    (function() {
+        // 1. 抓取 Header 元素
+        var header = document.querySelector('.header');
+        if (!header) return;
 
-{{ $js := resources.Get "js/header-hide.js" | minify | fingerprint }}
-<script src="{{ $js.RelPermalink }}"></script>
+        var lastScrollTop = 0;
+
+        // 2. 監聽捲動事件
+        window.addEventListener('scroll', function() {
+            var st = window.pageYOffset || document.documentElement.scrollTop;
+            
+            // 向下捲動超過 80px 隱藏
+            if (st > lastScrollTop && st > 80) {
+                header.style.transform = "translateY(-100%)";
+            } 
+            // 向上捲動顯示
+            else {
+                header.style.transform = "translateY(0)";
+            }
+            lastScrollTop = st <= 0 ? 0 : st;
+        }, { passive: true });
+
+        // 3. 確保 CSS 過渡效果生效
+        header.style.transition = "transform 0.4s ease-in-out";
+    })();
+</script>

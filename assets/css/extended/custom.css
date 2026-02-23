@@ -1,11 +1,10 @@
 
-
 .header {
     position: sticky !important;
     top: 0;
     z-index: 1000;
-    background: var(--theme);
-    /* 這裡不要寫 transform，交給 JS 處理 */
+    background: var(--theme); /* 確保背景不是透明的 */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 blockquote {
@@ -68,7 +67,7 @@ blockquote {
     }
 }
 
-/* 3. 調整 Header (標題) 字體大小 */
+
 /* 文章頁面的大標題 (H1) */
 .post-title {
     font-size: 28px;
