@@ -79,17 +79,10 @@ blockquote {
 }
 
 
-/* assets/css/extended/custom.css */
 .header {
     position: sticky !important;
     top: 0;
     z-index: 1000;
-    background: var(--theme); 
-    transition: transform 0.3s ease-in-out !important;
-    will-change: transform;
-}
-
-/* 這是關鍵：當 JS 加上這個 class 時，Header 才會縮進去 */
-.header-hidden {
-    transform: translateY(-100%) !important;
+    background: var(--theme);
+    /* 這裡不要寫 transform，交給 JS 處理 */
 }

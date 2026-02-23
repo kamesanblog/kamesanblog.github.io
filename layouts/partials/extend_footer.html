@@ -1,3 +1,6 @@
 {{- /* Footer custom content area start */ -}}
 {{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
 {{- /* Footer custom content area end */ -}}
+
+{{ $js := resources.Get "js/header-hide.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}"></script>
