@@ -7,3 +7,7 @@
         {{ .Inner | markdownify }}
     </div>
 </div>
+
+<div class="callout {{ .Get "type" }}">
+  {{ .Inner | markdownify }}
+</div>

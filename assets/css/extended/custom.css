@@ -1,0 +1,45 @@
+blockquote {
+  border-left: 5px solid #e2e2e0;
+  background: #e2e2e0;
+  padding: 1rem;
+  border-radius: 6px;
+}
+.dark blockquote {
+  background: #5a5a59;
+  border-left: 5px solid #5a5a59;
+}
+
+
+/* Callout 基礎樣式 */
+.callout {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border-left: 5px solid;
+    border-radius: 4px;
+    /* 使用 var(--entry) 作為背景，確保深淺模式都能閱讀 */
+    background-color: var(--code-bg); 
+    color: var(--content);
+}
+
+.callout-title {
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* 針對不同類型定義顏色 (支援深淺模式) */
+.callout.note { 
+    border-color: #e2e2e0; 
+    background-color: rgba(68, 138, 255, 0.1); 
+}
+.callout.warning { 
+    border-color: #ff9100; 
+    background-color: rgba(255, 145, 0, 0.1); 
+}
+.callout.danger { 
+    border-color: #ff5252; 
+    background-color: rgba(255, 82, 82, 0.1); 
+}
