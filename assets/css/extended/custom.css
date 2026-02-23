@@ -79,44 +79,17 @@ blockquote {
 }
 
 
-
-
-/* 設定 Header 浮動固定在頂部 */
+/* assets/css/extended/custom.css */
 .header {
-    position: sticky;
+    position: sticky !important;
     top: 0;
-    z-index: 100; /* 確保選單在所有內容之上 */
-    background: var(--theme); /* 跟隨主題背景色（深淺色模式自動切換） */
-    border-bottom: 1px solid var(--border); /* 可選：增加底部邊框增加辨識度 */
-}
-
-/* 修正：避免內容被浮動後的 Header 遮擋 (視需求調整) */
-:root {
-    scroll-padding-top: 70px; /* 讓點擊錨點連結時，標題不會被 Header 蓋住 */
-}
-.header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: rgba(var(--theme), 0.8); /* 需注意 PaperMod 變數格式，通常需手動指定顏色 */
-    backdrop-filter: blur(10px); /* 毛玻璃效果 */
-    -webkit-backdrop-filter: blur(10px);
-}
-
-
-
-/* 滾動的時候可以把工具列隱藏 */
-.header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: var(--theme);
-    /* 核心：增加平滑動畫 */
-    transition: transform 0.3s ease-in-out; 
+    z-index: 1000;
+    background: var(--theme); 
+    transition: transform 0.3s ease-in-out !important;
     will-change: transform;
 }
 
-/* 建立一個控制隱藏的 Class (由 JS 切換) */
+/* 這是關鍵：當 JS 加上這個 class 時，Header 才會縮進去 */
 .header-hidden {
-    transform: translateY(-100%);
+    transform: translateY(-100%) !important;
 }
