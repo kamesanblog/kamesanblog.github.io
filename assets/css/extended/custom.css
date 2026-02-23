@@ -86,3 +86,56 @@ blockquote {
     font-size: 30px;
     font-weight: bold;
 }
+
+
+/* 修改首頁文章列表的標題大小 */
+.post-entry .entry-header h2 {
+    font-size: 1.2rem !important; /* 調整為你喜歡的大小，例如 1.4rem */
+    line-height: 1.3;
+}
+
+/* 修改文章內頁（Single Page）的標題大小 */
+.post-single .post-header .post-title {
+    font-size: 1.6rem !important; /* 原本可能接近 2.5rem，縮小至 1.8rem */
+    margin-bottom: 10px;
+}
+
+
+
+/* 調整導覽列左側網站標題 (Site Title) 的大小 */
+.logo a {
+    font-size: 24px !important; /* 原本較大，可依喜好調整，如 20px - 24px */
+    font-weight: 600 !important; /* 稍微減輕粗體重量，讓視覺更輕盈 */
+    letter-spacing: 1px; /* 增加一點字距感 */
+}
+
+/* 針對行動裝置微調（選用） */
+@media screen and (max-width: 768px) {
+    .logo a {
+        font-size: 20px !important;
+    }
+}
+
+
+
+
+
+
+/* 1. 修改首頁頂部大標題 (閱讀 繪畫 生活) */
+.main .first-entry .entry-header h1 {
+    font-size: 1.8rem !important;  /* 原本可能大於 3rem，建議縮小至 1.8rem - 2.2rem */
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* 2. 修改下方的部落格描述文字 (卡美桑的部落格...) */
+.main .first-entry .entry-content {
+    font-size: 1rem !important;  /* 縮小描述文字 */
+    color: #666;                 /* 稍微調淺顏色增加層次感 */
+}
+
+/* 3. 如果您想連同旁邊那個信封圖示 (Social Link) 也縮小 */
+.social-icons a svg {
+    height: 24px !important;
+    width: 24px !important;
+}

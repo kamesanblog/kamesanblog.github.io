@@ -14,7 +14,7 @@ keywords:
   - 複習
 draft: false 
 cover:
-    image: "20251014001.jpg"
+    image: ""
     alt: ""
     caption: ""
     relative: true
@@ -25,7 +25,7 @@ editPost:
     appendFilePath: false
 ---
 
-
+![](/20251014001.jpg)
 
 ### 困擾
 

@@ -440,7 +440,8 @@ Obsidian的存在只是幫我們管理與連結筆記跟筆記之間的關係。
       <link>https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/</link>
       <pubDate>Tue, 14 Oct 2025 18:53:00 +0800</pubDate>
       <guid>https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/</guid>
-      <description>&lt;h3 id=&#34;困擾&#34;&gt;困擾&lt;/h3&gt;
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/20251014001.jpg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;困擾&#34;&gt;困擾&lt;/h3&gt;
 &lt;p&gt;Obsidian使用了半年多之後，發現我好像有很多筆記被遺忘在我的資料庫大海內&amp;hellip;而且我算滿懶惰的，不喜歡去大海撈針&amp;hellip;就算我真的想到有某則筆記，還是需使用查詢功能，其實是很方便沒錯，但我希望資料庫自己提醒我就好，因此又請AI 幫忙了，這個方式對於會寫code的朋友一定會覺得：這樣的基礎，你應該會知道吧？..很可惜我真的不知道&amp;hellip;.
 所以我請AI協助我寫出：顯示我的資料庫內超過30天沒動過的筆記，&lt;/p&gt;
 &lt;p&gt;下面是我使用的dataview&lt;/p&gt;
@@ -630,7 +631,8 @@ sort file.mday asc
       <link>https://kamesanblog.github.io/posts/20250927-obsidian-dayone-onthisday/</link>
       <pubDate>Sat, 27 Sep 2025 10:58:00 +0800</pubDate>
       <guid>https://kamesanblog.github.io/posts/20250927-obsidian-dayone-onthisday/</guid>
-      <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://kamesanblog.github.io/posts/20250927-obsidian-dayone-onthisday/20250927001.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
 &lt;p&gt;卡美桑個性其實蠻念舊的&amp;hellip;所以有了智慧型手機後就有記錄一些日常的活動，當時購買了Dayone app以爲可以用到天荒地老&amp;hellip;&amp;hellip;但好景不常後來Dayone遇到&lt;a href=&#34;https://wiwi.blog/blog/notebooklm-enshittification&#34;
      rel=&#34;noopener&#34;
      class=&#34;external-link&#34;
@@ -746,35 +748,10 @@ dv.table([&amp;#34;檔案&amp;#34;, &amp;#34;日期&amp;#34;],
       <link>https://kamesanblog.github.io/about/</link>
       <pubDate>Tue, 23 Sep 2025 10:30:00 +0800</pubDate>
       <guid>https://kamesanblog.github.io/about/</guid>
-      <description>&lt;p&gt;卡美桑的家在這裡唷&lt;/p&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;p&gt;&lt;a href=&#34;https://kamesanblog.github.io/posts/20260222-chaos-header/&#34;
-     rel=&#34;noopener&#34;
-     class=&#34;external-link&#34;
-     target=&#34;_blank&#34;
- &gt;文章&lt;/a&gt;
- &lt;/p&gt;
-
-
-&lt;div class=&#34;callout &#34;&gt;
-  It embraces chaos and laziness to create emergent structure.
-&lt;br&gt;
-擁抱混亂和懶惰，從而創造出湧現式結構。
-&lt;/div&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;p&gt;&lt;a href=&#34;https://kamesanblog.github.io/posts/20251212-whyobsidian/&#34;
-     rel=&#34;noopener&#34;
-     class=&#34;external-link&#34;
-     target=&#34;_blank&#34;
- &gt;文章&lt;/a&gt;
- &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;哲學家康德說：世界，是被我所認識的世界。&lt;/strong&gt;
-&lt;strong&gt;&amp;ldquo;The world as it appears to us is the world as it is structured by our minds.&amp;rdquo;&lt;/strong&gt;
-或許同理：&lt;strong&gt;知識，是我所知道的知識。&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+      <description>&lt;h3 id=&#34;自介me&#34;&gt;自介/me&lt;/h3&gt;
+&lt;h3 id=&#34;卡美桑近況-now&#34;&gt;卡美桑近況 /now&lt;/h3&gt;
+&lt;h3 id=&#34;現在愛用什麼-use&#34;&gt;現在愛用什麼 /use&lt;/h3&gt;
+&lt;h3 id=&#34;部落卷-blogroll&#34;&gt;部落卷 /blogroll&lt;/h3&gt;
 </description>
     </item><item>
       <title>Archives</title>

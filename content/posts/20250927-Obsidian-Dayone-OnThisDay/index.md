@@ -13,7 +13,7 @@ keywords:
   - 綁架
 draft: false 
 cover:
-    image: "20250927001.jpg"
+    image: ""
     alt: ""
     caption: ""
     relative: true
@@ -23,6 +23,9 @@ editPost:
     Text: ""
     appendFilePath: false
 ---
+
+
+![](/20250927001.jpg)
 
 ## 起因
 
