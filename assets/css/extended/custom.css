@@ -145,3 +145,22 @@ blockquote {
     background-color: #8b8b8b !important; /* 強制覆蓋動態生成的背景色 */
     color: #fff !important;
 }
+
+/* 預設（淺色模式） */
+:root {
+    --tag-bg-start-r: 245; --tag-bg-start-g: 244; --tag-bg-start-b: 242;
+    --tag-bg-end-r: 82;   --tag-bg-end-g: 80;   --tag-bg-end-b: 77;
+    --tag-text-light: #333333;
+    --tag-text-dark: #ffffff; /* 這是反白用的純白色 */
+}
+
+/* 深色模式下 */
+.dark {
+    /* 調整深色模式的漸層色值，避免刺眼 */
+    --tag-bg-start-r: 60;  --tag-bg-start-g: 60;  --tag-bg-start-b: 65;
+    --tag-bg-end-r: 140;  --tag-bg-end-g: 140;  --tag-bg-end-b: 145;
+    
+    /* 在深色模式下，即使是反白也可以稍微帶點灰，比較舒服 */
+    --tag-text-dark: #fcfcfc; 
+    --tag-text-light: #bcbcbc;
+}

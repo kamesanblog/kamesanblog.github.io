@@ -8,20 +8,20 @@
 {{- if site.Taxonomies.categories }}
   <h2 style="margin: 20px 0 10px 0;">分類</h2>
   <div class="archive-tax-wrapper" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 30px;">
-    {{/* 加上 .Reverse 讓最多的排在最前面 */}}
-    {{- range site.Taxonomies.categories.ByCount }}
+    {{- range site.Taxonomies.categories.ByCount.Reverse }}
       {{- $cnt := float .Count }}
-      {{/* 將分母設定為 30.0，這樣 22 篇就會有明顯的深色效果 */}}
-      {{- $max := 35.0 }}
+      {{- $max := 30.0 }}
       {{- if gt $cnt $max }}{{ $cnt = $max }}{{ end }}
       {{- $ratio := div $cnt $max }}
       
-      {{- $r := sub 245 (mul $ratio 163) }}
-      {{- $g := sub 244 (mul $ratio 164) }}
-      {{- $b := sub 242 (mul $ratio 165) }}
-      
       <a href="{{ .Page.Permalink }}" 
-         style="background-color: rgb({{ $r }},{{ $g }},{{ $b }}); color: {{ if gt $ratio 0.5 }}#ffffff{{ else }}#333333{{ end }}; padding: 5px 12px; border-radius: 6px; text-decoration: none; font-size: 14px; display: inline-block;">
+         style="background-color: rgb(
+            calc(var(--tag-bg-start-r) + (var(--tag-bg-end-r) - var(--tag-bg-start-r)) * {{ $ratio }}),
+            calc(var(--tag-bg-start-g) + (var(--tag-bg-end-g) - var(--tag-bg-start-g)) * {{ $ratio }}),
+            calc(var(--tag-bg-start-b) + (var(--tag-bg-end-b) - var(--tag-bg-start-b)) * {{ $ratio }})
+          );
+          color: {{ if gt $ratio 0.5 }}var(--tag-text-dark){{ else }}var(--tag-text-light){{ end }} !important;
+          padding: 5px 12px; border-radius: 6px; text-decoration: none; font-size: 14px; display: inline-block;">
         {{ .Page.Title }} ({{ .Count }})
       </a>
     {{- end }}
@@ -32,19 +32,20 @@
 {{- if site.Taxonomies.tags }}
   <h2 style="margin: 20px 0 10px 0;">標籤</h2>
   <div class="archive-tax-wrapper" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 40px;">
-    {{- range site.Taxonomies.tags.ByCount }}
+    {{- range site.Taxonomies.tags.ByCount.Reverse }}
       {{- $cnt := float .Count }}
-      {{/* 標籤也同樣以 30.0 為漸層終點 */}}
-      {{- $max := 35.0 }}
+      {{- $max := 30.0 }}
       {{- if gt $cnt $max }}{{ $cnt = $max }}{{ end }}
       {{- $ratio := div $cnt $max }}
       
-      {{- $r := sub 245 (mul $ratio 163) }}
-      {{- $g := sub 244 (mul $ratio 164) }}
-      {{- $b := sub 242 (mul $ratio 165) }}
-      
       <a href="{{ .Page.Permalink }}" 
-         style="background-color: rgb({{ $r }},{{ $g }},{{ $b }}); color: {{ if gt $ratio 0.5 }}#ffffff{{ else }}#333333{{ end }}; padding: 5px 12px; border-radius: 6px; text-decoration: none; font-size: 14px; display: inline-block;">
+         style="background-color: rgb(
+            calc(var(--tag-bg-start-r) + (var(--tag-bg-end-r) - var(--tag-bg-start-r)) * {{ $ratio }}),
+            calc(var(--tag-bg-start-g) + (var(--tag-bg-end-g) - var(--tag-bg-start-g)) * {{ $ratio }}),
+            calc(var(--tag-bg-start-b) + (var(--tag-bg-end-b) - var(--tag-bg-start-b)) * {{ $ratio }})
+          );
+          color: {{ if gt $ratio 0.5 }}var(--tag-text-dark){{ else }}var(--tag-text-light){{ end }} !important;
+          padding: 5px 12px; border-radius: 6px; text-decoration: none; font-size: 14px; display: inline-block;">
         {{ .Page.Title }} ({{ .Count }})
       </a>
     {{- end }}
