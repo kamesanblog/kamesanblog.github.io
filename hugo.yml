@@ -90,33 +90,25 @@ services:
 menu:
   main:
   - identifier: archives
-    name: 歸檔
+    name: 總覽
     url: /archives/
     weight: 10
-  - identifier: categories
-    name: 分類
-    url: /categories/
-    weight: 20
-  - identifier: tags
-    name: 標籤
-    url: /tags/
-    weight: 30
   - identifier: gallery
     name: 相片
     url: /gallery/
-    weight: 40
+    weight: 20
   - identifier: about
     name: 我哦
     url: /about/
-    weight: 50
+    weight: 30
   - identifier: random
     name: 隨機
     url: /random/
-    weight: 60
+    weight: 40
   - identifier: search
     name: 搜尋
     url: /search/
-    weight: 70
+    weight: 50
 
 
 

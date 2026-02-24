@@ -139,3 +139,9 @@ blockquote {
     height: 24px !important;
     width: 24px !important;
 }
+
+/* Tags色標設定 */
+.terms-tags a:hover {
+    background-color: #8b8b8b !important; /* 強制覆蓋動態生成的背景色 */
+    color: #fff !important;
+}

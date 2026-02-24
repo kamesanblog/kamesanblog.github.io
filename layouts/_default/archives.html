@@ -1,83 +1,76 @@
 {{- define "main" }}
 
 <header class="page-header">
-  <h1>
-    {{ .Title }}
-    {{- if (.Param "ShowRssButtonInSectionTermList") }}
-    {{- $rss := (.OutputFormats.Get "rss") }}
-    {{- if (eq .Kind `page`) }}
-    {{- $rss = (.Parent.OutputFormats.Get "rss") }}
-    {{- end }}
-    {{- with $rss }}
-    <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" height="23">
-        <path d="M4 11a9 9 0 0 1 9 9" />
-        <path d="M4 4a16 16 0 0 1 16 16" />
-        <circle cx="5" cy="19" r="1" />
-      </svg>
-    </a>
-    {{- end }}
-    {{- end }}
-  </h1>
-  {{- if .Description }}
-  <div class="post-description">
-    {{ .Description }}
-  </div>
-  {{- end }}
+  <h1>{{ .Title }}</h1>
 </header>
 
-{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-
-{{- if site.Params.ShowAllPagesInArchive }}
-{{- $pages = site.RegularPages }}
-{{- end }}
-
-{{- range $pages.GroupByPublishDate "2006" }}
-{{- if ne .Key "0001" }}
-<div class="archive-year">
-  {{- $year := replace .Key "0001" "" }}
-  <h2 class="archive-year-header" id="{{ $year }}">
-    <a class="archive-header-link" href="#{{ $year }}">
-      {{- $year -}}
-    </a>
-    <sup class="archive-count">&nbsp;{{ len .Pages }}</sup>
-  </h2>
-  {{- range .Pages.GroupByDate "January" }}
-  <div class="archive-month">
-    <h3 class="archive-month-header" id="{{ $year }}-{{ .Key }}">
-      <a class="archive-header-link" href="#{{ $year }}-{{ .Key }}">
-        {{- .Key -}}
+{{/* --- 1. 分類區塊 --- */}}
+{{- if site.Taxonomies.categories }}
+  <h2 style="margin: 20px 0 10px 0;">分類</h2>
+  <div class="archive-tax-wrapper" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 30px;">
+    {{/* 加上 .Reverse 讓最多的排在最前面 */}}
+    {{- range site.Taxonomies.categories.ByCount }}
+      {{- $cnt := float .Count }}
+      {{/* 將分母設定為 30.0，這樣 22 篇就會有明顯的深色效果 */}}
+      {{- $max := 35.0 }}
+      {{- if gt $cnt $max }}{{ $cnt = $max }}{{ end }}
+      {{- $ratio := div $cnt $max }}
+      
+      {{- $r := sub 245 (mul $ratio 163) }}
+      {{- $g := sub 244 (mul $ratio 164) }}
+      {{- $b := sub 242 (mul $ratio 165) }}
+      
+      <a href="{{ .Page.Permalink }}" 
+         style="background-color: rgb({{ $r }},{{ $g }},{{ $b }}); color: {{ if gt $ratio 0.5 }}#ffffff{{ else }}#333333{{ end }}; padding: 5px 12px; border-radius: 6px; text-decoration: none; font-size: 14px; display: inline-block;">
+        {{ .Page.Title }} ({{ .Count }})
       </a>
-      <sup class="archive-count">&nbsp;{{ len .Pages }}</sup>
-    </h3>
-    <div class="archive-posts">
-      {{- range .Pages }}
-      {{- if eq .Kind "page" }}
-      <div class="archive-entry">
-        <h3 class="archive-entry-title entry-hint-parent">
-          {{- .Title | markdownify }}
-          {{- if .Draft }}
-          <span class="entry-hint" title="Draft">
-            <svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 -960 960 960" fill="currentColor">
-              <path
-                d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-            </svg>
-          </span>
-          {{- end }}
-        </h3>
-        <div class="archive-meta">
-          {{- partial "post_meta.html" . -}}
-        </div>
-        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-      </div>
-      {{- end }}
-      {{- end }}
-    </div>
+    {{- end }}
   </div>
-  {{- end }}
-</div>
-{{- end }}
 {{- end }}
 
-{{- end }}{{/* end main */}}
+{{/* --- 2. 標籤區塊 --- */}}
+{{- if site.Taxonomies.tags }}
+  <h2 style="margin: 20px 0 10px 0;">標籤</h2>
+  <div class="archive-tax-wrapper" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 40px;">
+    {{- range site.Taxonomies.tags.ByCount }}
+      {{- $cnt := float .Count }}
+      {{/* 標籤也同樣以 30.0 為漸層終點 */}}
+      {{- $max := 35.0 }}
+      {{- if gt $cnt $max }}{{ $cnt = $max }}{{ end }}
+      {{- $ratio := div $cnt $max }}
+      
+      {{- $r := sub 245 (mul $ratio 163) }}
+      {{- $g := sub 244 (mul $ratio 164) }}
+      {{- $b := sub 242 (mul $ratio 165) }}
+      
+      <a href="{{ .Page.Permalink }}" 
+         style="background-color: rgb({{ $r }},{{ $g }},{{ $b }}); color: {{ if gt $ratio 0.5 }}#ffffff{{ else }}#333333{{ end }}; padding: 5px 12px; border-radius: 6px; text-decoration: none; font-size: 14px; display: inline-block;">
+        {{ .Page.Title }} ({{ .Count }})
+      </a>
+    {{- end }}
+  </div>
+{{- end }}
+
+{{/* --- 3. 文章列表維持原樣 --- */}}
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- range $pages.GroupByPublishDate "2006" }}
+  <div class="archive-year">
+    <h2 class="archive-year-header">{{ .Key }}</h2>
+    {{- range .Pages.GroupByDate "January" }}
+      <div class="archive-month">
+        <h3 class="archive-month-header">{{ .Key }}</h3>
+        <div class="archive-posts">
+          {{- range .Pages }}
+            <div class="archive-entry" style="position: relative; margin-bottom: 15px;">
+              <h3 class="archive-entry-title">{{ .Title | markdownify }}</h3>
+              <div class="archive-meta">{{- partial "post_meta.html" . -}}</div>
+              <a class="entry-link" href="{{ .Permalink }}"></a>
+            </div>
+          {{- end }}
+        </div>
+      </div>
+    {{- end }}
+  </div>
+{{- end }}
+
+{{- end }}

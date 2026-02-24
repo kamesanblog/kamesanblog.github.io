@@ -31,7 +31,7 @@ draft: false
 將當下煩惱記錄下來；分析情緒與原因；記錄解決方式。
 
 
-其中自己的編年史的部分，啟發我一些obsidian 製作年度總覽template 的想法。非常開心~感謝作者與瓦基！
+其中自己的編年史的部分，啟發我一些[Obsidian](https://kamesanblog.github.io/posts/20251212-whyobsidian/) 製作年度總覽template 的想法。非常開心~感謝作者與瓦基！
    
 
 

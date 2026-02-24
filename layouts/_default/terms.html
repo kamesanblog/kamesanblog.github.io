@@ -3,25 +3,42 @@
 {{- if .Title }}
 <header class="page-header">
     <h1>{{ .Title }}</h1>
-    {{- if .Description }}
-    <div class="post-description">
-        {{ .Description }}
-    </div>
-    {{- end }}
 </header>
 {{- end }}
 
 <ul class="terms-tags">
     {{- $type := .Type }}
-    {{- range $key, $value := .Data.Terms.Alphabetical }}
+    {{/* 依照文章數由多到少排序 */}}
+    {{- range .Data.Terms.ByCount }}
     {{- $name := .Name }}
     {{- $count := .Count }}
+    
+    {{/* 1. 計算比率：以 255 為基準，超過 255 則固定為 1.0 */}}
+    {{- $cappedCount := $count }}
+    {{- if gt $count 255 }}{{ $cappedCount = 255 }}{{ end }}
+    {{- $ratio := div (float $cappedCount) 30.0 }}
+    
+    {{/* 2. 計算背景 RGB 數值 (從 #F5F4F2 漸變到 #52504D) */}}
+    {{/* 起始色 R:245, G:244, B:242 | 結束色 R:82, G:80, B:77 */}}
+    {{- $r := sub 245 (mul $ratio 163) }}
+    {{- $g := sub 244 (mul $ratio 164) }}
+    {{- $b := sub 242 (mul $ratio 165) }}
+    
     {{- with site.GetPage (printf "/%s/%s" $type $name) }}
     <li>
-        <a href="{{ .Permalink }}">{{ .Name }} <sup><strong><sup>{{ $count }}</sup></strong></sup> </a>
+        <a href="{{ .Permalink }}" 
+           style="background-color: rgb({{ $r }}, {{ $g }}, {{ $b }}); 
+                  color: {{ if gt $ratio 0.6 }}#ffffff{{ else }}#333333{{ end }}; 
+                  padding: 4px 12px; 
+                  border-radius: 6px; 
+                  display: inline-block; 
+                  margin: 4px 2px;
+                  transition: transform 0.2s ease;">
+            {{ .Name }} <sup><strong>{{ $count }}</strong></sup>
+        </a>
     </li>
     {{- end }}
     {{- end }}
 </ul>
 
-{{- end }}{{/* end main */ -}}
+{{- end }}
