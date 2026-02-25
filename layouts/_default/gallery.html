@@ -9,7 +9,7 @@
       {{ range .Site.RegularPages }}
         {{ $currentPage := . }}
         {{ range .Resources.ByType "image" }}
-          {{ $thumb := .Resize "800x" }}
+          {{ $thumb := .Resize "600x" }} {{/* 手機端 600px 夠用了，產圖更快 */}}
           <div class="masonry-item">
             <a href="{{ .RelPermalink }}" 
                class="lightbox-trigger" 
@@ -34,52 +34,39 @@
 </div>
 
 <style>
-  /* 1. 基礎佈局 (電腦端) */
+  /* --- 畫廊核心：強制鎖定比例 --- */
   .masonry-gallery {
-    column-count: 3;
-    column-gap: 8px;    /* 電腦端間距稍微加大 */
+    column-count: 3;    /* 強制所有裝置都是 3 欄 */
+    column-gap: 4px;    /* 左右間距 */
     padding: 10px 0;
     line-height: 0;
-  }
-
-  /* 2. iPad / 平板優化 (螢幕 1024px 以下) */
-  @media (max-width: 1024px) {
-    .masonry-gallery {
-      column-count: 3;  /* iPad 建議維持 3 欄比較精緻 */
-      column-gap: 6px;
-    }
-  }
-
-  /* 3. 手機優化 (螢幕 600px 以下) */
-  @media (max-width: 600px) {
-    .masonry-gallery {
-      column-count: 2;  /* 手機強制 2 欄，才有 Minimal 的密鋪感 */
-      column-gap: 4px;  /* 縮小間距，增加圖片顯示面積 */
-    }
-    .gallery-meta {
-      font-size: 0.5rem; /* 手機端文字縮小 */
-      padding: 4px;
-    }
   }
 
   .masonry-item {
     display: block;
     width: 100%;
-    margin-bottom: 8px; /* 電腦端上下間距 */
+    margin-bottom: 4px; /* 上下間距 */
     position: relative;
     border-radius: 2px;
     overflow: hidden;
     break-inside: avoid;
   }
 
-  /* 手機端上下間距同步縮小 */
+  /* 針對手機端的比例微調 */
   @media (max-width: 600px) {
+    .masonry-gallery {
+      column-gap: 2px;  /* 手機螢幕小，間距再縮小一點才精緻 */
+    }
     .masonry-item {
-      margin-bottom: 4px; 
+      margin-bottom: 2px; 
+    }
+    .gallery-meta {
+      font-size: 0.5rem !important; /* 手機標題字體縮小 */
+      padding: 4px !important;
     }
   }
 
-  /* 移除主題預設樣式 */
+  /* 移除主題干擾 */
   .post-content .masonry-gallery a {
     box-shadow: none !important;
     margin: 0 !important;
@@ -93,6 +80,10 @@
     display: block;
     cursor: zoom-in;
     transition: filter 0.3s ease;
+  }
+
+  .masonry-item:hover img {
+    filter: brightness(0.8);
   }
 
   .gallery-meta {
@@ -110,7 +101,7 @@
 
   .masonry-item:hover .gallery-meta { opacity: 1; }
 
-  /* 4. Lightbox 行動端優化 */
+  /* --- Lightbox 樣式 --- */
   .lightbox {
     display: none;
     position: fixed;
@@ -125,27 +116,30 @@
 
   .lightbox-content {
     max-width: 95%;
-    max-height: 80vh; /* 限制高度，留空間給文字 */
+    max-height: 80vh; /* 留出空間給連結 */
     object-fit: contain;
   }
 
   #lightbox-caption {
     margin-top: 15px;
-    font-size: 0.9rem;
-    padding: 0 20px;
+    font-size: 0.8rem; /* 行動端稍微縮小連結字體 */
+    line-height: 1.5;
     text-align: center;
+    padding: 0 10px;
   }
 
   #lightbox-caption a {
     color: #fff;
     text-decoration: underline;
+    font-weight: bold;
   }
 
   .close-btn {
     position: absolute;
-    top: 10px; right: 20px; /* 行動端位置稍微調整 */
+    top: 20px; right: 25px;
     color: #fff;
     font-size: 35px;
+    font-weight: bold;
     cursor: pointer;
   }
 </style>
