@@ -8,7 +8,7 @@
 {{- if site.Taxonomies.categories }}
   <h2 style="margin: 20px 0 10px 0;">分類</h2>
   <div class="archive-tax-wrapper" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 30px;">
-    {{- range site.Taxonomies.categories.ByCount.Reverse }}
+    {{- range site.Taxonomies.categories.ByCount }}
       {{- $cnt := float .Count }}
       {{- $max := 30.0 }}
       {{- if gt $cnt $max }}{{ $cnt = $max }}{{ end }}
@@ -32,7 +32,7 @@
 {{- if site.Taxonomies.tags }}
   <h2 style="margin: 20px 0 10px 0;">標籤</h2>
   <div class="archive-tax-wrapper" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 40px;">
-    {{- range site.Taxonomies.tags.ByCount.Reverse }}
+    {{- range site.Taxonomies.tags.ByCount }}
       {{- $cnt := float .Count }}
       {{- $max := 30.0 }}
       {{- if gt $cnt $max }}{{ $cnt = $max }}{{ end }}
