@@ -11,7 +11,6 @@
         {{ range .Resources.ByType "image" }}
           {{ $thumb := .Resize "800x" }}
           <div class="masonry-item">
-            {{/* 修改處：新增 data-url 來傳遞該頁面的連結 */}}
             <a href="{{ .RelPermalink }}" 
                class="lightbox-trigger" 
                data-caption="{{ $currentPage.Title }}" 
@@ -35,24 +34,52 @@
 </div>
 
 <style>
-  /* 1. 佈局核心 */
+  /* 1. 基礎佈局 (電腦端) */
   .masonry-gallery {
     column-count: 3;
-    column-gap: 4px;
+    column-gap: 8px;    /* 電腦端間距稍微加大 */
     padding: 10px 0;
     line-height: 0;
+  }
+
+  /* 2. iPad / 平板優化 (螢幕 1024px 以下) */
+  @media (max-width: 1024px) {
+    .masonry-gallery {
+      column-count: 3;  /* iPad 建議維持 3 欄比較精緻 */
+      column-gap: 6px;
+    }
+  }
+
+  /* 3. 手機優化 (螢幕 600px 以下) */
+  @media (max-width: 600px) {
+    .masonry-gallery {
+      column-count: 2;  /* 手機強制 2 欄，才有 Minimal 的密鋪感 */
+      column-gap: 4px;  /* 縮小間距，增加圖片顯示面積 */
+    }
+    .gallery-meta {
+      font-size: 0.5rem; /* 手機端文字縮小 */
+      padding: 4px;
+    }
   }
 
   .masonry-item {
     display: block;
     width: 100%;
-    margin-bottom: 4px;
+    margin-bottom: 8px; /* 電腦端上下間距 */
     position: relative;
     border-radius: 2px;
     overflow: hidden;
     break-inside: avoid;
   }
 
+  /* 手機端上下間距同步縮小 */
+  @media (max-width: 600px) {
+    .masonry-item {
+      margin-bottom: 4px; 
+    }
+  }
+
+  /* 移除主題預設樣式 */
   .post-content .masonry-gallery a {
     box-shadow: none !important;
     margin: 0 !important;
@@ -60,21 +87,12 @@
     display: block;
   }
 
-  @media (max-width: 900px) { .masonry-gallery { column-count: 2; } }
-  @media (max-width: 600px) { .masonry-gallery { column-count: 1; } }
-
   .masonry-item img {
     width: 100%;
     height: auto;
     display: block;
-    margin: 0 !important;
-    padding: 0 !important;
     cursor: zoom-in;
     transition: filter 0.3s ease;
-  }
-
-  .masonry-item:hover img {
-    filter: brightness(0.8);
   }
 
   .gallery-meta {
@@ -92,7 +110,7 @@
 
   .masonry-item:hover .gallery-meta { opacity: 1; }
 
-  /* 2. Lightbox 樣式 */
+  /* 4. Lightbox 行動端優化 */
   .lightbox {
     display: none;
     position: fixed;
@@ -107,29 +125,27 @@
 
   .lightbox-content {
     max-width: 95%;
-    max-height: 85%;
+    max-height: 80vh; /* 限制高度，留空間給文字 */
     object-fit: contain;
   }
 
-  /* 修改處：Lightbox 下方連結的樣式 */
   #lightbox-caption {
     margin-top: 15px;
     font-size: 0.9rem;
-    line-height: 1.5;
+    padding: 0 20px;
+    text-align: center;
   }
 
   #lightbox-caption a {
     color: #fff;
     text-decoration: underline;
-    font-weight: bold;
   }
 
   .close-btn {
     position: absolute;
-    top: 20px; right: 30px;
+    top: 10px; right: 20px; /* 行動端位置稍微調整 */
     color: #fff;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 35px;
     cursor: pointer;
   }
 </style>
@@ -146,8 +162,6 @@
         e.preventDefault();
         modal.style.display = "flex";
         modalImg.src = this.getAttribute('href');
-        
-        // 修改處：抓取標題與網址，並組合成超連結
         const caption = this.getAttribute('data-caption');
         const url = this.getAttribute('data-url');
         captionText.innerHTML = `<a href="${url}">${caption}</a>`;
@@ -156,7 +170,6 @@
 
     closeBtn.onclick = () => { modal.style.display = "none"; };
     modal.onclick = (e) => { if(e.target === modal) modal.style.display = "none"; };
-    
     document.addEventListener('keydown', (e) => {
       if (e.key === "Escape") modal.style.display = "none";
     });
