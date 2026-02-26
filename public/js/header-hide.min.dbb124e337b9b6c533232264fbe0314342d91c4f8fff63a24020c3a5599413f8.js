@@ -1,1 +1,0 @@
-window.onscroll=function(){var e=document.querySelector(".header");window.pageYOffset>100?(e.style.transition="transform 0.3s",e.style.transform="translateY(-100%)"):e.style.transform="translateY(0)"}

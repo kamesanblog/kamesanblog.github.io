@@ -6,6 +6,7 @@ title: '卡美桑的家'
 languageName: "繁體中文"
 pagination.pagerSize: 5
 theme: 'PaperMod'
+url: "javascript:goToRandomPost()"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -124,5 +125,3 @@ markup:
   rss:
     limit: -1
 
-
- 

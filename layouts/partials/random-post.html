@@ -1,0 +1,18 @@
+<script>
+const posts = [
+  {{ range where .Site.RegularPages "Section" "posts" }}
+    {
+      title: "{{ .Title }}",
+      url: "{{ .RelPermalink }}"
+    },
+  {{ end }}
+];
+
+const p = posts[Math.floor(Math.random() * posts.length)];
+document.write(
+  `<div class="random-post">
+     <strong>隨機推薦：</strong>
+     <a href="${p.url}">${p.title}</a>
+   </div>`
+);
+</script>
