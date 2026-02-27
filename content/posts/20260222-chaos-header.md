@@ -97,9 +97,9 @@ It embraces chaos and laziness to create emergent structure.
 
 **感謝所有的巨人**
 
-- 只贏 - [我不想知道我不想知道的事](https://onlywin.substack.com/p/3b0)
+- **只贏** - [我不想知道我不想知道的事](https://onlywin.substack.com/p/3b0)
 
-- Steph Ango - [How I use Obsidian](https://stephango.com/vault#theme-and-related-tools) 
+- **Steph Ango** - [How I use Obsidian](https://stephango.com/vault#theme-and-related-tools) 
 
 
 
