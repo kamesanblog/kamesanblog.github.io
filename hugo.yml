@@ -28,7 +28,7 @@ params:
   disableThemeToggle: false
   dataFormat: "2025-9-23"
   ShowReadingTime: false
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
