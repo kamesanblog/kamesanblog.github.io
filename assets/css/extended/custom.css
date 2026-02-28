@@ -164,3 +164,101 @@ blockquote {
     --tag-text-dark: #fcfcfc; 
     --tag-text-light: #bcbcbc;
 }
+
+
+/* Archives縮小年份與月份的間距 */
+.archive-year {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* 改變文章標題顏色與大小 */
+.archive-entry-title {
+    font-size: 1.1rem;
+    color: #333;
+    padding-bottom: 1px;
+    margin-top: 1px;
+}
+
+/* 讓日期資訊更淡一點 */
+.archive-meta {
+    color: #b2b2b2;
+    font-size: 0.8rem;
+    padding-bottom: -1px;
+    margin-top: -8px;
+}
+
+/* 修改年份標題 (例如：2026) */
+.archive-year-header {
+    font-size: 1.8rem;       /* 字體大小 */
+    color: #68655f;        /* 顏色 */
+    border-bottom: 0px solid #eee; /* 下底線 */
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+/* 修改月份標題 (例如：February) */
+.archive-month-header {
+    font-size: 1.4rem;     /* 稍微比年份小一點 */
+    color: #555;           /* 較淡的顏色 */
+    margin-top: 13px;      /* 與上方年份或上個月的間距 */
+    margin-left: 5px;     /* 向右縮進，增加層次感 */
+    
+}
+
+
+
+
+/* --- 縮小首頁文章卡片間距與留白 --- */
+
+/* 1. 同時縮小外部間距 (margin) 與內部留白 (padding) */
+.post-entry {
+    margin-bottom: 12px !important; /* 卡片與下一個卡片的距離，原預設約 30px */
+    padding: 15px !important;       /* 卡片四周的內部留白，縮小讓卡片變扁 */
+}
+
+/* 2. 針對第一篇文章 (Profile Mode) 若也想縮小 */
+.first-entry {
+    margin-bottom: 20px !important;
+    padding: 20px !important;
+}
+
+/* 3. 精確控制標題與摘要、摘要與日期之間的間隙 */
+.entry-header h2 {
+    margin-bottom: 4px !important; /* 標題下方的間距 */
+}
+
+.entry-content {
+    margin-bottom: 4px !important; /* 摘要下方的間距 */
+    line-height: 1.4;              /* 稍微縮緊行高也能減少視覺上的佔空間感 */
+}
+
+.post-meta {
+    padding-top: 0px;              /* 日期資訊上方的額外間距歸零 */
+}
+
+
+/* 調整文章內所有圖片 */
+.post-content img {
+    display: block;
+    margin: 2rem auto;      /* 圖片置中，上下留白 */
+    max-width: 100%;       /* 確保不超出邊框 */
+    height: auto;
+    border-radius: 12px;   /* 增加圓角感 */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* 增加輕微陰影，讓圖片浮現 */
+    transition: transform 0.3s ease; /* 增加滑鼠經過時的縮放效果 */
+}
+
+/* 滑鼠移上去時稍微放大 (可選) */
+.post-content img:hover {
+    transform: scale(1.02);
+}
+
+/* 修改圖片下方的說明文字 (Figure Caption) */
+.post-content figure figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: -1.5rem;   /* 讓說明文字靠近圖片 */
+    margin-bottom: 2rem;
+}

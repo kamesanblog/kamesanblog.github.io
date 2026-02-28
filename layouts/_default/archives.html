@@ -52,7 +52,7 @@
   </div>
 {{- end }}
 
-{{/* --- 3. 文章列表維持原樣 --- */}}
+{{/* --- 3. 文章列表修改部分 --- */}}
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- range $pages.GroupByPublishDate "2006" }}
   <div class="archive-year">
@@ -64,7 +64,10 @@
           {{- range .Pages }}
             <div class="archive-entry" style="position: relative; margin-bottom: 15px;">
               <h3 class="archive-entry-title">{{ .Title | markdownify }}</h3>
-              <div class="archive-meta">{{- partial "post_meta.html" . -}}</div>
+              {{/* 這裡修改：移除 partial 呼叫，直接渲染日期格式 */}}
+              <div class="archive-meta">
+                {{- .Date.Format (default "January 2, 2006" site.Params.DateFormat) -}}
+              </div>
               <a class="entry-link" href="{{ .Permalink }}"></a>
             </div>
           {{- end }}
