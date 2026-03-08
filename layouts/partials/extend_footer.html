@@ -32,9 +32,9 @@
   document.addEventListener('DOMContentLoaded', function () {
     // 初始化 medium-zoom，針對文章內的所有圖片
     const zoom = mediumZoom('.post-content img', {
-      margin: 24,          // 放大後圖片與視窗邊界的距離
+      margin: 60,          // 放大後圖片與視窗邊界的距離
       background: 'rgba(0,0,0,0.8)', // 縮放時背景的顏色與透明度
-      scrollOffset: 200,    // 向上捲動多少距離會自動縮回（40px）
+      scrollOffset: 400,    // 向上捲動多少距離會自動縮回（40px）
     });
 
     // 點擊圖片以外的空白處還原是內建功能，不需額外寫 code
