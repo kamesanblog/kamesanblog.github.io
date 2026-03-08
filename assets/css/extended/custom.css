@@ -261,3 +261,8 @@ blockquote {
     margin-top: -1.5rem;   /* 讓說明文字靠近圖片 */
     margin-bottom: 2rem;
 }
+
+.post-content img {
+    cursor: zoom-in; /* 提示使用者可以點擊放大 */
+    transition: transform 0.3s ease;
+}
