@@ -6,6 +6,42 @@
     <description>Recent content on 卡美桑的家</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language><atom:link href="http://localhost:1313/tags/todo/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Blog-default</title>
+      <link>http://localhost:1313/posts/20200308-china-streetview/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/20200308-china-streetview/</guid>
+      <description>&lt;p&gt;[[2026-03-08]] : 當年疫情時期常常會看Youtube 找風景來練習水彩，這張的表現方式也是藉由寒暖對比來表現出強烈的光線感。&lt;/p&gt;
+&lt;p&gt;二月習作裡，喜歡中國安徽蒙城的老北關。&lt;/p&gt;
+&lt;p&gt;起因是自己在追蹤的一位中國Vlog，因武漢冠狀肺炎的關係，返鄉過年後無法返回工作崗位，無聊之餘便在自家附近的老街閒晃錄影，並順便介紹一下老家附近的老北關。&lt;/p&gt;
+&lt;p&gt;因為沒去過中國，印象中是陌生。
+但從他的影片中可以感受到當地的一種美。
+因此我從他的影片中擷取出當地的景色，想紀錄下來。&lt;/p&gt;
+&lt;p&gt;影片連結：https://youtu.be/9rkgdRdStCQ&lt;/p&gt;
+&lt;p&gt;他解釋因為疫情關係工廠無法復工，人煙才會如此稀少，天空也才可以這麼的清澈，要不天空常常是灰濛濛的一片，路上也總是繁忙的通勤人潮，平常是很難看到這種光景啊。&amp;hellip;聽他這樣說，真覺有點惋惜。&lt;/p&gt;
+&lt;p&gt;人們一直要物質更加繁榮進步，提升生產力，求新，求變，求多，求快，求&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;一次又一次掠奪環境而來的進步，是否也讓一些美好事物一點一點離我們遠去？&lt;/p&gt;
+&lt;p&gt;有時常想，如果不要進步那麼快，有多好。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;漫步在黃昏的老北關。安徽蒙城，中國。
+Wandering around Laobeiguan.Anhui,Mengcheng,China.&lt;/p&gt;
+&lt;p&gt;![[20200308001.jpeg]]&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;相關聯的連結&#34;&gt;相關聯的連結&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-dataview&#34; data-lang=&#34;dataview&#34;&gt;table title, description
+FROM [[]]
+sort date(time) asc
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;相關聯字句&#34;&gt;相關聯字句&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-dataview&#34; data-lang=&#34;dataview&#34;&gt;table file.aliases as aliases, date(time) as 創建日期
+from &amp;#34;&amp;#34;
+where contains(file.aliases, &amp;#34;blog&amp;#34;) or contains(file.aliases, &amp;#34;Blog&amp;#34;)
+sort date(time) asc
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;相關聯的tags&#34;&gt;相關聯的tags&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-dataview&#34; data-lang=&#34;dataview&#34;&gt;table date(time) as 創建日期
+from &amp;#34;&amp;#34;
+where contains(file.tags, &amp;#34;#blog&amp;#34;)
+sort date(time) asc
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item><item>
       <title>人的欲望</title>
       <link>http://localhost:1313/posts/20260227-human-desires/</link>
       <pubDate>Fri, 27 Feb 2026 21:23:00 +0800</pubDate>
@@ -288,22 +324,25 @@ Naval Ravikant (取自Wiwi的分享)
       <pubDate>Fri, 13 Feb 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260213-quit-fb/</guid>
       <description>&lt;p&gt;幾週前開始，我決定培養一個新的習慣(目前有 Anki學習，家人互動，Talkme口語練習，筆記復盤)：戒除使用17年了的Facebook。
-如果是一年前的我，我會覺得我自己瘋了！怎麼可以遠離我的朋友、興趣、生活與親人還有我的社交圈！！大腦必定也會吶喊著：他們是如此的重要，沒有了這些你的人生還剩下什麼！?&lt;/p&gt;
+如果是一年前的我，我會覺得我自己瘋了！怎麼可以遠離我的朋友、興趣、生活與親人還有我的社交圈！！大腦必定也會吶喊著：他們是如此的重要，沒有了這些你的人生還剩下什麼！?
+&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;幸好因為看見&lt;a href=&#34;https://wiwi.blog/&#34;
      rel=&#34;noopener&#34;
      class=&#34;external-link&#34;
      target=&#34;_blank&#34;
  &gt;WiWi&lt;/a&gt;
  的部落格，讓我受到鼓舞。
-因此開始構思如何戒除的方式。&lt;/p&gt;
+因此開始構思如何戒除的方式。
+&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;目前我的方式就是用新的興趣與習慣來填補沒事就想點開軟體的癮。
 我相信這需要花時間去累積與培養。&lt;/p&gt;
+&lt;br&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;刪除：我的第一步就是刪除app跟瀏覽器上的快捷，讓自己難以接觸或是搜索時感覺麻煩。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;刪除&lt;/strong&gt;：我的第一步就是刪除app跟瀏覽器上的快捷，讓自己難以接觸或是搜索時感覺麻煩。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;閱讀：打開電子書馬上閱讀或是做&lt;a href=&#34;https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/&#34;
+&lt;p&gt;&lt;strong&gt;閱讀&lt;/strong&gt;：打開電子書馬上閱讀或是做&lt;a href=&#34;https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/&#34;
      rel=&#34;noopener&#34;
      class=&#34;external-link&#34;
      target=&#34;_blank&#34;
@@ -311,7 +350,7 @@ Naval Ravikant (取自Wiwi的分享)
  。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;逛部落格：我從WiWi分享的&lt;a href=&#34;https://wiwi.blog/blogroll&#34;
+&lt;p&gt;&lt;strong&gt;逛部落格&lt;/strong&gt;：我從WiWi分享的&lt;a href=&#34;https://wiwi.blog/blogroll&#34;
      rel=&#34;noopener&#34;
      class=&#34;external-link&#34;
      target=&#34;_blank&#34;
@@ -322,21 +361,26 @@ Naval Ravikant (取自Wiwi的分享)
 &lt;/ruby&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Anki：如果有非常短暫的時間，我會點開Anki開始複習背單字。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Anki&lt;/strong&gt;：如果有非常短暫的時間，我會點開Anki開始複習背單字。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;br&gt;
 &lt;p&gt;這樣做後發現自己專注在新興趣與習慣的時間似乎有時會讓我忘卻需要有社群媒體的存在！目前持續中！
 對了～那如果有一些之前在臉書追蹤的資訊呢？我的做法是把社群媒體關注的人、事、物一一尋找他們的部落格或網站並以訂閱的方式取而代之。
 我想訓練我的大腦，讓它知道沒有了社群媒體，我還是可以擁有所有生活上有興趣的人事物連結，網路如此之大怎麼可能光用社群媒體就能以偏概全？&lt;/p&gt;
+&lt;br&gt;
 &lt;p&gt;就像一位格友只贏的文章：&lt;a href=&#34;https://onlywin.substack.com/p/3b0&#34;
      rel=&#34;noopener&#34;
      class=&#34;external-link&#34;
      target=&#34;_blank&#34;
  &gt;我不想知道我不想知道的事&lt;/a&gt;
  &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;該知道的事，無論如何都會來到你的周遭，你不知道的事，其實也真的不用知道。&lt;/p&gt;
-&lt;/blockquote&gt;
+
+
+&lt;div class=&#34;callout &#34;&gt;
+  該知道的事，無論如何都會來到你的周遭，你不知道的事，其實也真的不用知道。
+&lt;/div&gt;
+&lt;br&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;感謝所有的巨人：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://alexhsu.com/delete-facebook&#34;
@@ -888,12 +932,18 @@ dv.table([&amp;#34;檔案&amp;#34;, &amp;#34;日期&amp;#34;],
       <link>http://localhost:1313/posts/20191008-naoshima/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20191008-naoshima/</guid>
-      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;記得把 aliases 改成 keywords , time 改成 date
-貼上 Blog code 的Template
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;草稿&#34;&gt;草稿&lt;/h2&gt;
-&lt;p&gt;[[2026-02-28]] : 2019當年跟朋友一起去參訪日本 &lt;strong&gt;瀨戶內國際藝術祭&lt;/strong&gt;（&lt;em&gt;Setouchi Triennale&lt;/em&gt;），當時雨天我們參訪直島，期間散步在村莊的一條街道上，突然看見這樣的一個景色因此想要記錄下來。&lt;/p&gt;
+      <description>&lt;br&gt;
+&lt;p&gt;2026-02-28 : 2019當年跟朋友一起去參訪日本 &lt;a href=&#34;https://zh.wikipedia.org/zh-tw/%E7%80%A8%E6%88%B6%E5%85%A7%E5%9C%8B%E9%9A%9B%E8%97%9D%E8%A1%93%E7%A5%AD&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;&lt;strong&gt;瀨戶內國際藝術祭&lt;/strong&gt;&lt;/a&gt;
+ （Setouchi Triennale），當時雨天我們參訪直島，期間散步在村莊的一條街道上，一直陰雨綿綿卻在轉一個彎後突然看見這樣的一個景色：厚厚的雲層中有光線灑落下來！感覺很美～～因此想要記錄下來。
+&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;畫面的處理：雖然是陰天，但其實有一些光線透下來照射到房屋頂，所以對於喜歡畫光線的感覺很適合。第一層基礎渲染後，第二層壓重色即可完成。&lt;/p&gt;
-&lt;p&gt;![[20191008004.jpg]]&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20191008-naoshima/20191008004.jpg&#34;&gt;&lt;/p&gt;
+&lt;br&gt;
 </description>
     </item><item>
       <title>Archives</title>
@@ -907,12 +957,5 @@ dv.table([&amp;#34;檔案&amp;#34;, &amp;#34;日期&amp;#34;],
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/search/</guid>
       <description></description>
-    </item><item>
-      <title>隨機文章</title>
-      <link>http://localhost:1313/random/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/random/</guid>
-      <description>&lt;p&gt;這裡是隨機跳轉頁面，請稍候&amp;hellip;&lt;/p&gt;
-</description>
     </item></channel>
 </rss>
