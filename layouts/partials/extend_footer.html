@@ -26,13 +26,30 @@
     })();
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script>
+
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        mediumZoom('.post-content img', {
-            margin: 24,
-            background: 'var(--theme)', /* 自動適應您的深淺色模式背景 */
-            scrollOffset: 0,
-        });
+  document.addEventListener('DOMContentLoaded', function () {
+    // 初始化 medium-zoom，針對文章內的所有圖片
+    const zoom = mediumZoom('.post-content img', {
+      margin: 24,          // 放大後圖片與視窗邊界的距離
+      background: 'rgba(0,0,0,0.8)', // 縮放時背景的顏色與透明度
+      scrollOffset: 40,    // 向上捲動多少距離會自動縮回（40px）
     });
+
+    // 點擊圖片以外的空白處還原是內建功能，不需額外寫 code
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // 這裡增加了 '.entry-cover img'，確保標籤頁的文章封面也能縮放
+    const zoom = mediumZoom('.post-content img, .entry-cover img', {
+      margin: 24,
+      background: 'rgba(0,0,0,0.8)', 
+      scrollOffset: 40,
+    });
+  });
 </script>
