@@ -289,3 +289,32 @@ blockquote {
         width: 80%; /* 手機上佔據較多空間方便點擊 */
     }
 }
+
+/* 圓形導覽列圖示 (強制正圓) */
+.logo-img {
+    /* 1. 設定固定的正方形尺寸 */
+    width: 28px !important;  /* 您可以依喜好調整大小，例如 32px 或 40px */
+    height: 28px !important; /* 寬度與高度必須完全相同 */
+    
+    /* 2. 圓形遮罩與裁切 */
+    border-radius: 50% !important; /* 強制變為正圓 */
+    object-fit: cover !important;  /* 關鍵：圖片會填滿正方形並自動裁切多餘部分，不變形 */
+    
+    /* 3. 對齊微調 */
+    display: block;
+    margin: 1;
+    
+    /* 可選：加上淡淡的邊框增加質感 */
+    border: 0px solid var(--border);
+}
+
+/* 確保 Logo 容器使用 Flex 並且垂直置中 (延用之前的設定) */
+.logo a {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px;                  /* 圖示與文字間距 */
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    line-height: 1;
+    text-decoration: none;
+}
