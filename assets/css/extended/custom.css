@@ -318,3 +318,34 @@ blockquote {
     line-height: 1;
     text-decoration: none;
 }
+
+/* 修改側邊欄主體樣式 */
+#custom-sidebar {
+    position: fixed;
+    left: -350px; /* 將隱藏位置拉遠一點，確保完全出鏡 */
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background: var(--theme);
+    z-index: 1001;
+    transition: transform 0.3s ease, left 0.3s ease; /* 加入平滑轉換 */
+    overflow-y: auto;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    /* 啟動 GPU 加速，讓移動更順暢 */
+    backface-visibility: hidden;
+    -webkit-overflow-scrolling: touch; /* 讓 iPad 捲動更滑順 */
+}
+
+/* 顯示時的位置 */
+#custom-sidebar.sidebar-visible {
+    left: 0;
+}
+
+/* 針對 iPad (平板) 的寬度微調 */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #custom-sidebar {
+        width: 320px;
+        left: -370px;
+    }
+}

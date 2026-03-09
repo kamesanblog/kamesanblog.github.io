@@ -43,13 +43,23 @@
     const sidebar = document.getElementById('custom-sidebar');
     const overlay = document.getElementById('sidebar-overlay');
 
-    toggleBtn.onclick = () => {
-        sidebar.classList.add('sidebar-visible');
-        overlay.classList.add('active');
-    };
-
-    closeBtn.onclick = overlay.onclick = () => {
+    const hideSidebar = () => {
         sidebar.classList.remove('sidebar-visible');
         overlay.classList.remove('active');
+        // 確保強制移除可能殘留的狀態
+        document.body.style.overflow = ''; 
     };
+
+    const showSidebar = () => {
+        sidebar.classList.add('sidebar-visible');
+        overlay.classList.add('active');
+        // 避免開啟選單時背景捲動（平板優化）
+        document.body.style.overflow = 'hidden'; 
+    };
+
+    toggleBtn.addEventListener('click', showSidebar);
+    // 增加 touchstart 讓 iPad 反應更快
+    closeBtn.addEventListener('click', hideSidebar);
+    overlay.addEventListener('click', hideSidebar);
+    overlay.addEventListener('touchstart', hideSidebar, {passive: true});
 </script>
