@@ -349,3 +349,12 @@ blockquote {
         left: -370px;
     }
 }
+
+/* 當前正在閱讀的文章標題樣式 */
+.sidebar-content a.current-active {
+    background-color: var(--secondary) !important; /* 使用較明顯的次要顏色 */
+    color: var(--theme) !important;               /* 文字反白 */
+    font-weight: bold;
+    border-left: 4px solid var(--primary);         /* 左側加一條粗線 */
+    padding-left: 15px;                            /* 增加左側內距 */
+}

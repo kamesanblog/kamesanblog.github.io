@@ -1,65 +1,78 @@
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+
 <script>
     (function() {
-        // 1. 抓取 Header 元素
-        var header = document.querySelector('.header');
-        if (!header) return;
+        // --- 1. Header 自動隱藏邏輯 ---
+        const header = document.querySelector('.header');
+        let lastScrollTop = 0;
+        if (header) {
+            header.style.transition = "transform 0.4s ease-in-out";
+            window.addEventListener('scroll', function() {
+                let st = window.pageYOffset || document.documentElement.scrollTop;
+                if (st > lastScrollTop && st > 80) {
+                    header.style.transform = "translateY(-100%)";
+                } else {
+                    header.style.transform = "translateY(0)";
+                }
+                lastScrollTop = st <= 0 ? 0 : st;
+            }, { passive: true });
+        }
 
-        var lastScrollTop = 0;
-
-        // 2. 監聽捲動事件
-        window.addEventListener('scroll', function() {
-            var st = window.pageYOffset || document.documentElement.scrollTop;
-            
-            // 向下捲動超過 80px 隱藏
-            if (st > lastScrollTop && st > 80) {
-                header.style.transform = "translateY(-100%)";
-            } 
-            // 向上捲動顯示
-            else {
-                header.style.transform = "translateY(0)";
-            }
-            lastScrollTop = st <= 0 ? 0 : st;
-        }, { passive: true });
-
-        // 3. 確保 CSS 過渡效果生效
-        header.style.transition = "transform 0.4s ease-in-out";
-    })();
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        mediumZoom('.post-content img', {
-            margin: 24,
-            background: 'var(--theme)', /* 自動適應您的深淺色模式背景 */
-            scrollOffset: 0,
+        // --- 2. 圖片縮放設定 ---
+        document.addEventListener('DOMContentLoaded', () => {
+            mediumZoom('.post-content img', {
+                margin: 24,
+                background: 'var(--theme)', 
+                scrollOffset: 0,
+            });
         });
-    });
-</script>
 
-<script>
-    const toggleBtn = document.getElementById('sidebar-toggle');
-    const closeBtn = document.getElementById('sidebar-close');
-    const sidebar = document.getElementById('custom-sidebar');
-    const overlay = document.getElementById('sidebar-overlay');
+        // --- 3. 側邊欄控制與自動定位邏輯 ---
+        const toggleBtn = document.getElementById('sidebar-toggle');
+        const closeBtn = document.getElementById('sidebar-close');
+        const sidebar = document.getElementById('custom-sidebar');
+        const overlay = document.getElementById('sidebar-overlay');
 
-    const hideSidebar = () => {
-        sidebar.classList.remove('sidebar-visible');
-        overlay.classList.remove('active');
-        // 確保強制移除可能殘留的狀態
-        document.body.style.overflow = ''; 
-    };
+        // 自動定位到當前文章的函數
+        const locateCurrentPost = () => {
+            const currentUrl = window.location.pathname; 
+            const allLinks = sidebar.querySelectorAll('a');
+            
+            allLinks.forEach(link => {
+                const linkPath = new URL(link.href).pathname;
+                // 檢查路徑是否匹配（排除首頁）
+                if (linkPath === currentUrl && currentUrl !== '/') {
+                    link.classList.add('current-active'); 
+                    // 捲動至側邊欄中央
+                    link.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'center'
+                    });
+                } else {
+                    link.classList.remove('current-active');
+                }
+            });
+        };
 
-    const showSidebar = () => {
-        sidebar.classList.add('sidebar-visible');
-        overlay.classList.add('active');
-        // 避免開啟選單時背景捲動（平板優化）
-        document.body.style.overflow = 'hidden'; 
-    };
+        const hideSidebar = () => {
+            sidebar.classList.remove('sidebar-visible');
+            overlay.classList.remove('active');
+            document.body.style.overflow = ''; 
+        };
 
-    toggleBtn.addEventListener('click', showSidebar);
-    // 增加 touchstart 讓 iPad 反應更快
-    closeBtn.addEventListener('click', hideSidebar);
-    overlay.addEventListener('click', hideSidebar);
-    overlay.addEventListener('touchstart', hideSidebar, {passive: true});
+        const showSidebar = () => {
+            sidebar.classList.add('sidebar-visible');
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden'; 
+            // 延遲執行定位，等待側邊欄滑入動畫完成
+            setTimeout(locateCurrentPost, 300);
+        };
+
+        if (toggleBtn) toggleBtn.addEventListener('click', showSidebar);
+        if (closeBtn) closeBtn.addEventListener('click', hideSidebar);
+        if (overlay) {
+            overlay.addEventListener('click', hideSidebar);
+            overlay.addEventListener('touchstart', hideSidebar, {passive: true});
+        }
+    })();
 </script>
