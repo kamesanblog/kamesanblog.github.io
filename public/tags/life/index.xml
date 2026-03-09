@@ -111,12 +111,6 @@ Naval Ravikant (取自Wiwi的分享)
 &lt;/ul&gt;
 </description>
     </item><item>
-      <title>圖片集</title>
-      <link>https://kamesun.com/gallery/</link>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0800</pubDate>
-      <guid>https://kamesun.com/gallery/</guid>
-      <description></description>
-    </item><item>
       <title>我對MarkDown的header亂用</title>
       <link>https://kamesun.com/posts/20260222-chaos-header/</link>
       <pubDate>Sun, 22 Feb 2026 00:00:00 +0800</pubDate>
@@ -862,16 +856,6 @@ dv.table([&amp;#34;檔案&amp;#34;, &amp;#34;日期&amp;#34;],
 &lt;p&gt;&lt;strong&gt;接著我還把這樣的功能運用到我的筆記與閱讀復盤&amp;hellip;.整個就是撒花，也讓我離開被DayOne 綁架的日子。（完）&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item><item>
-      <title>關於卡美桑</title>
-      <link>https://kamesun.com/about/</link>
-      <pubDate>Tue, 23 Sep 2025 10:30:00 +0800</pubDate>
-      <guid>https://kamesun.com/about/</guid>
-      <description>&lt;h3 id=&#34;自介me&#34;&gt;自介/me&lt;/h3&gt;
-&lt;h3 id=&#34;卡美桑近況-now&#34;&gt;卡美桑近況 /now&lt;/h3&gt;
-&lt;h3 id=&#34;現在愛用什麼-use&#34;&gt;現在愛用什麼 /use&lt;/h3&gt;
-&lt;h3 id=&#34;部落卷-blogroll&#34;&gt;部落卷 /blogroll&lt;/h3&gt;
-</description>
-    </item><item>
       <title>幸福是什麼？</title>
       <link>https://kamesun.com/posts/20250303-happiness/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0800</pubDate>
@@ -955,16 +939,35 @@ Wandering around Laobeiguan.Anhui,Mengcheng,China.&lt;/p&gt;
 &lt;br&gt;
 </description>
     </item><item>
-      <title>Archives</title>
-      <link>https://kamesun.com/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kamesun.com/archives/</guid>
-      <description></description>
-    </item><item>
       <title>搜尋</title>
       <link>https://kamesun.com/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kamesun.com/search/</guid>
       <description></description>
+    </item><item>
+      <title>圖冊集</title>
+      <link>https://kamesun.com/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kamesun.com/gallery/</guid>
+      <description></description>
+    </item><item>
+      <title>隨機文章</title>
+      <link>https://kamesun.com/random/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kamesun.com/random/</guid>
+      <description>&lt;p&gt;這裡是隨機跳轉頁面，請稍候&amp;hellip;&lt;/p&gt;
+</description>
+    </item><item>
+      <title>總覽</title>
+      <link>https://kamesun.com/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kamesun.com/archives/</guid>
+      <description></description>
     </item></channel>
 </rss>
+
+<image>
+  <url>https://kamesun.com/images/logo.png</url>
+  <title>卡美桑的家</title>
+  <link>https://kamesun.com/</link>
+</image>

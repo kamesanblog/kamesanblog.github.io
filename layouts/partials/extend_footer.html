@@ -36,3 +36,20 @@
         });
     });
 </script>
+
+<script>
+    const toggleBtn = document.getElementById('sidebar-toggle');
+    const closeBtn = document.getElementById('sidebar-close');
+    const sidebar = document.getElementById('custom-sidebar');
+    const overlay = document.getElementById('sidebar-overlay');
+
+    toggleBtn.onclick = () => {
+        sidebar.classList.add('sidebar-visible');
+        overlay.classList.add('active');
+    };
+
+    closeBtn.onclick = overlay.onclick = () => {
+        sidebar.classList.remove('sidebar-visible');
+        overlay.classList.remove('active');
+    };
+</script>

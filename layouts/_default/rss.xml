@@ -24,3 +24,9 @@
     {{- end -}}
   </channel>
 </rss>
+
+<image>
+  <url>{{ "images/logo.png" | absURL }}</url>
+  <title>{{ .Site.Title }}</title>
+  <link>{{ .Site.BaseURL }}</link>
+</image>

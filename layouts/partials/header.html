@@ -147,3 +147,33 @@
         </ul>
     </nav>
 </header>
+
+<button id="sidebar-toggle" aria-label="Menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+</button>
+
+<div id="custom-sidebar" class="sidebar-hidden">
+    <div class="sidebar-header">
+        <button id="sidebar-close">✕</button>
+    </div>
+    <div class="sidebar-content">
+        {{ range (.Site.RegularPages.GroupByDate "2006") }}
+        <div class="sidebar-year-group">
+            <h2 class="sidebar-year">{{ .Key }}</h2>
+            {{ range (.Pages.GroupByDate "01") }}
+            <div class="sidebar-month-group">
+                <h3 class="sidebar-month">{{ .Key }} 月</h3>
+                <ul>
+                    {{ range .Pages }}
+                    <li>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+<div id="sidebar-overlay"></div>

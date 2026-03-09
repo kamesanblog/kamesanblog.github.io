@@ -1,4 +1,4 @@
-
+/* --- 導覽列與全域結構 --- */
 .header {
     position: sticky !important;
     top: 0;
@@ -7,6 +7,56 @@
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
+/* 調整導覽列左側網站標題 (Site Title) */
+.logo a {
+    font-size: 24px !important; 
+    font-weight: 600 !important; 
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo a {
+        font-size: 20px !important;
+    }
+}
+
+/* --- 字體與排版設定 --- */
+:root {
+    --content-font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --content-font-size: 16px;
+    }
+}
+
+/* 文章標題與內文標題 */
+.post-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.post-content h1 { font-size: 32px; }
+.post-content h2 { font-size: 28px; }
+.post-content h3 { font-size: 24px; }
+.post-content h4 { font-size: 20px; }
+.post-content h5 { font-size: 18px; }
+.post-content h6 { font-size: 18px; }
+
+/* 首頁文章列表標題 */
+.post-entry .entry-header h2 {
+    font-size: 1.2rem !important; 
+    line-height: 1.3;
+}
+
+/* 文章內頁標題 */
+.post-single .post-header .post-title {
+    font-size: 1.6rem !important; 
+    margin-bottom: 10px;
+}
+
+/* --- 引用與 Callout 樣式 --- */
 blockquote {
   border-left: 5px solid #e2e2e0;
   background: #e5e5e5;
@@ -18,14 +68,11 @@ blockquote {
   border-left: 5px solid #5a5a59;
 }
 
-
-/* Callout 基礎樣式 */
 .callout {
     margin: 1.5rem 0;
     padding: 1rem;
     border-left: 5px solid;
     border-radius: 4px;
-    /* 使用 var(--entry) 作為背景，確保深淺模式都能閱讀 */
     background-color: var(--code-bg); 
     color: var(--content);
 }
@@ -39,226 +86,206 @@ blockquote {
     gap: 8px;
 }
 
-/* 針對不同類型定義顏色 (支援深淺模式) */
-.callout.note { 
-    border-color: #e2e2e0; 
-    background-color: rgba(68, 138, 255, 0.1); 
-}
-.callout.warning { 
-    border-color: #ff9100; 
-    background-color: rgba(255, 145, 0, 0.1); 
-}
-.callout.danger { 
-    border-color: #ff5252; 
-    background-color: rgba(255, 82, 82, 0.1); 
-}
+.callout.note { border-color: #e2e2e0; background-color: rgba(68, 138, 255, 0.1); }
+.callout.warning { border-color: #ff9100; background-color: rgba(255, 145, 0, 0.1); }
+.callout.danger { border-color: #ff5252; background-color: rgba(255, 82, 82, 0.1); }
 
-
-
-/* 1. 調整全域正文字體大小 (預設通常為 18px) */
-:root {
-    --content-font-size: 18px;
-}
-
-/* 2. 針對手機板或特定裝置調整 (選填) */
-@media screen and (max-width: 768px) {
-    :root {
-        --content-font-size: 16px;
-    }
-}
-
-
-/* 文章頁面的大標題 (H1) */
-.post-title {
-    font-size: 28px;
-    font-weight: 700;
-}
-
-/* 內文中的各級標題 (H1, H2, H3...) */
-.post-content h1 { font-size: 32px; }
-.post-content h2 { font-size: 28px; }
-.post-content h3 { font-size: 24px; }
-.post-content h4 { font-size: 20px; }
-.post-content h5 { font-size: 18px; }
-.post-content h6 { font-size: 18px; }
-/* 4. 調整首頁名稱 (Site Title) */
-.logo a {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-
-/* 修改首頁文章列表的標題大小 */
-.post-entry .entry-header h2 {
-    font-size: 1.2rem !important; /* 調整為你喜歡的大小，例如 1.4rem */
-    line-height: 1.3;
-}
-
-/* 修改文章內頁（Single Page）的標題大小 */
-.post-single .post-header .post-title {
-    font-size: 1.6rem !important; /* 原本可能接近 2.5rem，縮小至 1.8rem */
-    margin-bottom: 10px;
-}
-
-
-
-/* 調整導覽列左側網站標題 (Site Title) 的大小 */
-.logo a {
-    font-size: 24px !important; /* 原本較大，可依喜好調整，如 20px - 24px */
-    font-weight: 600 !important; /* 稍微減輕粗體重量，讓視覺更輕盈 */
-    letter-spacing: 1px; /* 增加一點字距感 */
-}
-
-/* 針對行動裝置微調（選用） */
-@media screen and (max-width: 768px) {
-    .logo a {
-        font-size: 20px !important;
-    }
-}
-
-
-
-
-
-
-/* 1. 修改首頁頂部大標題 (閱讀 繪畫 生活) */
+/* --- 首頁 Profile 與文章卡片間距 --- */
 .main .first-entry .entry-header h1 {
-    font-size: 1.8rem !important;  /* 原本可能大於 3rem，建議縮小至 1.8rem - 2.2rem */
+    font-size: 1.8rem !important;
     font-weight: 700;
     margin-bottom: 15px;
 }
 
-/* 2. 修改下方的部落格描述文字 (卡美桑的部落格...) */
 .main .first-entry .entry-content {
-    font-size: 1rem !important;  /* 縮小描述文字 */
-    color: #666;                 /* 稍微調淺顏色增加層次感 */
+    font-size: 1rem !important;
+    color: #666;
 }
 
-/* 3. 如果您想連同旁邊那個信封圖示 (Social Link) 也縮小 */
 .social-icons a svg {
     height: 24px !important;
     width: 24px !important;
 }
 
-/* Tags色標設定 */
-.terms-tags a:hover {
-    background-color: #8b8b8b !important; /* 強制覆蓋動態生成的背景色 */
-    color: #fff !important;
-}
-
-/* 預設（淺色模式） */
-:root {
-    --tag-bg-start-r: 245; --tag-bg-start-g: 244; --tag-bg-start-b: 242;
-    --tag-bg-end-r: 82;   --tag-bg-end-g: 80;   --tag-bg-end-b: 77;
-    --tag-text-light: #333333;
-    --tag-text-dark: #ffffff; /* 這是反白用的純白色 */
-}
-
-/* 深色模式下 */
-.dark {
-    /* 調整深色模式的漸層色值，避免刺眼 */
-    --tag-bg-start-r: 60;  --tag-bg-start-g: 60;  --tag-bg-start-b: 65;
-    --tag-bg-end-r: 140;  --tag-bg-end-g: 140;  --tag-bg-end-b: 145;
-    
-    /* 在深色模式下，即使是反白也可以稍微帶點灰，比較舒服 */
-    --tag-text-dark: #fcfcfc; 
-    --tag-text-light: #bcbcbc;
-}
-
-
-/* Archives縮小年份與月份的間距 */
-.archive-year {
-    margin-top: -5px;
-    margin-bottom: 1x;
-}
-
-.archive-month {
-    margin-top: -20px;
-
-}
-
-/* 改變文章標題顏色與大小 */
-.archive-entry-title {
-    font-size: 1.1rem;
-    padding-bottom: 1px;
-    margin-top: 1px;
-}
-
-/* 讓日期資訊更淡一點 */
-.archive-meta {
-    font-size: 0.8rem;
-    padding-bottom: -1px;
-    margin-top: -8px;
-}
-
-/* 修改年份標題 (例如：2026) */
-.archive-year-header {
-    font-size: 1.8rem;       /* 字體大小 */
-    padding-bottom: 10px;
-    margin-top: 0px;
-}
-
-/* 修改月份標題 (例如：February) */
-.archive-month-header {
-    font-size: 1.4rem;     /* 稍微比年份小一點 */
-    margin-top: 13px;      /* 與上方年份或上個月的間距 */
-    margin-left: 5px;     /* 向右縮進，增加層次感 */
-    
-}
-
-
-
-
-/* --- 縮小首頁文章卡片間距與留白 --- */
-
-/* 1. 同時縮小外部間距 (margin) 與內部留白 (padding) */
 .post-entry {
-    margin-bottom: 12px !important; /* 卡片與下一個卡片的距離，原預設約 30px */
-    padding: 15px !important;       /* 卡片四周的內部留白，縮小讓卡片變扁 */
+    margin-bottom: 12px !important;
+    padding: 15px !important;
 }
 
-/* 2. 針對第一篇文章 (Profile Mode) 若也想縮小 */
 .first-entry {
     margin-bottom: 20px !important;
     padding: 20px !important;
 }
 
-/* 3. 精確控制標題與摘要、摘要與日期之間的間隙 */
-.entry-header h2 {
-    margin-bottom: 4px !important; /* 標題下方的間距 */
+.entry-header h2 { margin-bottom: 4px !important; }
+.entry-content { margin-bottom: 4px !important; line-height: 1.4; }
+.post-meta { padding-top: 0px; }
+
+/* --- 標籤 (Tags) 顏色設定 --- */
+.terms-tags a:hover {
+    background-color: #8b8b8b !important;
+    color: #fff !important;
 }
 
-.entry-content {
-    margin-bottom: 4px !important; /* 摘要下方的間距 */
-    line-height: 1.4;              /* 稍微縮緊行高也能減少視覺上的佔空間感 */
+:root {
+    --tag-bg-start-r: 245; --tag-bg-start-g: 244; --tag-bg-start-b: 242;
+    --tag-bg-end-r: 82;   --tag-bg-end-g: 80;   --tag-bg-end-b: 77;
+    --tag-text-light: #333333;
+    --tag-text-dark: #ffffff;
 }
 
-.post-meta {
-    padding-top: 0px;              /* 日期資訊上方的額外間距歸零 */
+.dark {
+    --tag-bg-start-r: 60;  --tag-bg-start-g: 60;  --tag-bg-start-b: 65;
+    --tag-bg-end-r: 140;  --tag-bg-end-g: 140;  --tag-bg-end-b: 145;
+    --tag-text-dark: #fcfcfc; 
+    --tag-text-light: #bcbcbc;
 }
 
+/* --- 歸檔 (Archives) 頁面調整 --- */
+.archive-year { margin-top: -5px; margin-bottom: 1px; }
+.archive-month { margin-top: -20px; }
+.archive-entry-title { font-size: 1.1rem; padding-bottom: 1px; margin-top: 1px; }
+.archive-meta { font-size: 0.8rem; margin-top: -8px; }
+.archive-year-header { font-size: 1.8rem; padding-bottom: 10px; margin-top: 0px; }
+.archive-month-header { font-size: 1.4rem; margin-top: 13px; margin-left: 5px; }
 
-/* 調整文章內所有圖片 */
+/* --- 圖片樣式 --- */
 .post-content img {
     display: block;
-    margin: 2rem auto;      /* 圖片置中，上下留白 */
-    max-width: 100%;       /* 確保不超出邊框 */
+    margin: 2rem auto;
+    max-width: 100%;
     height: auto;
-    border-radius: 12px;   /* 增加圓角感 */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* 增加輕微陰影，讓圖片浮現 */
-    transition: transform 0.3s ease; /* 增加滑鼠經過時的縮放效果 */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
 }
 
-/* 滑鼠移上去時稍微放大 (可選) */
-.post-content img:hover {
-    transform: scale(1.02);
-}
+.post-content img:hover { transform: scale(1.02); }
 
-/* 修改圖片下方的說明文字 (Figure Caption) */
 .post-content figure figcaption {
     text-align: center;
     font-size: 0.9rem;
-    margin-top: -1.5rem;   /* 讓說明文字靠近圖片 */
+    margin-top: -1.5rem;
     margin-bottom: 2rem;
 }
 
+/* --- 浮動文章列表側邊欄 (核心更新) --- */
+
+/* 浮動按鈕 - 定位在左下角 */
+#sidebar-toggle {
+    position: fixed;
+    left: 20px;
+    bottom: 20px; /* 從原本的 top:50% 改為底部 */
+    z-index: 1000;
+    background: var(--tertiary); /* 使用主題第三色 */
+    color: var(--primary);
+    border: 1px solid var(--border);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+#sidebar-toggle:hover {
+    transform: scale(1.1);
+}
+
+/* 側邊欄主體 */
+#custom-sidebar {
+    position: fixed;
+    left: -300px;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background: var(--theme);
+    z-index: 1001;
+    transition: left 0.3s ease;
+    overflow-y: auto;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+
+#custom-sidebar.sidebar-visible {
+    left: 0;
+}
+
+/* 關閉按鈕樣式 */
+#sidebar-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: var(--primary);
+    cursor: pointer;
+    float: right;
+}
+
+/* 遮罩層 */
+#sidebar-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+}
+
+#sidebar-overlay.active {
+    display: block;
+}
+
+/* 年份標題 */
+.sidebar-year {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 30px 0 10px 10px;
+    color: var(--primary);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 5px;
+}
+
+/* 月份標題 */
+.sidebar-month {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 15px 0 5px 15px;
+    color: var(--secondary);
+    opacity: 0.7;
+}
+
+/* 文章列表容器 */
+.sidebar-content ul {
+    list-style: none;
+    padding: 0 0 0 20px; /* 向右縮進，建立層次感 */
+    margin: 0;
+}
+
+/* 文章標題反白效果 */
+.sidebar-content a {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 0.95rem;
+    display: block;
+    padding: 6px 12px;
+    margin: 2px 5px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    line-height: 1.4;
+}
+
+/* 滑鼠移上去的反白顏色 */
+.sidebar-content a:hover {
+    background-color: var(--tertiary); /* 適配深淺色模式 */
+    color: var(--primary);
+    padding-left: 18px; /* 動態位移效果 */
+}
+
+/* 針對行動裝置微調側邊欄寬度 */
+@media screen and (max-width: 768px) {
+    #custom-sidebar {
+        width: 80%; /* 手機上佔據較多空間方便點擊 */
+    }
+}

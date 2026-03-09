@@ -1,6 +1,5 @@
 ---
-title: "圖片集"
-date: 2026-02-23
+title: "圖冊集"
 type: "gallery"
 layout: "gallery"
 ---
