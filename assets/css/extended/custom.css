@@ -413,8 +413,8 @@ blockquote {
     }
 
     .sidebar-content a {
-    padding-top: 15px !important;    /* 縮小標題上方的空間 */
-    padding-bottom: 15px !important; /* 縮小標題下方的空間 */
-    line-height: 3px !important;    /* 稍微縮小行高，讓多行標題更緊湊 */
+    padding-top: 8px !important;    /* 縮小標題上方的空間 */
+    padding-bottom: 8px !important; /* 縮小標題下方的空間 */
+    line-height:  !important;    /* 稍微縮小行高，讓多行標題更緊湊 */
     }
 }
