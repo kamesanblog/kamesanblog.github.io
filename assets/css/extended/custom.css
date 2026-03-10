@@ -284,7 +284,7 @@ blockquote {
 }
 
 /* 針對行動裝置微調側邊欄寬度 */
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 768px) {
     #custom-sidebar {
         width: 50%; /* 手機上佔據較多空間方便點擊 */
     }
@@ -359,3 +359,32 @@ blockquote {
     padding-left: 15px;                            /* 增加左側內距 */
 }
 
+/* --- 針對手機（寬度小於 768px）的專屬調整 --- */
+@media screen and (max-width: 768px) {
+    #custom-sidebar {
+        /* 1. 縮小寬度：手機上建議設為 240px ~ 260px 較不擁擠 */
+        width: 250px !important; 
+        
+        /* 2. 增加隱藏時的負位：確保完全消失在螢幕左側 */
+        left: -300px !important; 
+        
+        /* 3. 微調內距：讓文字不要太貼邊，視覺更清爽 */
+        padding: 15px !important;
+    }
+
+    /* 確保顯示時的位置正確 */
+    #custom-sidebar.sidebar-visible {
+        left: 0 !important;
+    }
+
+    /* 調整手機版字體大小，避免標題太長換行 */
+    .sidebar-year {
+        font-size: 1.2rem !important;
+    }
+    .sidebar-month {
+        font-size: 1rem !important;
+    }
+    .sidebar-content li a {
+        font-size: 0.9rem !important;
+    }
+}
