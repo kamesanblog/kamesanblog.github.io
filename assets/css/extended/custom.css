@@ -1,390 +1,97 @@
-/* --- 導覽列與全域結構 --- */
-.header {
-    position: sticky !important;
-    top: 0;
-    z-index: 1000;
-    background: var(--theme); /* 確保背景不是透明的 */
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
+:root { --content-font-size: 18px; }
+@media screen and (max-width: 768px) { :root { --content-font-size: 16px; } }
 
-/* 調整導覽列左側網站標題 (Site Title) */
-.logo a {
-    font-size: 24px !important; 
-    font-weight: 600 !important; 
-    letter-spacing: 1px;
-}
-
-@media screen and (max-width: 768px) {
-    .logo a {
-        font-size: 20px !important;
-    }
-}
-
-/* --- 字體與排版設定 --- */
-:root {
-    --content-font-size: 18px;
-}
-
-@media screen and (max-width: 768px) {
-    :root {
-        --content-font-size: 16px;
-    }
-}
-
-/* 文章標題與內文標題 */
-.post-title {
-    font-size: 28px;
-    font-weight: 700;
-}
-
+/* 文章標題層次 */
+.post-title { font-size: 28px; font-weight: 700; }
 .post-content h1 { font-size: 32px; }
 .post-content h2 { font-size: 28px; }
 .post-content h3 { font-size: 24px; }
 .post-content h4 { font-size: 20px; }
-.post-content h5 { font-size: 18px; }
-.post-content h6 { font-size: 18px; }
+.post-content h5, .post-content h6 { font-size: 18px; }
 
-/* 首頁文章列表標題 */
-.post-entry .entry-header h2 {
-    font-size: 1.2rem !important; 
-    line-height: 1.3;
+/* 列表與單頁標題微調 */
+.post-entry .entry-header h2 { font-size: 1.2rem !important; line-height: 1.3; }
+.post-single .post-header .post-title { font-size: 1.6rem !important; margin-bottom: 10px; }
+
+
+/* 間隔 */
+
+.header {
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+    background: var(--theme);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-/* 文章內頁標題 */
-.post-single .post-header .post-title {
-    font-size: 1.6rem !important; 
-    margin-bottom: 10px;
-}
-
-/* --- 引用與 Callout 樣式 --- */
-blockquote {
-  border-left: 5px solid #e2e2e0;
-  background: #e5e5e5;
-  padding: 1rem;
-  border-radius: 6px;
-}
-.dark blockquote {
-  background: #5a5a59;
-  border-left: 5px solid #5a5a59;
-}
-
-.callout {
-    margin: 1.5rem 0;
-    padding: 1rem;
-    border-left: 5px solid;
-    border-radius: 4px;
-    background-color: var(--code-bg); 
-    color: var(--content);
-}
-
-.callout-title {
-    font-weight: 800;
-    margin-bottom: 0.5rem;
-    font-size: 0.95rem;
-    display: flex;
-    align-items: center;
+.logo a {
+    display: flex !important;
+    align-items: center !important;
     gap: 8px;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+    text-decoration: none;
 }
 
+@media screen and (max-width: 768px) { .logo a { font-size: 20px !important; } }
+
+.logo-img {
+    width: 28px !important;
+    height: 28px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    display: block;
+}
+
+
+/* 間隔 *//* 間隔 *//* 間隔 *//* 間隔 *//* 間隔 */
+
+
+/* 引用樣式 */
+blockquote { border-left: 5px solid #e2e2e0; background: #e5e5e5; padding: 1rem; border-radius: 6px; }
+.dark blockquote { background: #5a5a59; border-left: 5px solid #5a5a59; }
+
+/* Callout 提示框 */
+.callout { margin: 1.5rem 0; padding: 1rem; border-left: 5px solid; border-radius: 4px; background-color: var(--code-bg); color: var(--content); }
 .callout.note { border-color: #e2e2e0; background-color: rgba(68, 138, 255, 0.1); }
 .callout.warning { border-color: #ff9100; background-color: rgba(255, 145, 0, 0.1); }
 .callout.danger { border-color: #ff5252; background-color: rgba(255, 82, 82, 0.1); }
 
-/* --- 首頁 Profile 與文章卡片間距 --- */
-.main .first-entry .entry-header h1 {
-    font-size: 1.8rem !important;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
-
-.main .first-entry .entry-content {
-    font-size: 1rem !important;
-    color: #666;
-}
-
-.social-icons a svg {
-    height: 24px !important;
-    width: 24px !important;
-}
-
-.post-entry {
-    margin-bottom: 12px !important;
-    padding: 15px !important;
-}
-
-.first-entry {
-    margin-bottom: 20px !important;
-    padding: 20px !important;
-}
-
-.entry-header h2 { margin-bottom: 4px !important; }
-.entry-content { margin-bottom: 4px !important; line-height: 1.4; }
-.post-meta { padding-top: 0px; }
-
-/* --- 標籤 (Tags) 顏色設定 --- */
-.terms-tags a:hover {
-    background-color: #8b8b8b !important;
-    color: #fff !important;
-}
-
-:root {
-    --tag-bg-start-r: 245; --tag-bg-start-g: 244; --tag-bg-start-b: 242;
-    --tag-bg-end-r: 82;   --tag-bg-end-g: 80;   --tag-bg-end-b: 77;
-    --tag-text-light: #333333;
-    --tag-text-dark: #ffffff;
-}
-
-.dark {
-    --tag-bg-start-r: 60;  --tag-bg-start-g: 60;  --tag-bg-start-b: 65;
-    --tag-bg-end-r: 140;  --tag-bg-end-g: 140;  --tag-bg-end-b: 145;
-    --tag-text-dark: #fcfcfc; 
-    --tag-text-light: #bcbcbc;
-}
-
-/* --- 歸檔 (Archives) 頁面調整 --- */
-.archive-year { margin-top: -5px; margin-bottom: 1px; }
-.archive-month { margin-top: -20px; }
-.archive-entry-title { font-size: 1.1rem; padding-bottom: 1px; margin-top: 1px; }
-.archive-meta { font-size: 0.8rem; margin-top: -8px; }
-.archive-year-header { font-size: 1.8rem; padding-bottom: 10px; margin-top: 0px; }
-.archive-month-header { font-size: 1.4rem; margin-top: 13px; margin-left: 5px; }
-
-/* --- 圖片樣式 --- */
+/* 圖片與圖說 */
 .post-content img {
-    display: block;
-    margin: 2rem auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s ease;
+    display: block; margin: 2rem auto; max-width: 100%; border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); transition: transform 0.3s ease;
 }
-
 .post-content img:hover { transform: scale(1.02); }
+.post-content figure figcaption { text-align: center; font-size: 0.9rem; margin-top: -1.5rem; margin-bottom: 2rem; }
 
-.post-content figure figcaption {
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: -1.5rem;
-    margin-bottom: 2rem;
-}
+/* 間隔 *//* 間隔 *//* 間隔 *//* 間隔 *//* 間隔 */
 
-/* --- 浮動文章列表側邊欄 (核心更新) --- */
-
-/* 浮動按鈕 - 定位在左下角 */
+/* 浮動按鈕 (左下角) */
 #sidebar-toggle {
-    position: fixed;
-    left: 20px;
-    bottom: 20px; /* 從原本的 top:50% 改為底部 */
-    z-index: 1000;
-    background: var(--tertiary); /* 使用主題第三色 */
-    color: var(--primary);
-    border: 1px solid var(--border);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.2s ease;
-}
-
-#sidebar-toggle:hover {
-    transform: scale(1.1);
+    position: fixed; left: 20px; bottom: 20px; z-index: 1000;
+    background: var(--tertiary); color: var(--primary); border: 1px solid var(--border);
+    width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.2s ease;
 }
 
 /* 側邊欄主體 */
 #custom-sidebar {
-    position: fixed;
-    left: -300px;
-    top: 0;
-    width: 300px;
-    height: 100%;
-    background: var(--theme);
-    z-index: 1001;
-    transition: left 0.3s ease;
-    overflow-y: auto;
-    padding: 20px;
-    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    position: fixed; left: -350px; top: 0; width: 250px; height: 100%;
+    background: var(--theme); z-index: 1001; overflow-y: auto; padding: 20px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1); transition: transform 0.3s ease, left 0.3s ease;
+    -webkit-overflow-scrolling: touch;
 }
+#custom-sidebar.sidebar-visible { left: 0; }
+#sidebar-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; }
+#sidebar-overlay.active { display: block; }
 
-#custom-sidebar.sidebar-visible {
-    left: 0;
-}
-
-/* 關閉按鈕樣式 */
-#sidebar-close {
-    background: none;
-    border: none;
-    font-size: 24px;
-    color: var(--primary);
-    cursor: pointer;
-    float: right;
-}
-
-/* 遮罩層 */
-#sidebar-overlay {
-    display: none;
-    position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0,0,0,0.5);
-    z-index: 1000;
-}
-
-#sidebar-overlay.active {
-    display: block;
-}
-
-/* 年份標題 */
-.sidebar-year {
-    font-size: 1.4rem;
-    font-weight: 800;
-    margin: 30px 0 10px 10px;
-    color: var(--primary);
-    border-bottom: 2px solid var(--border);
-    padding-bottom: 5px;
-}
-
-/* 月份標題 */
-.sidebar-month {
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 15px 0 5px 15px;
-    color: var(--secondary);
-    opacity: 0.7;
-}
-
-/* 文章列表容器 */
-.sidebar-content ul {
-    list-style: none;
-    padding: 0 0 0 20px; /* 向右縮進，建立層次感 */
-    margin: 0;
-}
-
-/* 文章標題反白效果 */
-.sidebar-content a {
-    text-decoration: none;
-    color: var(--primary);
-    font-size: 0.95rem;
-    display: block;
-    padding: 6px 12px;
-    margin: 2px 5px;
-    border-radius: 6px;
-    transition: all 0.2s ease;
-    line-height: 1.4;
-}
-
-/* 滑鼠移上去的反白顏色 */
-.sidebar-content a:hover {
-    background-color: var(--tertiary); /* 適配深淺色模式 */
-    color: var(--primary);
-    padding-left: 18px; /* 動態位移效果 */
-}
-
-/* 針對行動裝置微調側邊欄寬度 */
-@media screen and (max-width: 768px) {
-    #custom-sidebar {
-        width: 50%; /* 手機上佔據較多空間方便點擊 */
-    }
-}
-
-/* 圓形導覽列圖示 (強制正圓) */
-.logo-img {
-    /* 1. 設定固定的正方形尺寸 */
-    width: 28px !important;  /* 您可以依喜好調整大小，例如 32px 或 40px */
-    height: 28px !important; /* 寬度與高度必須完全相同 */
-    
-    /* 2. 圓形遮罩與裁切 */
-    border-radius: 50% !important; /* 強制變為正圓 */
-    object-fit: cover !important;  /* 關鍵：圖片會填滿正方形並自動裁切多餘部分，不變形 */
-    
-    /* 3. 對齊微調 */
-    display: block;
-    margin: 1;
-    
-    /* 可選：加上淡淡的邊框增加質感 */
-    border: 0px solid var(--border);
-}
-
-/* 確保 Logo 容器使用 Flex 並且垂直置中 (延用之前的設定) */
-.logo a {
-    display: flex !important;
-    align-items: center !important;
-    gap: 8px;                  /* 圖示與文字間距 */
-    font-size: 24px !important;
-    font-weight: 600 !important;
-    line-height: 1;
-    text-decoration: none;
-}
-
-/* 修改側邊欄主體樣式 */
-#custom-sidebar {
-    position: fixed;
-    left: -350px; /* 將隱藏位置拉遠一點，確保完全出鏡 */
-    top: 0;
-    width: 250px;
-    height: 100%;
-    background: var(--theme);
-    z-index: 1001;
-    transition: transform 0.3s ease, left 0.3s ease; /* 加入平滑轉換 */
-    overflow-y: auto;
-    padding: 20px;
-    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
-    /* 啟動 GPU 加速，讓移動更順暢 */
-    backface-visibility: hidden;
-    -webkit-overflow-scrolling: touch; /* 讓 iPad 捲動更滑順 */
-}
-
-/* 顯示時的位置 */
-#custom-sidebar.sidebar-visible {
-    left: 0;
-}
-
-/* 針對 iPad (平板) 的寬度微調 */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    #custom-sidebar {
-        width: 320px;
-        left: -370px;
-    }
-}
-
-/* 當前正在閱讀的文章標題樣式 */
+/* 當前閱讀中文章高亮 */
 .sidebar-content a.current-active {
-    background-color: var(--secondary) !important; /* 使用較明顯的次要顏色 */
-    color: var(--theme) !important;               /* 文字反白 */
-    font-weight: bold;
-    border-left: 4px solid var(--primary);         /* 左側加一條粗線 */
-    padding-left: 15px;                            /* 增加左側內距 */
+    background-color: var(--secondary) !important; color: var(--theme) !important;
+    font-weight: bold; border-left: 4px solid var(--primary); padding-left: 15px;
 }
 
-/* --- 針對手機（寬度小於 768px）的專屬調整 --- */
-@media screen and (max-width: 768px) {
-    #custom-sidebar {
-        /* 1. 縮小寬度：手機上建議設為 240px ~ 260px 較不擁擠 */
-        width: 250px !important; 
-        
-        /* 2. 增加隱藏時的負位：確保完全消失在螢幕左側 */
-        left: -300px !important; 
-        
-        /* 3. 微調內距：讓文字不要太貼邊，視覺更清爽 */
-        padding: 15px !important;
-    }
 
-    /* 確保顯示時的位置正確 */
-    #custom-sidebar.sidebar-visible {
-        left: 0 !important;
-    }
-
-    /* 調整手機版字體大小，避免標題太長換行 */
-    .sidebar-year {
-        font-size: 1.2rem !important;
-    }
-    .sidebar-month {
-        font-size: 1rem !important;
-    }
-    .sidebar-content li a {
-        font-size: 0.9rem !important;
-    }
-}
+/* 間隔 *//* 間隔 *//* 間隔 *//* 間隔 */
