@@ -336,7 +336,7 @@ blockquote {
 /* 針對行動裝置微調側邊欄寬度 */
 @media screen and (max-width: 768px) {
     #custom-sidebar {
-        width: 50%; /* 手機上佔據較多空間方便點擊 */
+        width: 30%; /* 手機上佔據較多空間方便點擊 */
     }
 }
 
