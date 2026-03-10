@@ -345,7 +345,7 @@ blockquote {
     position: fixed;
     left: -350px; /* 將隱藏位置拉遠一點，確保完全出鏡 */
     top: 0;
-    width: 200px;
+    width: 250px;
     height: 100%;
     background: var(--theme);
     z-index: 1001;
@@ -390,7 +390,7 @@ blockquote {
         left: -300px !important; 
         
         /* 3. 微調內距：讓文字不要太貼邊，視覺更清爽 */
-        padding: 15px !important;
+        padding: 1px !important;
     }
 
     /* 確保顯示時的位置正確 */
