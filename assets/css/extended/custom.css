@@ -301,7 +301,7 @@ blockquote {
 .sidebar-month {
     font-size: 1rem;
     font-weight: 600;
-    margin: 15px 0 5px 15px;
+    margin: 5px 0 5px 15px;
     color: var(--secondary);
     opacity: 0.7;
 }
@@ -309,8 +309,9 @@ blockquote {
 /* 文章列表容器 */
 .sidebar-content ul {
     list-style: none;
-    padding: 0 0 0 20px; /* 向右縮進，建立層次感 */
+    padding: 0 0 0 10px; /* 向右縮進，建立層次感 */
     margin: 0;
+   
 }
 
 /* 文章標題反白效果 */
@@ -406,14 +407,14 @@ blockquote {
     margin-top: 10px !important;    /* 縮小月份上方的間距 */
     margin-bottom: 5px !important;  /* 縮小月份下方的間距 */
     }
-    .sidebar-content li a {
+    .sidebar-content ul li {
         font-size: 1rem !important;
-        margin-bottom: 2px !important; /* 縮小列表項目之間的下方間距 */
+        margin-bottom: 1px !important; /* 縮小列表項目之間的下方間距 */
     }
 
     .sidebar-content a {
     padding-top: 4px !important;    /* 縮小標題上方的空間 */
     padding-bottom: 4px !important; /* 縮小標題下方的空間 */
-    line-height: 1.3 !important;    /* 稍微縮小行高，讓多行標題更緊湊 */
+    line-height: 0.6 !important;    /* 稍微縮小行高，讓多行標題更緊湊 */
     }
 }
