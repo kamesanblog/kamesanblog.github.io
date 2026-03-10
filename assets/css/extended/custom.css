@@ -343,9 +343,9 @@ blockquote {
 /* 修改側邊欄主體樣式 */
 #custom-sidebar {
     position: fixed;
-    left: -350px; /* 將隱藏位置拉遠一點，確保完全出鏡 */
+    left: -450px; /* 將隱藏位置拉遠一點，確保完全出鏡 */
     top: 0;
-    width: 250px;
+    width: 300px;
     height: 100%;
     background: var(--theme);
     z-index: 1001;
@@ -390,7 +390,7 @@ blockquote {
         left: -300px !important; 
         
         /* 3. 微調內距：讓文字不要太貼邊，視覺更清爽 */
-        padding: 1px !important;
+        padding: 15px !important;
     }
 
     /* 確保顯示時的位置正確 */
