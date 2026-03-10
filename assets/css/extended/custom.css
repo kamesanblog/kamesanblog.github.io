@@ -409,12 +409,12 @@ blockquote {
     }
     .sidebar-content ul li {
         font-size: 1rem !important;
-        margin-bottom: 1px !important; /* 縮小列表項目之間的下方間距 */
+        margin-bottom: 3px !important; /* 縮小列表項目之間的下方間距 */
     }
 
     .sidebar-content a {
-    padding-top: 10px !important;    /* 縮小標題上方的空間 */
-    padding-bottom: 10px !important; /* 縮小標題下方的空間 */
-    line-height: 1px !important;    /* 稍微縮小行高，讓多行標題更緊湊 */
+    padding-top: 15px !important;    /* 縮小標題上方的空間 */
+    padding-bottom: 15px !important; /* 縮小標題下方的空間 */
+    line-height: 3px !important;    /* 稍微縮小行高，讓多行標題更緊湊 */
     }
 }
