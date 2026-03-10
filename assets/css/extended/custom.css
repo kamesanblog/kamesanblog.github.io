@@ -98,7 +98,7 @@ blockquote {
 .main .first-entry .entry-header h1 {
     font-size: 1.8rem !important;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 1px;
 }
 
 .main .first-entry .entry-content {
@@ -112,12 +112,12 @@ blockquote {
 }
 
 .post-entry {
-    margin-bottom: 12px !important;
-    padding: 15px !important;
+    margin-bottom: 4px !important;
+    padding: 10px !important;
 }
 
 .first-entry {
-    margin-bottom: 20px !important;
+    margin-bottom: 10px !important;
     padding: 20px !important;
 }
 
@@ -191,8 +191,8 @@ blockquote {
 /* 圓形導覽列圖示 (強制正圓) */
 .logo-img {
     /* 1. 設定固定的正方形尺寸 */
-    width: 28px !important;  /* 您可以依喜好調整大小，例如 32px 或 40px */
-    height: 28px !important; /* 寬度與高度必須完全相同 */
+    width: 26px !important;  /* 您可以依喜好調整大小，例如 32px 或 40px */
+    height: 26px !important; /* 寬度與高度必須完全相同 */
     
     /* 2. 圓形遮罩與裁切 */
     border-radius: 50% !important; /* 強制變為正圓 */
