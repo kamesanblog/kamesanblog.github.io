@@ -415,6 +415,6 @@ blockquote {
     .sidebar-content a {
     padding-top: 4px !important;    /* 縮小標題上方的空間 */
     padding-bottom: 4px !important; /* 縮小標題下方的空間 */
-    line-height: 0.6 !important;    /* 稍微縮小行高，讓多行標題更緊湊 */
+    line-height: 1 !important;    /* 稍微縮小行高，讓多行標題更緊湊 */
     }
 }
