@@ -324,7 +324,7 @@ blockquote {
     position: fixed;
     left: -350px; /* 將隱藏位置拉遠一點，確保完全出鏡 */
     top: 0;
-    width: 300px;
+    width: 250px;
     height: 100%;
     background: var(--theme);
     z-index: 1001;
