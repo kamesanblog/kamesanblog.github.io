@@ -336,7 +336,7 @@ blockquote {
 /* 針對行動裝置微調側邊欄寬度 */
 @media screen and (max-width: 768px) {
     #custom-sidebar {
-        width: 30%; /* 手機上佔據較多空間方便點擊 */
+        width: 40%; /* 手機上佔據較多空間方便點擊 */
     }
 }
 
@@ -345,7 +345,7 @@ blockquote {
     position: fixed;
     left: -350px; /* 將隱藏位置拉遠一點，確保完全出鏡 */
     top: 0;
-    width: 250px;
+    width: 200px;
     height: 100%;
     background: var(--theme);
     z-index: 1001;
