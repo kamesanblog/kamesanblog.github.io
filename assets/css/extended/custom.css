@@ -407,5 +407,9 @@ blockquote {
     margin-top: 10px !important;    /* 縮小月份上方的間距 */
     margin-bottom: 5px !important;  /* 縮小月份下方的間距 */
     }
+    .sidebar-content ul li {
+        font-size: 1.1rem !important;
+        margin-bottom: 3px !important; /* 縮小列表項目之間的下方間距 */
+    }
 
 }
