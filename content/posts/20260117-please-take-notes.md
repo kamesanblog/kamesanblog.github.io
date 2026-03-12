@@ -7,7 +7,6 @@ published: 2026-01-17
 categories:
   - Life
 tags:
-  - life
   - note
 keywords:
   - 筆記 

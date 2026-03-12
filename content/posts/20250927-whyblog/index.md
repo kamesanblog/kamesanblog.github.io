@@ -6,7 +6,7 @@ published: 2025-10-03
 categories:
   - Life
 tags:
-  - life
+  - socialmedia
 keywords:
   - blog
 draft: false 
