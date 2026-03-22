@@ -2,37 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kamesun.com/categories/</loc>
+    <lastmod>2026-03-22T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesun.com/tags/desires/</loc>
+    <lastmod>2026-03-22T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesun.com/tags/freedom/</loc>
+    <lastmod>2026-03-22T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesun.com/categories/life/</loc>
+    <lastmod>2026-03-22T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesun.com/posts/</loc>
+    <lastmod>2026-03-22T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesun.com/tags/</loc>
+    <lastmod>2026-03-22T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesun.com/</loc>
+    <lastmod>2026-03-22T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesun.com/posts/20260322-ideal--daily-ife/</loc>
+    <lastmod>2026-03-22T00:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://kamesun.com/tags/ai/</loc>
     <lastmod>2026-03-12T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kamesun.com/tags/blog/</loc>
     <lastmod>2026-03-12T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://kamesun.com/categories/</loc>
-    <lastmod>2026-03-12T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://kamesun.com/tags/desires/</loc>
-    <lastmod>2026-03-12T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://kamesun.com/tags/hugo/</loc>
-    <lastmod>2026-03-12T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://kamesun.com/categories/life/</loc>
     <lastmod>2026-03-12T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kamesun.com/tags/obsidian/</loc>
     <lastmod>2026-03-12T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://kamesun.com/posts/</loc>
-    <lastmod>2026-03-12T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://kamesun.com/tags/</loc>
-    <lastmod>2026-03-12T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://kamesun.com/categories/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2026-03-12T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://kamesun.com/</loc>
     <lastmod>2026-03-12T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kamesun.com/posts/20260312-my-castle/</loc>
