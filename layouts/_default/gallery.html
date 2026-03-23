@@ -11,7 +11,6 @@
         {{ range .Resources.ByType "image" }}
           {{ $thumb := .Resize "800x" }}
           <div class="masonry-item">
-            {{/* 1. 修改：加入 data-url 傳遞連結 */}}
             <a href="{{ .RelPermalink }}" class="lightbox-trigger" 
                data-caption="{{ $currentPage.Title }}" 
                data-url="{{ $currentPage.RelPermalink }}">
@@ -29,19 +28,21 @@
 
 <div id="lightbox-modal" class="lightbox">
   <span class="close-btn">&times;</span>
-  <img class="lightbox-content" id="lightbox-img">
-  <div id="lightbox-caption"></div>
+  <button class="nav-btn prev-btn" id="prev-btn" aria-label="Previous">&#10094;</button>
+  <div class="lightbox-wrapper">
+    <img class="lightbox-content" id="lightbox-img">
+    <div id="lightbox-caption"></div>
+  </div>
+  <button class="nav-btn next-btn" id="next-btn" aria-label="Next">&#10095;</button>
 </div>
 
 <style>
-  /* 1. 佈局核心 - 修改：移除 @media 欄數切換，強制 3 欄 */
   .masonry-gallery {
-    column-count: 3;    /* 強制電腦、平板、手機皆為 3 欄 */
+    column-count: 3;
     column-gap: 4px;    
     padding: 10px 0;
     line-height: 0;    
   }
-
   .masonry-item {
     display: block;    
     width: 100%;
@@ -51,96 +52,61 @@
     overflow: hidden;
     break-inside: avoid; 
   }
-
   .post-content .masonry-gallery a {
     box-shadow: none !important; 
     margin: 0 !important;
     padding: 0 !important;
     display: block;
   }
-
-  /* 調整手機端的微小間距與字體，讓比例更協調 */
   @media (max-width: 600px) {
-    .masonry-gallery {
-      column-gap: 2px;
-    }
-    .masonry-item {
-      margin-bottom: 2px;
-    }
-    .gallery-meta {
-      font-size: 0.5rem !important;
-      padding: 4px !important;
-    }
+    .masonry-gallery { column-gap: 2px; }
+    .masonry-item { margin-bottom: 2px; }
+    .gallery-meta { font-size: 0.5rem !important; padding: 4px !important; }
   }
-
   .masonry-item img {
-    width: 100%;
-    height: auto;
-    display: block;      
-    margin: 0 !important;
-    padding: 0 !important;
-    cursor: zoom-in;
-    transition: filter 0.3s ease;
+    width: 100%; height: auto; display: block;
+    margin: 0 !important; padding: 0 !important;
+    cursor: zoom-in; transition: filter 0.3s ease;
   }
-
-  .masonry-item:hover img {
-    filter: brightness(0.8);
-  }
-
+  .masonry-item:hover img { filter: brightness(0.8); }
   .gallery-meta {
-    position: absolute;
-    bottom: 0; left: 0; right: 0;
-    padding: 8px;
+    position: absolute; bottom: 0; left: 0; right: 0; padding: 8px;
     background: linear-gradient(transparent, rgba(0,0,0,0.6));
-    color: white;
-    font-size: 0.65rem;
-    line-height: 1.2;    
-    opacity: 0;
-    transition: opacity 0.2s;
-    pointer-events: none;
+    color: white; font-size: 0.65rem; line-height: 1.2;
+    opacity: 0; transition: opacity 0.2s; pointer-events: none;
   }
-
   .masonry-item:hover .gallery-meta { opacity: 1; }
 
-  /* 2. Lightbox 樣式 - 修改：優化連結顯示 */
   .lightbox {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
+    display: none; position: fixed; z-index: 9999;
+    top: 0; left: 0; width: 100%; height: 100%;
     background-color: rgba(0, 0, 0, 0.95);
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    align-items: center; justify-content: space-between; flex-direction: row;
   }
-
+  .lightbox-wrapper {
+    display: flex; flex-direction: column; align-items: center;
+    justify-content: center; max-width: 80%;
+  }
   .lightbox-content {
-    max-width: 95%;
-    max-height: 80vh; /* 留一點空間給下方的連結 */
-    object-fit: contain;
+    max-width: 100%; max-height: 80vh; object-fit: contain; user-select: none;
   }
-
-  #lightbox-caption {
-    margin-top: 15px;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    text-align: center;
+  .nav-btn {
+    background: transparent; border: none;
+    color: rgba(255, 255, 255, 0.5); font-size: 50px;
+    padding: 20px; cursor: pointer; margin: 0 10px;
+    transition: color 0.3s, transform 0.2s; z-index: 10000;
   }
-
-  #lightbox-caption a {
-    color: #fff;
-    text-decoration: underline;
-    font-weight: bold;
-  }
-
+  .nav-btn:hover { color: #fff; transform: scale(1.1); }
+  #lightbox-caption { margin-top: 15px; font-size: 0.9rem; line-height: 1.5; text-align: center; }
+  #lightbox-caption a { color: #fff; text-decoration: underline; font-weight: bold; }
   .close-btn {
-    position: absolute;
-    top: 20px; right: 30px;
-    color: #fff;
-    font-size: 40px;
-    font-weight: bold;
-    cursor: pointer;
+    position: absolute; top: 20px; right: 30px;
+    color: #fff; font-size: 40px; font-weight: bold;
+    cursor: pointer; z-index: 10001;
+  }
+  @media (max-width: 600px) {
+    .nav-btn { display: none; }
+    .lightbox-wrapper { max-width: 95%; }
   }
 </style>
 
@@ -150,26 +116,49 @@
     const modalImg = document.getElementById('lightbox-img');
     const captionText = document.getElementById('lightbox-caption');
     const closeBtn = document.querySelector('.close-btn');
+    const triggers = Array.from(document.querySelectorAll('.lightbox-trigger'));
+    let currentIndex = 0;
 
-    document.querySelectorAll('.lightbox-trigger').forEach(trigger => {
+    function updateLightbox(index) {
+      if (index < 0) index = triggers.length - 1;
+      if (index >= triggers.length) index = 0;
+      currentIndex = index;
+      const target = triggers[currentIndex];
+      modalImg.src = target.getAttribute('href');
+      const caption = target.getAttribute('data-caption');
+      const url = target.getAttribute('data-url');
+      captionText.innerHTML = `<a href="${url}">${caption}</a>`;
+    }
+
+    triggers.forEach((trigger, index) => {
       trigger.addEventListener('click', function(e) {
         e.preventDefault();
         modal.style.display = "flex";
-        modalImg.src = this.getAttribute('href');
-        
-        // 2. 修改：取得標題與 URL，並組合成 HTML 連結
-        const caption = this.getAttribute('data-caption');
-        const url = this.getAttribute('data-url');
-        captionText.innerHTML = `<a href="${url}">${caption}</a>`;
+        updateLightbox(index);
       });
     });
 
+    document.getElementById('next-btn').onclick = (e) => { e.stopPropagation(); updateLightbox(currentIndex + 1); };
+    document.getElementById('prev-btn').onclick = (e) => { e.stopPropagation(); updateLightbox(currentIndex - 1); };
     closeBtn.onclick = () => { modal.style.display = "none"; };
     modal.onclick = (e) => { if(e.target === modal) modal.style.display = "none"; };
     
     document.addEventListener('keydown', (e) => {
-      if (e.key === "Escape") modal.style.display = "none";
+      if (modal.style.display === "flex") {
+        if (e.key === "ArrowRight") updateLightbox(currentIndex + 1);
+        if (e.key === "ArrowLeft") updateLightbox(currentIndex - 1);
+        if (e.key === "Escape") modal.style.display = "none";
+      }
     });
+
+    let touchStartX = 0;
+    modal.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; }, false);
+    modal.addEventListener('touchend', e => {
+      const touchEndX = e.changedTouches[0].screenX;
+      const swipeDistance = touchEndX - touchStartX;
+      if (swipeDistance < -50) updateLightbox(currentIndex + 1);
+      if (swipeDistance > 50) updateLightbox(currentIndex - 1);
+    }, false);
   });
 </script>
 {{ end }}
