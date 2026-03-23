@@ -97,16 +97,19 @@
     transition: color 0.3s, transform 0.2s; z-index: 10000;
   }
   .nav-btn:hover { color: #fff; transform: scale(1.1); }
+
+  /* 調整行動端箭頭大小與間距 */
+  @media (max-width: 768px) {
+    .nav-btn { font-size: 35px; padding: 10px; margin: 0 5px; color: rgba(255, 255, 255, 0.8); }
+    .lightbox-wrapper { max-width: 85%; }
+  }
+
   #lightbox-caption { margin-top: 15px; font-size: 0.9rem; line-height: 1.5; text-align: center; }
   #lightbox-caption a { color: #fff; text-decoration: underline; font-weight: bold; }
   .close-btn {
     position: absolute; top: 20px; right: 30px;
     color: #fff; font-size: 40px; font-weight: bold;
     cursor: pointer; z-index: 10001;
-  }
-  @media (max-width: 600px) {
-    .nav-btn { display: none; }
-    .lightbox-wrapper { max-width: 95%; }
   }
 </style>
 
@@ -124,6 +127,8 @@
       if (index >= triggers.length) index = 0;
       currentIndex = index;
       const target = triggers[currentIndex];
+      
+      // 更新內容
       modalImg.src = target.getAttribute('href');
       const caption = target.getAttribute('data-caption');
       const url = target.getAttribute('data-url');
@@ -133,32 +138,39 @@
     triggers.forEach((trigger, index) => {
       trigger.addEventListener('click', function(e) {
         e.preventDefault();
+        updateLightbox(index); // 先更新內容
         modal.style.display = "flex";
-        updateLightbox(index);
       });
     });
 
     document.getElementById('next-btn').onclick = (e) => { e.stopPropagation(); updateLightbox(currentIndex + 1); };
     document.getElementById('prev-btn').onclick = (e) => { e.stopPropagation(); updateLightbox(currentIndex - 1); };
-    closeBtn.onclick = () => { modal.style.display = "none"; };
-    modal.onclick = (e) => { if(e.target === modal) modal.style.display = "none"; };
+    
+    // 統一關閉函式：清空圖片路徑防止 Bug
+    const closeModal = () => {
+      modal.style.display = "none";
+      modalImg.src = "";
+    };
+
+    closeBtn.onclick = closeModal;
+    modal.onclick = (e) => { if(e.target === modal) closeModal(); };
     
     document.addEventListener('keydown', (e) => {
       if (modal.style.display === "flex") {
         if (e.key === "ArrowRight") updateLightbox(currentIndex + 1);
         if (e.key === "ArrowLeft") updateLightbox(currentIndex - 1);
-        if (e.key === "Escape") modal.style.display = "none";
+        if (e.key === "Escape") closeModal();
       }
     });
 
     let touchStartX = 0;
-    modal.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; }, false);
+    modal.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; }, {passive: true});
     modal.addEventListener('touchend', e => {
       const touchEndX = e.changedTouches[0].screenX;
       const swipeDistance = touchEndX - touchStartX;
       if (swipeDistance < -50) updateLightbox(currentIndex + 1);
       if (swipeDistance > 50) updateLightbox(currentIndex - 1);
-    }, false);
+    }, {passive: true});
   });
 </script>
 {{ end }}
