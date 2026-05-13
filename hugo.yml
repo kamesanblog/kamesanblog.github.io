@@ -3,6 +3,7 @@ languageCode: 'zh-tw'
 defaultContentLanguage: "zh-tw"
 timeZone: "Asia/Taipei"
 title: '卡美桑的家'
+copyright: "© 2026 [卡美桑的家](https://kamesun.com) · [Email Me](mailto:taitungchishang@gmail.com)"
 languageName: "繁體中文"
 pagination.pagerSize: 5
 theme: 'PaperMod'
