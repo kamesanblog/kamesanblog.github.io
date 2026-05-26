@@ -2,37 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kamesun.com/tags/blogblog/</loc>
+    <lastmod>2026-05-26T00:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://kamesun.com/categories/book/</loc>
-    <lastmod>2026-05-13T00:00:00+08:00</lastmod>
+    <lastmod>2026-05-26T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kamesun.com/categories/</loc>
-    <lastmod>2026-05-13T00:00:00+08:00</lastmod>
+    <lastmod>2026-05-26T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://kamesun.com/tags/freedom/</loc>
-    <lastmod>2026-05-13T00:00:00+08:00</lastmod>
+    <loc>https://kamesun.com/tags/control/</loc>
+    <lastmod>2026-05-26T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesun.com/tags/desires/</loc>
+    <lastmod>2026-05-26T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesun.com/tags/family/</loc>
+    <lastmod>2026-05-26T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kamesun.com/tags/note/</loc>
-    <lastmod>2026-05-13T00:00:00+08:00</lastmod>
+    <lastmod>2026-05-26T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesun.com/categories/painting/</loc>
+    <lastmod>2026-05-26T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kamesun.com/posts/</loc>
-    <lastmod>2026-05-13T00:00:00+08:00</lastmod>
+    <lastmod>2026-05-26T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kamesun.com/tags/</loc>
-    <lastmod>2026-05-13T00:00:00+08:00</lastmod>
+    <lastmod>2026-05-26T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesun.com/tags/watercolor/</loc>
+    <lastmod>2026-05-26T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kamesun.com/</loc>
+    <lastmod>2026-05-26T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesun.com/posts/20260526-like-them-as-they-are/</loc>
+    <lastmod>2026-05-26T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kamesun.com/tags/freedom/</loc>
     <lastmod>2026-05-13T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kamesun.com/posts/20260513-the-pathless-path/</loc>
     <lastmod>2026-05-13T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://kamesun.com/categories/painting/</loc>
-    <lastmod>2026-04-19T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://kamesun.com/tags/streets/</loc>
-    <lastmod>2026-04-19T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://kamesun.com/tags/watercolor/</loc>
     <lastmod>2026-04-19T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kamesun.com/tags/%E9%AB%98%E9%9B%84/</loc>
@@ -40,9 +55,6 @@
   </url><url>
     <loc>https://kamesun.com/posts/20260419-kaohsiung/</loc>
     <lastmod>2026-04-19T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://kamesun.com/tags/desires/</loc>
-    <lastmod>2026-03-22T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kamesun.com/categories/life/</loc>
     <lastmod>2026-03-22T00:00:00+08:00</lastmod>

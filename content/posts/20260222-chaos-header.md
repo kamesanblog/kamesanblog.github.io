@@ -9,6 +9,7 @@ categories:
   - "工具"
 tags:
   - Obsidian
+  - BlogBlog
 keywords:
   - Obsidian
   - header

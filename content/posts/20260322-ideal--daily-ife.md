@@ -10,6 +10,7 @@ categories:
 tags:
   - desires
   - freedom
+  - BlogBlog
 keywords:
   - 理想
   - 日常
