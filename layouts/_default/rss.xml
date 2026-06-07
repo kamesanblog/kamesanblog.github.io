@@ -27,10 +27,10 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink }}</guid>
       
-      <!-- 修正重點：利用 html 轉義處理內文，並以標準不帶安全漏洞的方式輸出，防止內容破壞 XML 結構 -->
+      <!-- 修正：移除 | html，改用標準的 safeHTML 輸出完整排版，或用 .Plain 輸出純文字 -->
       <description>
         {{- "<![CDATA[" | safeHTML -}}
-        {{- .Content | html -}}
+        {{- .Content | safeHTML -}}
         {{- "]]>" | safeHTML -}}
       </description>
     </item>
