@@ -1,7 +1,7 @@
 ---
 title: 理想的日常
 description: 理想日常實為自由意志與欲求的延伸吧？
-time: 2026-03-22T21:13:00
+date: 2026-03-22T21:13:00
 created: 2026-03-22
 published: 2026-03-22
 draft: false

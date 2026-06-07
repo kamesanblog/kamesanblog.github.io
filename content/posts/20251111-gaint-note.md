@@ -1,7 +1,7 @@
 ---
 title: 巨人的筆記閱讀心得
 description: 讓自己的筆記可以更系統化
-time: 2025-11-11
+date: 2025-11-11
 created: 2025-11-11
 published: 2025-11-11
 categories:

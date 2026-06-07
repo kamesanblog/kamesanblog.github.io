@@ -1,7 +1,7 @@
 ---
 title: 墾丁畫聚
 description: 最近對於繪畫的一些心理轉變...
-time: 2026-01-31T18:01:00
+date: 2026-01-31T18:01:00
 created: 2026-01-31
 published: 2026-01-31
 categories:

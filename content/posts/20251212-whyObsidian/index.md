@@ -1,7 +1,7 @@
 ---
 title: 我的筆記軟體Obsidian
 description: 是什麼原因讓我開始使用Obsidian
-time: 2025-12-12T20:32:00
+date: 2025-12-12T20:32:00
 created: 2025-12-12
 published: 2025-12-12
 categories:

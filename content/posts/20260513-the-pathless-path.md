@@ -1,7 +1,7 @@
 ---
 title: 閱讀無路之路
 description: 很美的理想
-time: 2026-05-13T20:37:00
+date: 2026-05-13T20:37:00
 created: 2026-05-13
 published: 2026-05-13
 draft: false

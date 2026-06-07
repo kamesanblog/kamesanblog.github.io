@@ -1,7 +1,7 @@
 ---
 title: 朋友家頂樓的植物園
 description: 突然邀約的畫聚
-time: 2026-03-11T20:50:00
+date: 2026-03-11T20:50:00
 created: 2026-03-11
 published: 2026-03-11
 draft: false

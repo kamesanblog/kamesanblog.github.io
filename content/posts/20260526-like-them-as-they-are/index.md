@@ -1,7 +1,7 @@
 ---
 title: 學會喜歡他們本來的樣子
 description: 如何擺脫自己的控制欲
-time: 2026-05-26T17:58:00
+date: 2026-05-26T17:58:00
 created: 2026-05-22
 published: 2026-05-26
 draft: false

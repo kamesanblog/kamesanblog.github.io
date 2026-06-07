@@ -1,7 +1,7 @@
 ---
 title: 春節水彩
 description: 久久一次趁著節慶有空畫畫
-time: 2026-02-20T21:18:00
+date: 2026-02-20T21:18:00
 created: 2026-02-20
 published: 2026-02-20
 draft: false

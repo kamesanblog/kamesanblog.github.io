@@ -1,7 +1,7 @@
 ---
 title: 請開始紀錄吧
 description: 痛。使人成長。
-time: 2026-01-17T20:59:00
+date: 2026-01-17T20:59:00
 created: 2026-01-17
 published: 2026-01-17
 categories:

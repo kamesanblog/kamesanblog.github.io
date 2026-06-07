@@ -1,7 +1,7 @@
 ---
 title: 好久沒動畫筆了
 description: 看屁日本分享照片
-time: 2025-10-28T18:15:00
+date: 2025-10-28T18:15:00
 created: 2025-10-28
 published: 2025-10-28
 categories:

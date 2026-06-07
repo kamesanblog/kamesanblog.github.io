@@ -1,7 +1,7 @@
 ---
 title: 今日刪除了一位格友
 description: 我討厭指名道姓批評或貶低別人的言論
-time: 2026-06-06T21:09:00
+date: 2026-06-06T21:09:00
 created: 2026-06-06
 published: 2026-06-06
 draft: false

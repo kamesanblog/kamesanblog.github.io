@@ -1,7 +1,7 @@
 ---
 title: 我對MarkDown的header亂用
 description: 自己異想天開的用法分享
-time: 2026-02-22T20:38:00
+date: 2026-02-22T20:38:00
 created: 2026-02-22
 published: 2026-02-22
 draft: false
