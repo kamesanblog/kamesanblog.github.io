@@ -6,7 +6,7 @@ title: '卡美桑的家'
 copyright: "[卡美桑的家](https://kamesun.com) · [Email Me](mailto:taitungchishang@gmail.com)"
 languageName: "繁體中文"
 pagination.pagerSize: 5
-
+theme: 'PaperMod'
 url: "javascript:goToRandomPost()"
 
 enableRobotsTXT: true
@@ -69,6 +69,8 @@ params:
   socialIcons:
   - name: email
     url: "mailto:taitungchishang@gmail.com"
+  - name: "rss"
+    url: "/index.xml"
 
 fuseOpts:
     isCaseSensitive: false
@@ -79,11 +81,12 @@ fuseOpts:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content", "keywords"]
 
+
 outputs:
   home:
-  - HTML
-  - RSS
-  - JSON
+    - HTML  # 必須在第一個，這樣 localhost:1313 才會預設開啟網頁首頁
+    - RSS
+    - JSON
 
 services:
   rss:

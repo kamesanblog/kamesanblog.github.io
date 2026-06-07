@@ -5,12 +5,26 @@
     <link>http://localhost:1313/categories/life/</link>
     <description>Recent content on 卡美桑的家</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language><atom:link href="http://localhost:1313/categories/life/index.xml" rel="self" type="application/rss+xml" /><item>
+    <language>zh-tw</language>
+    
+    
+    <copyright>Copyright 2026 卡美桑的家. All rights reserved.</copyright>
+    
+    
+    <managingEditor>taitungchishang@gmail.com (卡美桑)</managingEditor>
+    
+    <image>
+      <url>http://localhost:1313/images/logo.png</url>
+      <title>卡美桑的家</title>
+      <link>http://localhost:1313/</link>
+    </image><item>
       <title>今日刪除了一位格友</title>
       <link>http://localhost:1313/posts/20260606-delete-a-blogger/</link>
       <pubDate>Sat, 06 Jun 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260606-delete-a-blogger/</guid>
-      <description>&lt;br&gt;
+      
+      
+      <description><![CDATA[&lt;br&gt;
 &lt;p&gt;其實刪了就沒事何必要寫一篇抱怨文來浪費時間 ？其實就是自己的小心眼作祟想發洩一下。&lt;br&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;&lt;strong&gt;我討厭指名道姓批評或貶低別人的言論&lt;/strong&gt;，這樣的東西在社群媒體多得是，現在部落格竟然也不少。&lt;br&gt;&lt;/p&gt;
@@ -27,13 +41,15 @@
 &lt;br&gt;
 &lt;p&gt;&lt;strong&gt;刪之、也清淨。&lt;/strong&gt;&lt;/p&gt;
 &lt;br&gt;
-</description>
+]]></description>
     </item><item>
       <title>學會喜歡他們本來的樣子</title>
       <link>http://localhost:1313/posts/20260526-like-them-as-they-are/</link>
       <pubDate>Tue, 26 May 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260526-like-them-as-they-are/</guid>
-      <description>&lt;br&gt;
+      
+      
+      <description><![CDATA[&lt;br&gt;
 
 
 &lt;div class=&#34;callout &#34;&gt;
@@ -44,7 +60,12 @@
 
 &lt;/div&gt;
 &lt;br&gt;
-&lt;p&gt;兩年前從瑞典作家Björn Natthiko Lindeblad的書籍&amp;quot;&lt;a href=&#34;https://www.books.com.tw/products/0010947051&#34;&gt;我可能錯了&lt;/a&gt;&amp;ldquo;拾得。&lt;br&gt;
+&lt;p&gt;兩年前從瑞典作家Björn Natthiko Lindeblad的書籍&amp;quot;&lt;a href=&#34;https://www.books.com.tw/products/0010947051&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;我可能錯了&lt;/a&gt;
+ &amp;ldquo;拾得。&lt;br&gt;
 這句話讓我面對生活上人事物時多新增一種思考框架。&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;因為從小家裡也有從商的關係，面對工作或社交時遇到的一些人，我其實很容易可以做表面&amp;hellip;雖然不喜歡你的言行但我可以戴上面具並虛偽假裝&amp;hellip;即使真的遇到不舒服或是不開心的狀況，我大部分都可以選擇避開&amp;hellip;..所以起初認為這話沒什麼運用的難度 &amp;hellip;但是我內心有一種小聲音：你只是逃避。&lt;/p&gt;
@@ -80,7 +101,22 @@
 &lt;p&gt;並持續努力學習中&amp;hellip;
 以上就是我本月同學會的分享。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;這是我的「&lt;a href=&#34;https://blogblog.club/party/&#34;&gt;BlogBlog 同樂會 - 2026 年 5 月&lt;/a&gt;」的投稿文章。本月主題是「&lt;a href=&#34;https://eddielv.com/articles/a-sentence-changing-you/&#34;&gt;改變人生觀的一句話&lt;/a&gt;」，由 &lt;a href=&#34;https://eddielv.com&#34;&gt;Eddie Lv&lt;/a&gt; 主持。如果你有自己的部落格，歡迎一起來參加！&lt;/p&gt;
+&lt;p&gt;這是我的「&lt;a href=&#34;https://blogblog.club/party/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;BlogBlog 同樂會 - 2026 年 5 月&lt;/a&gt;
+ 」的投稿文章。本月主題是「&lt;a href=&#34;https://eddielv.com/articles/a-sentence-changing-you/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;改變人生觀的一句話&lt;/a&gt;
+ 」，由 &lt;a href=&#34;https://eddielv.com&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;Eddie Lv&lt;/a&gt;
+  主持。如果你有自己的部落格，歡迎一起來參加！&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
 &lt;hr&gt;
@@ -95,16 +131,28 @@
 如果從前，我根本不會想要去試著描繪這樣的主題，但朋友的主題選擇，恰恰點出我的弱點：&lt;strong&gt;不會欣賞平凡事物中的美&lt;/strong&gt;。&lt;br&gt;
 看來多多外出寫生才是進步的方法。&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20260526-like-them-as-they-are/20260518002.jpg&#34;&gt;&lt;/p&gt;
-</description>
+]]></description>
     </item><item>
       <title>閱讀無路之路</title>
       <link>http://localhost:1313/posts/20260513-the-pathless-path/</link>
       <pubDate>Wed, 13 May 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260513-the-pathless-path/</guid>
-      <description>&lt;br&gt;
-&lt;p&gt;花了幾日閱讀完了&lt;a href=&#34;https://pathlesspath.com/chinese/&#34;&gt;無路之路 - The Pathless Path&lt;/a&gt;，感覺像是做了一場很棒的美夢，闔上書的那一刻還是得回到現實&amp;hellip;.&lt;/p&gt;
+      
+      
+      <description><![CDATA[&lt;br&gt;
+&lt;p&gt;花了幾日閱讀完了&lt;a href=&#34;https://pathlesspath.com/chinese/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;無路之路 - The Pathless Path&lt;/a&gt;
+ ，感覺像是做了一場很棒的美夢，闔上書的那一刻還是得回到現實&amp;hellip;.&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;我還是認為作者是因為有了很強大的經濟基礎（&lt;a href=&#34;https://podcasts.apple.com/tw/podcast/ep164-%E5%B0%B1%E7%AE%97%E5%B9%B4%E8%96%AA-600-%E8%90%AC%E4%B9%9F%E8%A6%BA%E5%BE%97%E7%94%9F%E6%B4%BB%E7%97%9B%E8%8B%A6-%E5%89%8D%E9%BA%A5%E8%82%AF%E9%8C%AB%E7%AD%96%E7%95%A5%E9%A1%A7%E5%95%8F%E7%82%BA%E4%BD%95%E6%8D%A8%E6%A3%84%E4%B8%80%E5%88%87%E4%BE%86%E5%88%B0%E5%8F%B0%E7%81%A3-ft-%E5%89%8D%E9%BA%A5%E8%82%AF%E9%8C%AB%E7%AD%96%E7%95%A5%E9%A1%A7%E5%95%8F/id1707757888?i=1000761452273&amp;amp;l=en-GB&#34;&gt;10年&lt;/a&gt;的每年20萬美金年薪相當於台幣6千多萬左右吧？）作為後盾來燃燒他的無路之路。
+&lt;p&gt;我還是認為作者是因為有了很強大的經濟基礎（&lt;a href=&#34;https://podcasts.apple.com/tw/podcast/ep164-%E5%B0%B1%E7%AE%97%E5%B9%B4%E8%96%AA-600-%E8%90%AC%E4%B9%9F%E8%A6%BA%E5%BE%97%E7%94%9F%E6%B4%BB%E7%97%9B%E8%8B%A6-%E5%89%8D%E9%BA%A5%E8%82%AF%E9%8C%AB%E7%AD%96%E7%95%A5%E9%A1%A7%E5%95%8F%E7%82%BA%E4%BD%95%E6%8D%A8%E6%A3%84%E4%B8%80%E5%88%87%E4%BE%86%E5%88%B0%E5%8F%B0%E7%81%A3-ft-%E5%89%8D%E9%BA%A5%E8%82%AF%E9%8C%AB%E7%AD%96%E7%95%A5%E9%A1%A7%E5%95%8F/id1707757888?i=1000761452273&amp;amp;l=en-GB&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;10年&lt;/a&gt;
+ 的每年20萬美金年薪相當於台幣6千多萬左右吧？）作為後盾來燃燒他的無路之路。
 但是並不否認他一路走下來的人生啟發，同時也覺得過程體悟到的經驗也很值得學習。&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;書中一些我喜歡的想法～&lt;/p&gt;
@@ -115,45 +163,84 @@
 &lt;p&gt;此外作者書中提到一些無路之路上的不安與嘗試，誠實描述其過程並不精彩而是許多小小細碎的嘗試與改變&amp;hellip;..作者真的很勇敢把他的心路歷程做實際分享&amp;hellip;.讓我覺得改變不是一步到位而是一種漸進摸索的過程&amp;hellip;..&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;感謝作者提出了一些他對於預設道路與無路之路上的觀點，讓人可以多了一些思考與選擇。&lt;/p&gt;
-</description>
+]]></description>
     </item><item>
       <title>高雄寫生旅繪</title>
       <link>http://localhost:1313/posts/20260419-kaohsiung/</link>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260419-kaohsiung/</guid>
-      <description>&lt;p&gt;三月底與畫友邀約一起前往高雄三日的旅繪、高雄給人就是一種吊嘎與短褲必備的印象、果不其然才快清明，&lt;br&gt;
+      
+      
+      <description><![CDATA[&lt;p&gt;三月底與畫友邀約一起前往高雄三日的旅繪、高雄給人就是一種吊嘎與短褲必備的印象、果不其然才快清明，&lt;br&gt;
 一踏出左營高鐵、那不安份的夏至節氣提早撲面而來。&lt;br&gt;
 幸好這次寫生的地點都有地方可以遮陽，不然可能會曬到中暑。&lt;br&gt;
 也非常感激高雄的老師與好友帶著我到處寫生，到處吃，蠻開心的一次旅繪。&lt;br&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;&lt;a href=&#34;https://maps.app.goo.gl/gMWQq7DcujNXrGDTA&#34;&gt;充滿回憶感的永富大旅社&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://maps.app.goo.gl/gMWQq7DcujNXrGDTA&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;充滿回憶感的永富大旅社&lt;/a&gt;
+ 
 &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20260419-kaohsiung/2026033001.jpg&#34;&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20260419-kaohsiung/2026033002.jpg&#34;&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;&lt;a href=&#34;https://maps.app.goo.gl/VRjvKV5gvJ1TaXEeA&#34;&gt;雨天路上的花店&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://maps.app.goo.gl/VRjvKV5gvJ1TaXEeA&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;雨天路上的花店&lt;/a&gt;
+ 
 &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20260419-kaohsiung/20260401001.jpg&#34;&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;&lt;a href=&#34;https://maps.app.goo.gl/YyPjoKXdttpUEL4u5&#34;&gt;中都濕地公園&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://maps.app.goo.gl/YyPjoKXdttpUEL4u5&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;中都濕地公園&lt;/a&gt;
+ 
 &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20260419-kaohsiung/20260402001.jpg&#34;&gt;&lt;/p&gt;
 &lt;br&gt;
-</description>
+]]></description>
     </item><item>
       <title>理想的日常</title>
       <link>http://localhost:1313/posts/20260322-ideal--daily-ife/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260322-ideal--daily-ife/</guid>
-      <description>
+      
+      
+      <description><![CDATA[
 
 &lt;div class=&#34;callout &#34;&gt;
-  這是我的「&lt;a href=&#34;https://blogblog.club/party/?ref=wen-lab.tw&#34;&gt;BlogBlog同樂會-2026年3月&lt;/a&gt;」的投稿文章。本月主題是「&lt;a href=&#34;https://alexhsu.com/perfect-days?ref=wen-lab.tw&#34;&gt;理想的日常&lt;/a&gt;」，由 &lt;a href=&#34;https://alexhsu.com/?ref=wen-lab.tw&#34;&gt;Alex Hsu&lt;/a&gt; 主持。如果你有自己的部落格，歡迎一起來參加！
+  這是我的「&lt;a href=&#34;https://blogblog.club/party/?ref=wen-lab.tw&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;BlogBlog同樂會-2026年3月&lt;/a&gt;
+ 」的投稿文章。本月主題是「&lt;a href=&#34;https://alexhsu.com/perfect-days?ref=wen-lab.tw&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;理想的日常&lt;/a&gt;
+ 」，由 &lt;a href=&#34;https://alexhsu.com/?ref=wen-lab.tw&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;Alex Hsu&lt;/a&gt;
+  主持。如果你有自己的部落格，歡迎一起來參加！
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;理想日常實為自由意志與欲求的延伸吧？&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;理想的居住環境，理想的伴侶，理想的生活飲食，理想的&amp;hellip;.&lt;br&gt;
 所有的理想在我腦中大概就是一種消費主義提供給你的誘餌，讓你可以忘卻人生的真正意義而去努力追求外界所認同的價值，等達成一個階段接著另一個誘餌就會再度出現，讓你永遠的追逐著～&lt;/p&gt;
 &lt;p&gt;很微妙的是，所有的理想再經過了一段時間之後，或許就變得不那麼理想了&amp;hellip;.&lt;br&gt;
 童話故事裡的王子與公主的結尾：過著永遠幸福快樂的日子。我想，在現實中是不可能達成吧？畢竟，人是一種不安於現狀的物種。所以人類才得以在萬物激烈競爭中存活下來。&lt;/p&gt;
-&lt;p&gt;所以斷絕消費主義給我的誘餌是達成我理想日常的第一步&lt;a href=&#34;https://kamesun.com/posts/20260213-quit-fb/&#34;&gt;斷除萬惡之源&lt;/a&gt;接著第二步&amp;hellip;.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;所以斷絕消費主義給我的誘餌是達成我理想日常的第一步&lt;a href=&#34;https://kamesun.com/posts/20260213-quit-fb/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;斷除萬惡之源&lt;/a&gt;
+ 接著第二步&amp;hellip;.&lt;br&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;h4 id=&#34;6--4--理想日常&#34;&gt;&lt;strong&gt;6 : 4 ＝ 理想日常&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;對我來說理想日常大概是6成的專注以及4成的挑戰及不舒適。&lt;br&gt;
@@ -176,15 +263,27 @@
 &lt;p&gt;雖然大部分人多不喜歡不順意的時刻，我也不喜歡，它使我們感到不舒服與痛苦。但或許一點點的不舒適是有其必要的，尤其是對我這種比較被動的人。&lt;br&gt;
 逆境可以強迫我做思考與明白自己還有許多成長的空間&amp;hellip;它似乎會帶來某種意義，某種成就解鎖的感覺，這樣我算有被虐傾向嗎ＸＤ？&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;我的生活算是快接近這樣的理想，但人總是要為了生活，不可能常常都6:4&amp;hellip;但還是在可以接受範圍啦&amp;hellip;..希望你也都可以達到自己的理想日常並與我分享～晚安。&lt;br&gt;&lt;/p&gt;
-</description>
+]]></description>
     </item><item>
       <title>我的城堡</title>
       <link>http://localhost:1313/posts/20260312-my-castle/</link>
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260312-my-castle/</guid>
-      <description>&lt;br&gt;
-&lt;p&gt;一切得從看了WiWi部落格文章&lt;a href=&#34;https://wiwi.blog/blog/cant-see-it&#34;&gt;看不到&lt;/a&gt;說起，讓我萌生想把城堡蓋在自己的土地上~
-因為在社群媒體上，什麼&lt;a href=&#34;https://kamesun.com/posts/20260222-chaos-header/&#34;&gt;Header&lt;/a&gt;，什麼Markdown都讓你用！
+      
+      
+      <description><![CDATA[&lt;br&gt;
+&lt;p&gt;一切得從看了WiWi部落格文章&lt;a href=&#34;https://wiwi.blog/blog/cant-see-it&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;看不到&lt;/a&gt;
+ 說起，讓我萌生想把城堡蓋在自己的土地上~
+因為在社群媒體上，什麼&lt;a href=&#34;https://kamesun.com/posts/20260222-chaos-header/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;Header&lt;/a&gt;
+ ，什麼Markdown都讓你用！
 美其名就是
 &lt;ruby&gt;
 簡化流程&lt;rt&gt;限制&lt;/rt&gt;
@@ -213,24 +312,46 @@
 &lt;p&gt;&lt;strong&gt;能好好寫出文章才是部落格的重點唷&lt;/strong&gt;！！&lt;br&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;三月初決定購買了屬於自己為期10年的網域(恭喜自己能踏出這樣的一步！)，也希望自己能有不懈的毅力跟大家一樣，跳出被演算法綁架的社群媒體～～&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://kamesun.com/&#34;&gt;Kamesun.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://kamesun.com/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;Kamesun.com&lt;/a&gt;
+ &lt;/p&gt;
 &lt;p&gt;最後我要感謝這個時代的新產物 Gemini與 ChatGPT&amp;hellip;沒有這樣的新科技，我想我的城堡夢大概不會成真。&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;&lt;strong&gt;感謝所有的巨人:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Wiwi&lt;/strong&gt; - &lt;a href=&#34;https://wiwi.blog/&#34;&gt;Wiwi 官大為的貼文和筆記&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;David J. P. Phillips&lt;/strong&gt; - &lt;a href=&#34;https://www.books.com.tw/products/0011009311?sloc=main&#34;&gt;你的人生，他們六個說了算！：決定你一生的六種物質&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wiwi&lt;/strong&gt; - &lt;a href=&#34;https://wiwi.blog/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;Wiwi 官大為的貼文和筆記&lt;/a&gt;
+ &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;David J. P. Phillips&lt;/strong&gt; - &lt;a href=&#34;https://www.books.com.tw/products/0011009311?sloc=main&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;你的人生，他們六個說了算！：決定你一生的六種物質&lt;/a&gt;
+ &lt;/li&gt;
 &lt;/ul&gt;
-</description>
+]]></description>
     </item><item>
       <title>朋友家頂樓的植物園</title>
       <link>http://localhost:1313/posts/20260311-friends-garden/</link>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260311-friends-garden/</guid>
-      <description>&lt;br&gt;
+      
+      
+      <description><![CDATA[&lt;br&gt;
 &lt;p&gt;晚上好友突然傳訊要不要視訊畫聚？算一算竟然又快要一個月沒動筆練習。&lt;br&gt;
 生命中真是要感謝有這樣的好友，常常溫暖的問候與提醒你該做一些曾經興趣的活動。&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;自從&lt;a href=&#34;https://kamesanblog.github.io/posts/20260213-quit-fb/&#34;&gt;戒除社群媒體&lt;/a&gt;後，這是我們第二次的聊天互動，我們也會互相問候一下近況&amp;hellip;這是一種與人互動的溫馨感覺。&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;自從&lt;a href=&#34;https://kamesanblog.github.io/posts/20260213-quit-fb/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;戒除社群媒體&lt;/a&gt;
+ 後，這是我們第二次的聊天互動，我們也會互相問候一下近況&amp;hellip;這是一種與人互動的溫馨感覺。&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;當不再透過社群媒體只去按對方讚，而是面對面的真實感..這才是一種真正的朋友互動。&lt;br&gt;
 如何的畫畫在整個過程中似乎變成不是重點，而是&lt;strong&gt;享受跟好友聊天的過程跟創作並行&lt;/strong&gt;。&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;畫作的主題是朋友家的樓頂陽台種的超多植物，其實照片裡植物種類豐富而複雜～對少寫生的我實在是一種挑戰，但也就嘗試看看。&lt;br&gt;&lt;/p&gt;
@@ -248,13 +369,20 @@
 &lt;hr&gt;
 &lt;br&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20260311-friends-garden/20260311.jpg&#34;&gt;&lt;/p&gt;
-</description>
+]]></description>
     </item><item>
       <title>人的欲望</title>
       <link>http://localhost:1313/posts/20260227-human-desires/</link>
       <pubDate>Fri, 27 Feb 2026 21:23:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260227-human-desires/</guid>
-      <description>&lt;p&gt;今天閱讀到Wiwi 的文章&lt;a href=&#34;https://wiwi.blog/blog/the-grass-is-greener&#34;&gt;遠方的東西&lt;/a&gt; 分享:&lt;/p&gt;
+      
+      
+      <description><![CDATA[&lt;p&gt;今天閱讀到Wiwi 的文章&lt;a href=&#34;https://wiwi.blog/blog/the-grass-is-greener&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;遠方的東西&lt;/a&gt;
+  分享:&lt;/p&gt;
 
 
 &lt;div class=&#34;callout &#34;&gt;
@@ -296,7 +424,12 @@ Naval Ravikant (取自Wiwi的分享)
 &lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;p&gt;當我開始&lt;a href=&#34;https://kamesanblog.github.io/posts/20260213-quit-fb/&#34;&gt;戒除社群媒體&lt;/a&gt; 後&amp;hellip;我覺得自己的心比較不會浮動，時間也慢了下來。
+&lt;p&gt;當我開始&lt;a href=&#34;https://kamesanblog.github.io/posts/20260213-quit-fb/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;戒除社群媒體&lt;/a&gt;
+  後&amp;hellip;我覺得自己的心比較不會浮動，時間也慢了下來。
 日常生活中根本不需要知道這麼多訊息，而那些資訊只會讓人產生 &lt;strong&gt;無謂的比較  無需要的想要&lt;/strong&gt;&amp;hellip;&lt;/p&gt;
 &lt;br&gt;
 &lt;ul&gt;
@@ -318,21 +451,58 @@ Naval Ravikant (取自Wiwi的分享)
 &lt;br&gt;
 &lt;p&gt;&lt;strong&gt;感謝所有的巨人:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Wiwi&lt;/strong&gt; - &lt;a href=&#34;https://wiwi.blog/blog/the-grass-is-greener&#34;&gt;遠方的東西&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Wiwi&lt;/strong&gt; - &lt;a href=&#34;https://wiwi.blog/blog/how-to-get-rich/&#34;&gt;如何致富&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Yuval Noah Harari&lt;/strong&gt; - &lt;a href=&#34;https://www.books.com.tw/products/0010774982&#34;&gt;人類大歷史&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;傅佩榮&lt;/strong&gt; - &lt;a href=&#34;https://www.books.com.tw/products/0010969566?sloc=main&#34;&gt;西方哲學心靈 第一卷 史賓諾莎&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wiwi&lt;/strong&gt; - &lt;a href=&#34;https://wiwi.blog/blog/the-grass-is-greener&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;遠方的東西&lt;/a&gt;
+ &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wiwi&lt;/strong&gt; - &lt;a href=&#34;https://wiwi.blog/blog/how-to-get-rich/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;如何致富&lt;/a&gt;
+ &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Yuval Noah Harari&lt;/strong&gt; - &lt;a href=&#34;https://www.books.com.tw/products/0010774982&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;人類大歷史&lt;/a&gt;
+ &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;傅佩榮&lt;/strong&gt; - &lt;a href=&#34;https://www.books.com.tw/products/0010969566?sloc=main&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;西方哲學心靈 第一卷 史賓諾莎&lt;/a&gt;
+ &lt;/li&gt;
 &lt;/ul&gt;
-</description>
+]]></description>
     </item><item>
       <title>我對MarkDown的header亂用</title>
       <link>http://localhost:1313/posts/20260222-chaos-header/</link>
       <pubDate>Sun, 22 Feb 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260222-chaos-header/</guid>
-      <description>
+      
+      
+      <description><![CDATA[
 
 &lt;div class=&#34;callout &#34;&gt;
-  這是我在「&lt;a href=&#34;https://blogblog.club/party&#34;&gt;BlogBlog 同樂會 - 2026 年 2 月&lt;/a&gt;」的投稿文章。本月主題是「&lt;a href=&#34;https://wiwi.blog/blog/blogblog-party-feb-2026&#34;&gt;只有我這樣嗎？&lt;/a&gt;」，由 &lt;a href=&#34;https://wiwi.blog/&#34;&gt;Wiwi&lt;/a&gt; 主持。如果你有自己的部落
+  這是我在「&lt;a href=&#34;https://blogblog.club/party&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;BlogBlog 同樂會 - 2026 年 2 月&lt;/a&gt;
+ 」的投稿文章。本月主題是「&lt;a href=&#34;https://wiwi.blog/blog/blogblog-party-feb-2026&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;只有我這樣嗎？&lt;/a&gt;
+ 」，由 &lt;a href=&#34;https://wiwi.blog/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;Wiwi&lt;/a&gt;
+  主持。如果你有自己的部落
 格，歡迎一起來參加！
 &lt;/div&gt;
 &lt;br&gt;
@@ -352,7 +522,12 @@ Naval Ravikant (取自Wiwi的分享)
 &lt;p&gt;然而開始使用標題後，我常常會苦於選擇 header的使用層級，也該怪自己比較隨性而導致混亂。雖然基本上我都會照著書籍上的標題做規劃，但有時候會有自己閱讀後轉化的想法紀錄，我就會想用Heading來標示。因為轉化過的想法對我來說比較重要。
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;當我在舉棋不定時，結果剛好看到Steph Ango的文章：&lt;a href=&#34;https://stephango.com/vault#theme-and-related-tools&#34;&gt;How I use Obsidian&lt;/a&gt; ，文章中有提到一個點打中了我。&lt;/p&gt;
+&lt;p&gt;當我在舉棋不定時，結果剛好看到Steph Ango的文章：&lt;a href=&#34;https://stephango.com/vault#theme-and-related-tools&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;How I use Obsidian&lt;/a&gt;
+  ，文章中有提到一個點打中了我。&lt;/p&gt;
 
 
 &lt;div class=&#34;callout &#34;&gt;
@@ -369,7 +544,12 @@ Naval Ravikant (取自Wiwi的分享)
 &lt;li&gt;&lt;code&gt;#&lt;/code&gt; (H1)：尚未正式決定。&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;##&lt;/code&gt; (H2)：尚未正式決定。&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;###&lt;/code&gt; (H3)：書籍作者所做的標題。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;####&lt;/code&gt; (H4)：我認為有&lt;a href=&#34;https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/&#34;&gt;復盤&lt;/a&gt;機率的筆記文章標題。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;####&lt;/code&gt; (H4)：我認為有&lt;a href=&#34;https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;復盤&lt;/a&gt;
+ 機率的筆記文章標題。&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;#####&lt;/code&gt; (H5)：我自己對於閱讀書籍文章後轉化出的想法。&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;######&lt;/code&gt; (H6)：尚未正式決定。&lt;/li&gt;
 &lt;/ul&gt;
@@ -396,19 +576,31 @@ Naval Ravikant (取自Wiwi的分享)
 &lt;p&gt;&lt;strong&gt;感謝所有的巨人&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;只贏&lt;/strong&gt; - &lt;a href=&#34;https://onlywin.substack.com/p/3b0&#34;&gt;我不想知道我不想知道的事&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;只贏&lt;/strong&gt; - &lt;a href=&#34;https://onlywin.substack.com/p/3b0&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;我不想知道我不想知道的事&lt;/a&gt;
+ &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Steph Ango&lt;/strong&gt; - &lt;a href=&#34;https://stephango.com/vault#theme-and-related-tools&#34;&gt;How I use Obsidian&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Steph Ango&lt;/strong&gt; - &lt;a href=&#34;https://stephango.com/vault#theme-and-related-tools&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;How I use Obsidian&lt;/a&gt;
+ &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</description>
+]]></description>
     </item><item>
       <title>春節水彩</title>
       <link>http://localhost:1313/posts/20260220-lunar-year-painting/</link>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260220-lunar-year-painting/</guid>
-      <description>&lt;br&gt;
+      
+      
+      <description><![CDATA[&lt;br&gt;
 &lt;div class=&#34;marquee-container&#34;&gt;
     &lt;div class=&#34;marquee-text&#34;&gt;
         🌟🌟祝福各位朋友新的一年身體健康 事事順心 財源廣進！🌟🌟
@@ -445,20 +637,32 @@ Naval Ravikant (取自Wiwi的分享)
 &lt;br&gt;
 &lt;p&gt;另外這張是年節期間跟朋友也玩一點應景的暖色調。
 &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20260220-lunar-year-painting/20260220002.jpeg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;為了繼續&lt;a href=&#34;https://kamesanblog.github.io/posts/20260213-quit-fb/&#34;&gt;戒除社群媒體&lt;/a&gt;，未來可能練習作品都放在自己的部落格也當作是一種紀錄。&lt;/p&gt;
+&lt;p&gt;為了繼續&lt;a href=&#34;https://kamesanblog.github.io/posts/20260213-quit-fb/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;戒除社群媒體&lt;/a&gt;
+ ，未來可能練習作品都放在自己的部落格也當作是一種紀錄。&lt;/p&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;h3 id=&#34;祝福各位朋友新的一年身體健康-事事順心-財源廣進&#34;&gt;&lt;strong&gt;🌟祝福各位朋友新的一年身體健康 事事順心 財源廣進！🌟&lt;/strong&gt;&lt;/h3&gt;
-</description>
+]]></description>
     </item><item>
       <title>戒除社群媒體</title>
       <link>http://localhost:1313/posts/20260213-quit-fb/</link>
       <pubDate>Fri, 13 Feb 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260213-quit-fb/</guid>
-      <description>&lt;p&gt;幾週前開始，我決定培養一個新的習慣(目前有 Anki學習，家人互動，Talkme口語練習，筆記復盤)：戒除使用17年了的Facebook。
+      
+      
+      <description><![CDATA[&lt;p&gt;幾週前開始，我決定培養一個新的習慣(目前有 Anki學習，家人互動，Talkme口語練習，筆記復盤)：戒除使用17年了的Facebook。
 如果是一年前的我，我會覺得我自己瘋了！怎麼可以遠離我的朋友、興趣、生活與親人還有我的社交圈！！大腦必定也會吶喊著：他們是如此的重要，沒有了這些你的人生還剩下什麼！?
 &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;幸好因為看見&lt;a href=&#34;https://wiwi.blog/&#34;&gt;WiWi&lt;/a&gt;的部落格，讓我受到鼓舞。
+&lt;p&gt;幸好因為看見&lt;a href=&#34;https://wiwi.blog/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;WiWi&lt;/a&gt;
+ 的部落格，讓我受到鼓舞。
 因此開始構思如何戒除的方式。
 &lt;br&gt;&lt;/p&gt;
 &lt;p&gt;目前我的方式就是用新的興趣與習慣來填補沒事就想點開軟體的癮。
@@ -469,10 +673,20 @@ Naval Ravikant (取自Wiwi的分享)
 &lt;p&gt;&lt;strong&gt;刪除&lt;/strong&gt;：我的第一步就是刪除app跟瀏覽器上的快捷，讓自己難以接觸或是搜索時感覺麻煩。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;閱讀&lt;/strong&gt;：打開電子書馬上閱讀或是做&lt;a href=&#34;https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/&#34;&gt;筆記復盤&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;閱讀&lt;/strong&gt;：打開電子書馬上閱讀或是做&lt;a href=&#34;https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;筆記復盤&lt;/a&gt;
+ 。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;逛部落格&lt;/strong&gt;：我從WiWi分享的&lt;a href=&#34;https://wiwi.blog/blogroll&#34;&gt;部落卷&lt;/a&gt;找到很多很棒格友，所以我會打開Feedly，設定從最舊的資料開始看&amp;hellip;這樣我就會有
+&lt;p&gt;&lt;strong&gt;逛部落格&lt;/strong&gt;：我從WiWi分享的&lt;a href=&#34;https://wiwi.blog/blogroll&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;部落卷&lt;/a&gt;
+ 找到很多很棒格友，所以我會打開Feedly，設定從最舊的資料開始看&amp;hellip;這樣我就會有
 &lt;ruby&gt;
 看不完的資訊分享。&lt;rt&gt;另類成癮？&lt;/rt&gt;
 &lt;/ruby&gt;&lt;/p&gt;
@@ -486,7 +700,12 @@ Naval Ravikant (取自Wiwi的分享)
 對了～那如果有一些之前在臉書追蹤的資訊呢？我的做法是把社群媒體關注的人、事、物一一尋找他們的部落格或網站並以訂閱的方式取而代之。
 我想訓練我的大腦，讓它知道沒有了社群媒體，我還是可以擁有所有生活上有興趣的人事物連結，網路如此之大怎麼可能光用社群媒體就能以偏概全？&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;就像一位格友只贏的文章：&lt;a href=&#34;https://onlywin.substack.com/p/3b0&#34;&gt;我不想知道我不想知道的事&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;就像一位格友只贏的文章：&lt;a href=&#34;https://onlywin.substack.com/p/3b0&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;我不想知道我不想知道的事&lt;/a&gt;
+ &lt;/p&gt;
 
 
 &lt;div class=&#34;callout &#34;&gt;
@@ -495,36 +714,80 @@ Naval Ravikant (取自Wiwi的分享)
 &lt;br&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;感謝所有的巨人：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://alexhsu.com/delete-facebook&#34;&gt;在 Meta 工作過後，我刪除了社群媒體&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://alexhsu.com/full-screen&#34;&gt;遊戲心法：只用全屏模式玩遊戲&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://onlywin.substack.com/p/3b0&#34;&gt;我不想知道我不想知道的事&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://ivonblog.com/posts/2025122401/&#34;&gt; 被演算法控制的大腦，退出不了的社群媒體&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wiwi.blog/blog/why-i-dont-use-social-media/&#34;&gt;為什麼我不用社群媒體了？&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wiwi.blog/blog/five-more-reasons&#34;&gt;又五個離開社群媒體的理由&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;a href=&#34;https://alexhsu.com/delete-facebook&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;在 Meta 工作過後，我刪除了社群媒體&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://alexhsu.com/full-screen&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;遊戲心法：只用全屏模式玩遊戲&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://onlywin.substack.com/p/3b0&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;我不想知道我不想知道的事&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ivonblog.com/posts/2025122401/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt; 被演算法控制的大腦，退出不了的社群媒體&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiwi.blog/blog/why-i-dont-use-social-media/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;為什麼我不用社群媒體了？&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiwi.blog/blog/five-more-reasons&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;又五個離開社群媒體的理由&lt;/a&gt;
+ &lt;/p&gt;
+]]></description>
     </item><item>
       <title>墾丁畫聚</title>
       <link>http://localhost:1313/posts/20260131-painting-mood/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260131-painting-mood/</guid>
-      <description>&lt;p&gt;重新學習水彩多年後我慢慢感覺到我好像正在離開水彩了，不知道怎麼回事，就是漸漸的提不起勁動筆&amp;hellip;上個月去墾丁跟畫友們畫聚，跟著一群興趣志同道合的朋友寫生真的感覺很棒&amp;hellip;但是我隱約感覺到我好像沒有特別想畫畫了？&lt;/p&gt;
+      
+      
+      <description><![CDATA[&lt;p&gt;重新學習水彩多年後我慢慢感覺到我好像正在離開水彩了，不知道怎麼回事，就是漸漸的提不起勁動筆&amp;hellip;上個月去墾丁跟畫友們畫聚，跟著一群興趣志同道合的朋友寫生真的感覺很棒&amp;hellip;但是我隱約感覺到我好像沒有特別想畫畫了？&lt;/p&gt;
 &lt;p&gt;幾年前都會想說到任何地方去一定要隨身帶著寫生工具，一定要把眼前的景色給畫下來，那就是一種體驗當下的做法，但這幾年生活中增加了許多閱讀時間。那種要抓住現場當下創作的慾望不知道怎的竟然慢慢地消退了&amp;hellip;.取而代之的想法：反而想用身體與心觀察當下的環境而不是一直在構思怎樣才能讓作品畫面更好看或是有更棒的構圖。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;我好像不喜歡創作了&lt;/strong&gt;&amp;hellip;&lt;/p&gt;
 &lt;p&gt;到目前為止我無法了解為什麼我的心裡會有這樣的變化，曾經很篤定水彩會陪我一輩子但是現在我卻不太確定了&amp;hellip;當然如果有想法也是會想紀錄與創作，只是覺得這樣的時刻似乎變少了。&lt;/p&gt;
 &lt;p&gt;這次去墾丁也是畫了幾張作品，我最喜歡的這一張是畫友們在下午的冬陽下聊天畫畫。
-心裡一直想捕捉那個氛圍，一個帶有逆光的景色，逆光景大概是一種糖衣毒藥，畢竟是澳洲畫派&lt;a href=&#34;https://www.josephzbukvic.com/&#34;&gt;約瑟夫&lt;/a&gt;的拿手絕活，喜歡水彩的同好真的都會爭相臨摹&amp;hellip;&amp;hellip;幾年前也曾經臨摹大師那樣的手法到最後卻生厭&amp;hellip;但是現下偶爾回味，卻有一種溫馨感。&lt;/p&gt;
+心裡一直想捕捉那個氛圍，一個帶有逆光的景色，逆光景大概是一種糖衣毒藥，畢竟是澳洲畫派&lt;a href=&#34;https://www.josephzbukvic.com/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;約瑟夫&lt;/a&gt;
+ 的拿手絕活，喜歡水彩的同好真的都會爭相臨摹&amp;hellip;&amp;hellip;幾年前也曾經臨摹大師那樣的手法到最後卻生厭&amp;hellip;但是現下偶爾回味，卻有一種溫馨感。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20260131-painting-mood/20260131001.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;畢竟這就是一個人的經驗歷程，回憶那個當時為逆光而瘋狂的自己，現在也覺得真有趣。&lt;/p&gt;
-</description>
+]]></description>
     </item><item>
       <title>請開始紀錄吧</title>
       <link>http://localhost:1313/posts/20260117-please-take-notes/</link>
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20260117-please-take-notes/</guid>
-      <description>
+      
+      
+      <description><![CDATA[
 
 &lt;div class=&#34;callout &#34;&gt;
-  這是我的「&lt;a href=&#34;https://blogblog.club/party/&#34;&gt;BlogBlog 同樂會 - 2026年1月&lt;/a&gt;」的投稿文章之一，本月的主題是「推坑」。歡迎一起來參加！
+  這是我的「&lt;a href=&#34;https://blogblog.club/party/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;BlogBlog 同樂會 - 2026年1月&lt;/a&gt;
+ 」的投稿文章之一，本月的主題是「推坑」。歡迎一起來參加！
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;請開始紀錄吧。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如果沒有經歷失去的痛苦，真的很難去珍惜看似平凡的日常。&lt;/p&gt;
@@ -536,15 +799,22 @@ Naval Ravikant (取自Wiwi的分享)
 希望為生活留下一些蛛絲馬跡，不要讓時間就這樣溜走。既使知道這一切都是無明&amp;hellip;&lt;/p&gt;
 &lt;p&gt;說這些、對正在閱讀的您來說或許不重要、畢竟我們就是出生來體驗人生的。&lt;br&gt;
 沒有親身體驗過的事、對我們來說都只是腦中只是一片浮雲。&lt;br&gt;
-但，&lt;strong&gt;請開始紀錄吧&lt;/strong&gt;。不管使用什麼媒材與&lt;a href=&#34;https://kamesanblog.github.io/posts/20251212-whyobsidian/&#34;&gt;工具&lt;/a&gt;。&lt;br&gt;
+但，&lt;strong&gt;請開始紀錄吧&lt;/strong&gt;。不管使用什麼媒材與&lt;a href=&#34;https://kamesanblog.github.io/posts/20251212-whyobsidian/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;工具&lt;/a&gt;
+ 。&lt;br&gt;
 未來的你一定會感謝現在的自己。&lt;/p&gt;
-</description>
+]]></description>
     </item><item>
       <title>我的筆記軟體Obsidian</title>
       <link>http://localhost:1313/posts/20251212-whyobsidian/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20251212-whyobsidian/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20251212-whyobsidian/20251212001.jpg&#34;&gt;&lt;/p&gt;
+      
+      
+      <description><![CDATA[&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20251212-whyobsidian/20251212001.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;知道Obsidian 之前，想到要寫日誌就會想到Dayone，想到寫個筆記就會打開手機內的特定軟體比如Evernote或是iPhone內的Notes。&lt;/p&gt;
 &lt;p&gt;直到有一天我發現Dayone出了Dayone2！接著宣布Dayone不在更新..我之前一次買斷的Dayone升級成Dayone2&amp;hellip;變成了訂閱制&amp;hellip;. 而Evernote更絕～本來就需要訂閱，但後來取消訂閱之後你的筆記就被降級功能還要重新訂閱才能打開&amp;hellip;.&lt;/p&gt;
 &lt;p&gt;那我想到如果使用免費的網路社群平台做日誌或筆記呢？&lt;br&gt;
@@ -578,14 +848,21 @@ Obsidian的存在只是幫我們管理與連結筆記跟筆記之間的關係。
 &lt;/ul&gt;
 &lt;p&gt;現在閱讀時作筆記～坐公車或散步突然腦中有些靈感～或是寫個日誌我都會打開Obsidian，透過簡單又迅速的紀錄優異功能，串連了許多資訊與知識進而變成了一個第二大腦資料庫。或許這才是科技真正的價值所在吧？&lt;/p&gt;
 &lt;p&gt;或許我知道的軟體真的不多，也還在持續學習的路上。但真心推薦有閱讀記錄筆記或寫日誌生活紀錄習慣的朋友來嘗試這一個優異的軟體..網路有很多的相關資訊，真的可以嘗試了解看看～&lt;/p&gt;
-</description>
+]]></description>
     </item><item>
       <title>維梅爾的帽子閱後心得</title>
       <link>http://localhost:1313/posts/20251130-hats/</link>
       <pubDate>Sun, 30 Nov 2025 16:58:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20251130-hats/</guid>
-      <description>&lt;p&gt;一個畫家，如果他知道他的作品能在未來透過歷史學者的分析而得那麼多當時代世界全球貿易縮影，是否也會驚訝連連？
-透過&lt;a href=&#34;https://youtu.be/i9f01-xLc7M&#34;&gt;青春愛讀書-謝哲青&lt;/a&gt;老師的影片介紹因此閱讀。閱讀後讓我有一種大江東去，浪淘盡，千古風流人物的倘然感&amp;hellip;
+      
+      
+      <description><![CDATA[&lt;p&gt;一個畫家，如果他知道他的作品能在未來透過歷史學者的分析而得那麼多當時代世界全球貿易縮影，是否也會驚訝連連？
+透過&lt;a href=&#34;https://youtu.be/i9f01-xLc7M&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;青春愛讀書-謝哲青&lt;/a&gt;
+ 老師的影片介紹因此閱讀。閱讀後讓我有一種大江東去，浪淘盡，千古風流人物的倘然感&amp;hellip;
 正如書中作者卜正民所說的:&lt;/p&gt;
 
 
@@ -604,14 +881,31 @@ Obsidian的存在只是幫我們管理與連結筆記跟筆記之間的關係。
   &lt;strong&gt;審美就是無求，而什麼是「美」呢？「美」是無目的的目的性。我們為什麼會覺得一幅畫很美呢？第一，我們不會想透過一幅畫來知道歷史知識（它不是求知）。第二，我們不會因為一幅畫而激起食欲（它不是欲望）。何謂藝術？亦即欣賞之時既沒有增加知識，也沒有引發欲望，它純粹沒有任何目的。&lt;/strong&gt;
 &lt;/div&gt;
 &lt;p&gt;或許我應該要常常思考這樣的問題。&lt;/p&gt;
-</description>
+]]></description>
     </item><item>
       <title>巨人的筆記閱讀心得</title>
       <link>http://localhost:1313/posts/20251111-gaint-note/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20251111-gaint-note/</guid>
-      <description>&lt;p&gt;看完最近瓦基推薦的&lt;a href=&#34;https://readingoutpost.com/note-taking-books/&#34;&gt;文章&lt;/a&gt;後，馬上找來閱讀一番。
-作者在書中提及他自己身為記錄學者所使用的記錄方法…其中一些方式例如對於過去所做的筆記&lt;a href=&#34;https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/&#34;&gt;複習&lt;/a&gt; 以及如何&lt;a href=&#34;https://medium.com/pm%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B%E5%B7%A5%E5%85%B7%E7%AE%B1/obsidian-%E4%BD%BF%E7%94%A8%E6%95%99%E5%AD%B8-%E7%AD%86%E8%A8%98%E7%AF%87-04-%E5%9C%A8-obsidian-%E4%B8%AD%E5%AF%A6%E4%BD%9C-evergreen-note-%E7%9A%84%E6%A6%82%E5%BF%B5-cd776b051a0e&#34;&gt;精煉筆記&lt;/a&gt;….&lt;/p&gt;
+      
+      
+      <description><![CDATA[&lt;p&gt;看完最近瓦基推薦的&lt;a href=&#34;https://readingoutpost.com/note-taking-books/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;文章&lt;/a&gt;
+ 後，馬上找來閱讀一番。
+作者在書中提及他自己身為記錄學者所使用的記錄方法…其中一些方式例如對於過去所做的筆記&lt;a href=&#34;https://kamesanblog.github.io/posts/20251014-obsidian-30days-review/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;複習&lt;/a&gt;
+  以及如何&lt;a href=&#34;https://medium.com/pm%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B%E5%B7%A5%E5%85%B7%E7%AE%B1/obsidian-%E4%BD%BF%E7%94%A8%E6%95%99%E5%AD%B8-%E7%AD%86%E8%A8%98%E7%AF%87-04-%E5%9C%A8-obsidian-%E4%B8%AD%E5%AF%A6%E4%BD%9C-evergreen-note-%E7%9A%84%E6%A6%82%E5%BF%B5-cd776b051a0e&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;精煉筆記&lt;/a&gt;
+ ….&lt;/p&gt;
 &lt;p&gt;而書中讓我有收穫的部分是：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;持續閱讀-&lt;/strong&gt;
 最佳的知識獲取來源。&lt;/p&gt;
@@ -619,24 +913,33 @@ Obsidian的存在只是幫我們管理與連結筆記跟筆記之間的關係。
 “紀錄是外顯化的核心，寫下細節肯定可以達到外顯的效果。只要不在這過程說謊或炫耀，絕對能清楚看見真實的自己。”&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;煩惱分類器-&lt;/strong&gt;
 將當下煩惱記錄下來；分析情緒與原因；記錄解決方式。&lt;/p&gt;
-&lt;p&gt;其中自己的編年史的部分，啟發我一些&lt;a href=&#34;https://kamesanblog.github.io/posts/20251212-whyobsidian/&#34;&gt;Obsidian&lt;/a&gt; 製作年度總覽template 的想法。非常開心~感謝作者與瓦基！&lt;/p&gt;
-</description>
+&lt;p&gt;其中自己的編年史的部分，啟發我一些&lt;a href=&#34;https://kamesanblog.github.io/posts/20251212-whyobsidian/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;Obsidian&lt;/a&gt;
+  製作年度總覽template 的想法。非常開心~感謝作者與瓦基！&lt;/p&gt;
+]]></description>
     </item><item>
       <title>好久沒動畫筆了</title>
       <link>http://localhost:1313/posts/20251028-watercolor-japan/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20251028-watercolor-japan/</guid>
-      <description>&lt;p&gt;這幾天好友在日本旅繪，從秋田分享了影片跟照片給我&amp;hellip;我也喜歡旅遊寫生，但是最近生活上有了一些變化，自己也在重新調整生活的模式，減少了作畫的時間&amp;hellip;
+      
+      
+      <description><![CDATA[&lt;p&gt;這幾天好友在日本旅繪，從秋田分享了影片跟照片給我&amp;hellip;我也喜歡旅遊寫生，但是最近生活上有了一些變化，自己也在重新調整生活的模式，減少了作畫的時間&amp;hellip;
 但畫友們也不離不棄，常常與我分享他們去畫畫的美景，或者視訊一起畫畫，這樣其實就很開心幸福了。&lt;/p&gt;
 &lt;p&gt;畫面朋友說很可愛，我覺得大概是從以前就是喜歡畫畫插圖的個性&amp;hellip;所以到後來即使轉換成傳統媒材，自己對於風景還是有那種想要把它表現的甜一點的想法～&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20251028-watercolor-japan/20251027001.jpg&#34;&gt;&lt;/p&gt;
-</description>
+]]></description>
     </item><item>
       <title>複習石沈大海的筆記</title>
       <link>http://localhost:1313/posts/20251014-obsidian-30days-review/</link>
       <pubDate>Tue, 14 Oct 2025 18:53:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20251014-obsidian-30days-review/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20251014-obsidian-30days-review/20251014001.jpg&#34;&gt;&lt;/p&gt;
+      
+      
+      <description><![CDATA[&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20251014-obsidian-30days-review/20251014001.jpg&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;困擾&#34;&gt;困擾&lt;/h3&gt;
 &lt;p&gt;Obsidian使用了半年多之後，發現我好像有很多筆記被遺忘在我的資料庫大海內&amp;hellip;而且我算滿懶惰的，不喜歡去大海撈針&amp;hellip;就算我真的想到有某則筆記，還是需使用查詢功能，其實是很方便沒錯，但我希望資料庫自己提醒我就好，因此又請AI 幫忙了，這個方式對於會寫code的朋友一定會覺得：這樣的基礎，你應該會知道吧？..很可惜我真的不知道&amp;hellip;.
 所以我請AI協助我寫出：顯示我的資料庫內超過30天沒動過的筆記，&lt;/p&gt;
@@ -765,22 +1068,54 @@ sort file.mday asc
 &lt;p&gt;複習範例如圖，如果期間又有新想法也可以加上心得。
 或是您也有在複習筆記的好想法，非常歡迎跟我分享，感謝。
 &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20251014-obsidian-30days-review/20251014002.jpg&#34;&gt;&lt;/p&gt;
-</description>
+]]></description>
     </item><item>
       <title>為什麼是部落格？</title>
       <link>http://localhost:1313/posts/20250927-whyblog/</link>
       <pubDate>Fri, 03 Oct 2025 20:43:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20250927-whyblog/</guid>
-      <description>&lt;p&gt;為什麼會開始部落格？&lt;/p&gt;
+      
+      
+      <description><![CDATA[&lt;p&gt;為什麼會開始部落格？&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;h3 id=&#34;wiwi&#34;&gt;WiWi&lt;/h3&gt;
-&lt;p&gt;WiWi 是一個音樂知識型網紅，也不知道到怎麼會注意到他的資訊&amp;hellip;或許是在搜索&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; 軟體相關資訊時遇到&amp;hellip;他的分享讓我受益匪淺
-舉凡趣聞 生活雜記 還有數位綁架&amp;hellip;.對！就是被&lt;a href=&#34;https://wiwi.blog/blog/jump-out-of-the-box&#34;&gt;軟體生態綁架&lt;/a&gt;還有&lt;a href=&#34;https://wiwi.blog/blog/instagram-trap&#34;&gt;社群媒體綁架&lt;/a&gt;這些事讓我驚覺!所以也就開始醞釀自己&lt;a href=&#34;https://wiwi.blog/blog/internet-peasant&#34;&gt;架站&lt;/a&gt;的工程&amp;hellip;WiWi的部落格十分實用，強烈推薦去逛逛..還有他的&lt;a href=&#34;https://wiwi.blog/use&#34;&gt;現在用什麼&lt;/a&gt; 所推薦開源軟體都很值得參考，Wiwi也建議使用Linux 系統&amp;hellip;可惜我還沒有那種勇氣&amp;hellip;畢竟目前還是深陷綁架泥沼&amp;hellip;但已經努力想脫離中.&lt;/p&gt;
+&lt;p&gt;WiWi 是一個音樂知識型網紅，也不知道到怎麼會注意到他的資訊&amp;hellip;或許是在搜索&lt;a href=&#34;https://obsidian.md/&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;Obsidian&lt;/a&gt;
+  軟體相關資訊時遇到&amp;hellip;他的分享讓我受益匪淺
+舉凡趣聞 生活雜記 還有數位綁架&amp;hellip;.對！就是被&lt;a href=&#34;https://wiwi.blog/blog/jump-out-of-the-box&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;軟體生態綁架&lt;/a&gt;
+ 還有&lt;a href=&#34;https://wiwi.blog/blog/instagram-trap&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;社群媒體綁架&lt;/a&gt;
+ 這些事讓我驚覺!所以也就開始醞釀自己&lt;a href=&#34;https://wiwi.blog/blog/internet-peasant&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;架站&lt;/a&gt;
+ 的工程&amp;hellip;WiWi的部落格十分實用，強烈推薦去逛逛..還有他的&lt;a href=&#34;https://wiwi.blog/use&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;現在用什麼&lt;/a&gt;
+  所推薦開源軟體都很值得參考，Wiwi也建議使用Linux 系統&amp;hellip;可惜我還沒有那種勇氣&amp;hellip;畢竟目前還是深陷綁架泥沼&amp;hellip;但已經努力想脫離中.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;h3 id=&#34;瓦基&#34;&gt;瓦基&lt;/h3&gt;
-&lt;p&gt;近來接觸了很多的閱讀社群，可能也是被演算法推薦而看到瓦基，一個未來前途無量的台積電工程師卻轉而成為一位說書人？瓦基出版的&lt;a href=&#34;https://www.books.com.tw/products/0010942462&#34;&gt;只工作不上班的自主人生&lt;/a&gt;作品..書中分享年輕人的人生目標與論點非常值得一讀&amp;hellip;但其中我喜歡瓦基書中分享給一個概念&amp;hellip;人生可以有一個&amp;quot;Big picture&amp;quot;,並想像未來你離開時，認識你的人們是怎樣形容你&amp;hellip;.雖然這樣的感覺已經又掉入一種欲求說，但我覺得有一個Big picture 是我喜歡的概念。&lt;/p&gt;
+&lt;p&gt;近來接觸了很多的閱讀社群，可能也是被演算法推薦而看到瓦基，一個未來前途無量的台積電工程師卻轉而成為一位說書人？瓦基出版的&lt;a href=&#34;https://www.books.com.tw/products/0010942462&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;只工作不上班的自主人生&lt;/a&gt;
+ 作品..書中分享年輕人的人生目標與論點非常值得一讀&amp;hellip;但其中我喜歡瓦基書中分享給一個概念&amp;hellip;人生可以有一個&amp;quot;Big picture&amp;quot;,並想像未來你離開時，認識你的人們是怎樣形容你&amp;hellip;.雖然這樣的感覺已經又掉入一種欲求說，但我覺得有一個Big picture 是我喜歡的概念。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;h3 id=&#34;社群媒體&#34;&gt;社群媒體&lt;/h3&gt;
@@ -791,15 +1126,22 @@ sort file.mday asc
 &lt;p&gt;後悔沒有多讀書&amp;hellip;..好吧～！事實就是如此，所以我要努力多多閱讀～～&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</description>
+]]></description>
     </item><item>
       <title>在Obsidian實現Dayone的OnThisDay功能</title>
       <link>http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/</link>
       <pubDate>Sat, 27 Sep 2025 10:58:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/20250927001.jpg&#34;&gt;&lt;/p&gt;
+      
+      
+      <description><![CDATA[&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/20250927-obsidian-dayone-onthisday/20250927001.jpg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
-&lt;p&gt;卡美桑個性其實蠻念舊的&amp;hellip;所以有了智慧型手機後就有記錄一些日常的活動，當時購買了Dayone app以爲可以用到天荒地老&amp;hellip;&amp;hellip;但好景不常後來Dayone遇到&lt;a href=&#34;https://wiwi.blog/blog/notebooklm-enshittification&#34;&gt;&lt;strong&gt;你的日記不是你的日記&lt;/strong&gt;&lt;/a&gt;之app轉月費制問題，當初一次性購買的我滿腔怒火…但畢竟原來功能都一樣，只是不能有月費制的功能,活像一個閹割版&amp;hellip;.不過畢竟也還是可用，所以也就將就用了&amp;hellip;但從那時候開始我心裡就種下&amp;quot;&lt;strong&gt;總有一天會被軟體綁架不安的種子&lt;/strong&gt;&amp;quot;&lt;/p&gt;
+&lt;p&gt;卡美桑個性其實蠻念舊的&amp;hellip;所以有了智慧型手機後就有記錄一些日常的活動，當時購買了Dayone app以爲可以用到天荒地老&amp;hellip;&amp;hellip;但好景不常後來Dayone遇到&lt;a href=&#34;https://wiwi.blog/blog/notebooklm-enshittification&#34;
+     rel=&#34;noopener&#34;
+     class=&#34;external-link&#34;
+     target=&#34;_blank&#34;
+ &gt;&lt;strong&gt;你的日記不是你的日記&lt;/strong&gt;&lt;/a&gt;
+ 之app轉月費制問題，當初一次性購買的我滿腔怒火…但畢竟原來功能都一樣，只是不能有月費制的功能,活像一個閹割版&amp;hellip;.不過畢竟也還是可用，所以也就將就用了&amp;hellip;但從那時候開始我心裡就種下&amp;quot;&lt;strong&gt;總有一天會被軟體綁架不安的種子&lt;/strong&gt;&amp;quot;&lt;/p&gt;
 &lt;p&gt;去年因為購買了[電子書閱讀器]，讀到了卡片筆記盒的做筆記方式而接觸到Obsidian，超喜歡Obsidian的簡易Markdown格式，所有的資料都是簡單的md文字檔，真的很便利於管理。&lt;/p&gt;
 &lt;p&gt;學習使用Obsidian的過程中，有一天發現，要脫離DayOne軟體綁架的控制，只要把日記搬到Obsidian就可以啦～！超開心！！！
 但是卻對於DayOne的一個on this day 功能很懷念&amp;hellip;因為它可以顯示所有你日記裡面跟今天相同日期的所有日記～這樣的功能很適合做一種類似復盤的回憶感～～&lt;/p&gt;
@@ -903,12 +1245,6 @@ dv.table([&amp;#34;檔案&amp;#34;, &amp;#34;日期&amp;#34;],
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;接著我還把這樣的功能運用到我的筆記與閱讀復盤&amp;hellip;.整個就是撒花，也讓我離開被DayOne 綁架的日子。（完）&lt;/strong&gt;&lt;/p&gt;
-</description>
+]]></description>
     </item></channel>
 </rss>
-
-<image>
-  <url>http://localhost:1313/images/logo.png</url>
-  <title>卡美桑的家</title>
-  <link>http://localhost:1313/</link>
-</image>
