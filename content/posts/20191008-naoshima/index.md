@@ -1,7 +1,7 @@
 ---
 title: 直島的陰天街道
 description: 想畫出陰雨天下的光感
-time: 2019-10-08T18:42:00
+date: 2019-10-08T18:42:00
 created: 2026-02-28
 published: 2019-10-08
 draft: false
